@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="128" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="32">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="128" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="43">
  <tileset firstgid="1" source="../Tileset/MixAndJam/MixAndJam3.tsx"/>
  <tileset firstgid="257" source="../Tileset/MixAndJam/NES - Super Mario Bros - Items Objects and NPCs.tsx"/>
+ <tileset firstgid="1013" source="../Tileset/Image Colection/ObjectsCollection.tsx"/>
  <layer id="4" name="Background Layer" width="128" height="64" locked="1" offsetx="-272" offsety="-272">
   <data encoding="csv">
 241,241,226,241,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,225,226,
@@ -275,15 +276,14 @@
 </data>
  </layer>
  <objectgroup id="5" name="Objetos">
-  <object id="1" gid="869" x="80.6667" y="272.667" width="16" height="16"/>
-  <object id="2" gid="797" x="80" y="273.5" width="16" height="16"/>
-  <object id="19" gid="877" x="305" y="272.5" width="16" height="16"/>
-  <object id="20" gid="877" x="417.5" y="192" width="16" height="16"/>
-  <object id="21" gid="877" x="544" y="224.5" width="16" height="16"/>
-  <object id="22" gid="877" x="1136" y="272.5" width="16" height="16"/>
-  <object id="23" gid="877" x="1231" y="271.5" width="16" height="16"/>
-  <object id="26" gid="660" x="95.5" y="95" width="16" height="16"/>
-  <object id="27" gid="660" x="336.5" y="191" width="16" height="16"/>
-  <object id="28" gid="274" x="1391" y="270" width="16" height="16"/>
+  <object id="33" gid="1015" x="64.5" y="270" width="48" height="32"/>
+  <object id="35" gid="1017" x="86.5" y="95" width="32" height="32"/>
+  <object id="36" gid="1017" x="328.5" y="190" width="32" height="32"/>
+  <object id="37" gid="1018" x="283" y="270" width="28" height="30"/>
+  <object id="38" gid="1018" x="411.5" y="190.5" width="28" height="30"/>
+  <object id="39" gid="1018" x="538.5" y="223.5" width="28" height="30"/>
+  <object id="40" gid="1018" x="1130.5" y="270" width="28" height="30"/>
+  <object id="41" gid="1018" x="1226.5" y="269" width="28" height="30"/>
+  <object id="42" gid="1019" x="1394" y="270" width="36" height="60"/>
  </objectgroup>
 </map>
