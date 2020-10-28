@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="128" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="45">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="128" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="55">
  <editorsettings>
   <export target="Level_00.tmx" format="tmx"/>
  </editorsettings>
@@ -279,14 +279,14 @@
 </data>
  </layer>
  <objectgroup id="5" name="Objetos">
-  <object id="35" type="heatPlace" gid="1017" x="86.5" y="95" width="32" height="32"/>
   <object id="36" type="heatPlace" gid="1017" x="328.5" y="190" width="32" height="32"/>
-  <object id="37" type="enemyBasic" gid="1018" x="283" y="270" width="28" height="30"/>
-  <object id="38" type="enemyBasic" gid="1018" x="411.5" y="190.5" width="28" height="30"/>
-  <object id="39" type="enemyBasic" gid="1018" x="538.5" y="223.5" width="28" height="30"/>
-  <object id="40" type="enemyBasic" gid="1018" x="1130.5" y="270" width="28" height="30"/>
-  <object id="41" type="enemyBasic" gid="1018" x="1226.5" y="269" width="28" height="30"/>
+  <object id="37" type="enemyBasic" gid="1018" x="286.818" y="271.273" width="20" height="24.5455"/>
+  <object id="38" type="enemyBasic" gid="1018" x="411.864" y="191.955" width="20" height="24.55"/>
+  <object id="39" type="enemyBasic" gid="1018" x="538.318" y="223.864" width="20" height="24.55"/>
+  <object id="40" type="enemyBasic" gid="1018" x="1130.38" y="272.125" width="20" height="24.55"/>
+  <object id="41" type="enemyBasic" gid="1018" x="1227.5" y="272" width="20" height="24.55"/>
   <object id="42" type="finishPlace" gid="1019" x="1394" y="270" width="36" height="60"/>
   <object id="44" type="player" gid="1015" x="63.3333" y="271.333" width="48" height="32"/>
+  <object id="54" type="heatPlace" gid="1017" x="88.3333" y="95.6667" width="32" height="32"/>
  </objectgroup>
 </map>
