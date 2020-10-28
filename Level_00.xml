@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="128" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="55">
  <editorsettings>
-  <export target="Level_00.xml" format="tmx"/>
+  <export target="Level_00.xml" format="xml"/>
  </editorsettings>
  <tileset firstgid="1" source="../Tileset/MixAndJam/MixAndJam3.tsx"/>
  <tileset firstgid="257" source="../Tileset/MixAndJam/NES - Super Mario Bros - Items Objects and NPCs.tsx"/>
