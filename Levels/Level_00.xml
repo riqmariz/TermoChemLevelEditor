@@ -278,35 +278,11 @@
 </data>
  </layer>
  <objectgroup id="5" name="Objetos">
-  <object id="36" type="heatPlace" gid="261" x="328.045" y="192.091" width="32" height="32">
-   <properties>
-    <property name="maxEnergy" type="float" value="50"/>
-   </properties>
-  </object>
-  <object id="38" type="enemyBasic" gid="262" x="411.864" y="191.955" width="20" height="24.55">
-   <properties>
-    <property name="timeIdle" type="float" value="1"/>
-    <property name="timeWalking" type="float" value="2.5"/>
-   </properties>
-  </object>
-  <object id="39" type="enemyBasic" gid="262" x="539.927" y="223.994" width="20" height="24.55">
-   <properties>
-    <property name="timeIdle" type="float" value="1"/>
-    <property name="timeWalking" type="float" value="2.5"/>
-   </properties>
-  </object>
-  <object id="40" type="enemyBasic" gid="262" x="1130.38" y="272.125" width="20" height="24.55">
-   <properties>
-    <property name="timeIdle" type="float" value="1"/>
-    <property name="timeWalking" type="float" value="2.5"/>
-   </properties>
-  </object>
-  <object id="41" type="enemyBasic" gid="262" x="1219.5" y="272" width="20" height="24.55">
-   <properties>
-    <property name="timeIdle" type="float" value="1"/>
-    <property name="timeWalking" type="float" value="2.5"/>
-   </properties>
-  </object>
+  <object id="36" type="heatPlace" gid="261" x="328.045" y="192.091" width="32" height="32"/>
+  <object id="38" type="enemyBasic" gid="262" x="411.864" y="191.955" width="20" height="24.55"/>
+  <object id="39" type="enemyBasic" gid="262" x="539.927" y="223.994" width="20" height="24.55"/>
+  <object id="40" type="enemyBasic" gid="262" x="1130.38" y="272.125" width="20" height="24.55"/>
+  <object id="41" type="enemyBasic" gid="262" x="1219.5" y="272" width="20" height="24.55"/>
   <object id="42" type="finishPlace" gid="263" x="1394" y="270" width="36" height="60"/>
   <object id="44" type="player" gid="259" x="62.3636" y="271.575" width="48" height="32"/>
   <object id="54" type="heatPlace" gid="261" x="88.2519" y="95.7974" width="32" height="32"/>
