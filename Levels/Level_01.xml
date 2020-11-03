@@ -278,28 +278,28 @@
 </data>
  </layer>
  <objectgroup id="5" name="Objetos">
-  <object id="62" gid="262" x="264.667" y="160.333" width="28" height="30"/>
-  <object id="63" gid="262" x="356.333" y="272.667" width="28" height="30"/>
-  <object id="64" gid="261" x="382.75" y="112.75" width="32" height="32"/>
-  <object id="65" gid="259" x="1" y="271.75" width="48" height="32"/>
-  <object id="66" gid="264" x="451.25" y="60.5833" width="80" height="32" rotation="90"/>
-  <object id="67" gid="267" x="512.667" y="174.667" width="80" height="32"/>
-  <object id="68" gid="267" x="609.333" y="126.667" width="80" height="32"/>
-  <object id="69" gid="267" x="704.667" y="190" width="80" height="32"/>
-  <object id="70" gid="262" x="1595.67" y="271.333" width="28" height="30"/>
-  <object id="71" gid="262" x="1625.67" y="271.333" width="28" height="30"/>
-  <object id="72" gid="262" x="1657" y="271" width="28" height="30"/>
-  <object id="73" gid="263" x="2016.33" y="271.667" width="36" height="60"/>
-  <object id="75" gid="268" x="1345" y="224.667" width="48" height="8"/>
-  <object id="76" gid="268" x="1423.67" y="192" width="48" height="8"/>
-  <object id="77" gid="268" x="1344" y="163" width="48" height="8"/>
-  <object id="78" gid="268" x="1425" y="127" width="48" height="8"/>
-  <object id="79" gid="268" x="1345" y="103.333" width="48" height="8"/>
-  <object id="80" gid="261" x="1352.33" y="95.6667" width="32" height="32"/>
-  <object id="81" gid="268" x="1072.67" y="144.667" width="48" height="8"/>
-  <object id="82" gid="264" x="1010.67" y="94.6667" width="80" height="32"/>
-  <object id="83" gid="261" x="848" y="48" width="32" height="32"/>
-  <object id="84" gid="268" x="1071.33" y="240" width="48" height="8"/>
-  <object id="85" gid="268" x="1151.33" y="192" width="48" height="8"/>
+  <object id="62" type="enemyBasic" gid="262" x="264.667" y="160.333" width="28" height="30"/>
+  <object id="63" type="enemyBasic" gid="262" x="356.333" y="272.667" width="28" height="30"/>
+  <object id="64" type="heatPlace" gid="261" x="382.75" y="112.75" width="32" height="32"/>
+  <object id="65" type="player" gid="259" x="1" y="271.75" width="48" height="32"/>
+  <object id="66" type="movingPlataform" gid="264" x="451.25" y="60.5833" width="80" height="32" rotation="90"/>
+  <object id="67" type="fallingPlataform" gid="267" x="512.667" y="174.667" width="80" height="32"/>
+  <object id="68" type="fallingPlataform" gid="267" x="609.333" y="126.667" width="80" height="32"/>
+  <object id="69" type="fallingPlataform" gid="267" x="704.667" y="190" width="80" height="32"/>
+  <object id="70" type="enemyBasic" gid="262" x="1595.67" y="271.333" width="28" height="30"/>
+  <object id="71" type="enemyBasic" gid="262" x="1625.67" y="271.333" width="28" height="30"/>
+  <object id="72" type="enemyBasic" gid="262" x="1657" y="271" width="28" height="30"/>
+  <object id="73" type="finishPlace" gid="263" x="2016.33" y="271.667" width="36" height="60"/>
+  <object id="75" type="oneWayPlataform" gid="268" x="1345" y="224.667" width="48" height="8"/>
+  <object id="76" type="oneWayPlataform" gid="268" x="1423.67" y="192" width="48" height="8"/>
+  <object id="77" type="oneWayPlataform" gid="268" x="1344" y="163" width="48" height="8"/>
+  <object id="78" type="oneWayPlataform" gid="268" x="1425" y="127" width="48" height="8"/>
+  <object id="79" type="oneWayPlataform" gid="268" x="1345" y="103.333" width="48" height="8"/>
+  <object id="80" type="heatPlace" gid="261" x="1352.33" y="95.6667" width="32" height="32"/>
+  <object id="81" type="oneWayPlataform" gid="268" x="1072.67" y="144.667" width="48" height="8"/>
+  <object id="82" type="movingPlataform" gid="264" x="1010.67" y="94.6667" width="80" height="32"/>
+  <object id="83" type="heatPlace" gid="261" x="848" y="48" width="32" height="32"/>
+  <object id="84" type="oneWayPlataform" gid="268" x="1071.33" y="240" width="48" height="8"/>
+  <object id="85" type="oneWayPlataform" gid="268" x="1151.33" y="192" width="48" height="8"/>
  </objectgroup>
 </map>
