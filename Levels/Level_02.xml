@@ -307,8 +307,8 @@
   <object id="87" type="movingPlataform" gid="264" x="936.667" y="416" width="80" height="32"/>
   <object id="88" type="fallingPlataform" gid="267" x="848.667" y="384" width="80" height="32"/>
   <object id="89" type="fallingPlataform" gid="267" x="784.667" y="348.667" width="80" height="32"/>
-  <object id="90" type="fallingPlataform" gid="267" x="848" y="302.667" width="80" height="32"/>
-  <object id="91" type="movingPlataform" gid="264" x="929.333" y="273.333" width="80" height="32"/>
+  <object id="90" type="fallingPlataform" gid="267" x="862.667" y="314.667" width="80" height="32"/>
+  <object id="91" type="movingPlataform" gid="264" x="928" y="285.333" width="80" height="32"/>
   <object id="92" type="fallingPlataform" gid="267" x="992.667" y="256" width="80" height="32"/>
   <object id="93" type="fallingPlataform" gid="267" x="1042" y="224" width="80" height="32"/>
   <object id="94" type="heatPlace" gid="261" x="1134.67" y="176.667" width="32" height="32"/>
