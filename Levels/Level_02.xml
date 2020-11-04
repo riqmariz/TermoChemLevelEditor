@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="200" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="122">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="200" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="123">
  <editorsettings>
   <export target="Level_02.xml" format="tmx"/>
  </editorsettings>
@@ -301,5 +301,6 @@
   <object id="119" type="enemyBasic" gid="262" x="1160.67" y="287.667" width="28" height="30"/>
   <object id="120" type="enemyBasic" gid="262" x="1426.67" y="287" width="28" height="30"/>
   <object id="121" type="enemyBasic" gid="262" x="2115.33" y="111" width="28" height="30"/>
+  <object id="122" type="player" gid="259" x="26" y="462.667" width="48" height="32"/>
  </objectgroup>
 </map>
