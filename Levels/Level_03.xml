@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="left-up" width="64" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
+<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="left-up" width="64" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="9">
  <tileset firstgid="1" source="../Tileset/MixAndJam/MixAndJam3.tsx"/>
  <tileset firstgid="257" source="../Tileset/Image Colection/ObjectsCollection.tsx"/>
  <layer id="1" name="Background Layer" width="64" height="64">
@@ -206,7 +206,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="5" name="Camada de Tiles 4" width="64" height="64">
+ <layer id="5" name="Over Layer" width="64" height="64">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -274,5 +274,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="2" name="Camada de Objetos 1"/>
+ <objectgroup id="2" name="Objetos">
+  <object id="1" type="player" gid="259" x="126" y="415.333" width="48" height="32"/>
+  <object id="2" type="heatPlace" gid="261" x="212" y="290.667" width="32" height="32"/>
+  <object id="3" type="heatPlace" gid="261" x="658.667" y="321.333" width="32" height="32"/>
+  <object id="4" type="heatPlace" gid="261" x="566.667" y="320" width="32" height="32"/>
+  <object id="5" type="finishPlace" gid="263" x="927.333" y="274" width="36" height="60"/>
+  <object id="6" type="enemyBasic" gid="262" x="271.333" y="481.667" width="28" height="30"/>
+  <object id="7" type="enemyBasic" gid="262" x="379.333" y="463" width="28" height="30"/>
+  <object id="8" type="enemyBasic" gid="262" x="638" y="399" width="28" height="30"/>
+ </objectgroup>
 </map>
