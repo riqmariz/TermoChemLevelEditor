@@ -8,7 +8,7 @@ Este repositório é um local para subir os arquivos de level do jogo ThermoChem
 
 - Como editar um Nível do ThermoChem, sendo mais específico para o contexto do ThermoChem: [link](https://drive.google.com/file/d/1K_8DbwqHgjTwB0TWyUYcDQdiWE7G1FX7/view?usp=sharing)
 
-- Vídeo análogo ao de cima, porém para criar um Level: [link](https://drive.google.com/file/d/1K_8DbwqHgjTwB0TWyUYcDQdiWE7G1FX7/view?usp=sharing)
+- Vídeo análogo ao de cima, porém para criar um Level: [link corrigido](https://drive.google.com/file/d/1nJoSF63s37F5pu0T42ZkdvoZfMlKoNum/view?usp=sharing)
 
  - Recomendado assistir um vídeo que ensina o básico do Tiled, caso não tenha ficado claro nos outros vídeos, porém é em inglês e mais genérico: 
 [link](https://www.youtube.com/watch?v=ZwaomOYGuYo)
