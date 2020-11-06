@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="120" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="71">
  <editorsettings>
-  <export target="Level_00.tmx" format="tmx"/>
+  <export target="Level_00.xml" format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" source="../Tileset/MixAndJam/MixAndJam3.tsx"/>
  <tileset firstgid="257" source="../Tileset/Image Colection/ObjectsCollection.tsx"/>
@@ -154,6 +154,6 @@
   <object id="67" type="heatPlace" gid="261" x="1303.27" y="119.273" width="32" height="32"/>
   <object id="68" type="heatPlace" gid="261" x="1450" y="112.5" width="32" height="32"/>
   <object id="69" type="finishPlace" gid="263" x="1710.67" y="255.333" width="36" height="60"/>
-  <object id="70" type="player" gid="259" x="4" y="445.75" width="48" height="32"/>
+  <object id="70" type="player" gid="259" x="3" y="448" width="48" height="32"/>
  </objectgroup>
 </map>
