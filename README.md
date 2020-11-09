@@ -1,8 +1,14 @@
-# TermoChemLevelEditor **v0.2.0**
+# TermoChemLevelEditor **v0.2.1**
 
 Este repositório é um local para subir os arquivos de level do jogo ThermoChem para poder testá-los e editá-los. Fique atento as versões da documentação
 - \* : siginifica recém modificado 
 <br/>
+
+# Novidades *
+- Novos tilesets de plataforma, deserto e pantano, adicionados.
+- Bugfix no Under Tile Layer e na identificação de tilesets (firstgids)
+
+
 <br/>
 
 # Tutorial *
