@@ -1,28 +1,33 @@
-# TermoChemLevelEditor v0.1.0
+# TermoChemLevelEditor **v0.2.0**
 
-Este repositório é um local para subir os arquivos de level do jogo ThermoChem para poder testá-los e editá-los.
+Este repositório é um local para subir os arquivos de level do jogo ThermoChem para poder testá-los e editá-los. Fique atento as versões da documentação
+- \* : siginifica recém modificado 
 <br/>
 <br/>
 
-# Tutorial
+# Tutorial *
 
-- Como editar um Nível do ThermoChem, sendo mais específico para o contexto do ThermoChem: [link](https://drive.google.com/file/d/1K_8DbwqHgjTwB0TWyUYcDQdiWE7G1FX7/view?usp=sharing)
+Relacionado* a v0.1.0 ~ v0.1.1:
+- Como editar um Nível do ThermoChem, sendo mais específico para o contexto do ThermoChem: [old link](https://drive.google.com/file/d/1K_8DbwqHgjTwB0TWyUYcDQdiWE7G1FX7/view?usp=sharing)
 
-- Vídeo análogo ao de cima, porém para criar um Level: [link corrigido](https://drive.google.com/file/d/1nJoSF63s37F5pu0T42ZkdvoZfMlKoNum/view?usp=sharing)
+- Vídeo análogo ao de cima, porém para criar um Level: [old link](https://drive.google.com/file/d/1nJoSF63s37F5pu0T42ZkdvoZfMlKoNum/view?usp=sharing)
 
  - Recomendado assistir um vídeo que ensina o básico do Tiled, caso não tenha ficado claro nos outros vídeos, porém é em inglês e mais genérico: 
-[link](https://www.youtube.com/watch?v=ZwaomOYGuYo)
+[old link](https://www.youtube.com/watch?v=ZwaomOYGuYo)
+
+Relacionado* a v0.2.0:
+- Novos padrões e Novos tilesets, o que mudou para v0.2.0: [link](https://drive.google.com/file/d/1wBexMTxSD58QM1nP8fQ-17iMBIah21cl/view?usp=sharing)
 
 <br/>
 
 
-# Documentação/Regras
+# Documentação/Regras*
 
 É importante mencionar que essa documentação é só uma forma de tentar manter as regras/funcionalidades por escrito dos elementos específicos do jogo ThermoChem, que virá a modificar ao longo do processo de evolução então é de bastante importância, sempre verificar a TAG da documentação para checar o versionamento de tal.
 <br/>
 <br/>
 
-## • Camadas
+## • Camadas*
 
 Ao criar/editar um mapa, verifique as camadas que ficam na superior direita localização como na imagem:
 
@@ -30,35 +35,55 @@ Ao criar/editar um mapa, verifique as camadas que ficam na superior direita loca
 
 Verifique se as camadas estão de acordo com os seguintes nomes(respeitando letra maiúscula e espaço) e respectiva ordem:
 
-1. Objeto
-2. Over Layer
-3. Main Layer
-4. Under Layer
-5. Background Layer
+1. Over Objects Layer
+2. Over Tile Layer
+3. Main Objects Layer
+4. Main Tile Layer
+5. Under Tile Layer
+6. Under Objects Layer
+7. Over Background Objects Layer
+8. Backgroound Objects Layer
 
 Se estiver correto, você não terá nenhum problema com relação a definição das camadas.
 
-Porém, é importante ficar atento para o que cada camada representa no momento de criação. Por isto, vou explicar o que cada uma significa. Antes disso, é preciso entender o conceito de ordem de renderização de camadas. Seguindo a ordem acima, significa as camadas que as camadas mais acima estão acima das outras mais abaixo, ou seja, o background fica atrás de tudo, o under layer fica acima do background, o main layer acima do under layer e background e assim por diante. Isso quer dizer que algo pintado no background pode vir a ser coberto por algo que está na camada acima. Um elemento da camada Objeto sempre estará na frente de um Tile, por exemplo.
+Porém, é importante ficar atento para o que cada camada representa no momento de criação. Por isto, vou explicar o que cada uma significa. Antes disso, é preciso entender o conceito de ordem de renderização de camadas. Seguindo a ordem acima, significa as camadas que as camadas mais acima estão acima das outras mais abaixo, ou seja, o background objects layer fica atrás de tudo, o over background objects layer fica acima do background, o under objects layer acima do over background objects layer e background objects layer e assim por diante. Isso quer dizer que algo pintado no background pode vir a ser coberto por algo que está na camada acima. Um elemento da camada Objeto sempre estará na frente de um Tile, por exemplo.
 
-1. **Camada: Objeto**
+É importante não confundir camadas de objetos com camadas de tiles, tiles são feitos para serem utilizados na camada de Tiles e objetos nas camadas de Objetos. Objetos são dispostos num espaço contínuo no mapa enquanto tiles são dispostos num espaço discreto por Tiles (quadradinhos base).
 
-    Nessa camada é colocado os objetos do level, como por exemplo, Player, Inimigo Básico, Fogueira, entre outros. Esses objetos diferentemente de qualquer outra camada, não são dispostos em GRID, são dispostos num espaço contínuo. Ou seja, fique atento ao colocar um objeto para ver se encosta no chão ou não, pois diferentemente das outras camadas, você pode mover a posição dos objetos livremente, ao invés de Tiles.
+1. **Camada de Objetos: Over Objects Layer**
 
-2. **Camada: Over Layer**
+    Nessa camada é colocado objetos que ficam a frente de qualquer coisa, por enquanto não há nenhum uso, mas no futuro, será possível colocar um objeto como uma árvore e essa árvore ficar a frente na tela para parecer que o player passou por de trás da árvore, dando uma sensação do uso de camadas.
 
-	 É só uma camada para colocar tiles de enfeite do level, caso seja necessário colocar tiles que fiquem acima do main layer, under layer e background layer.
+2. **Camada de Tile: Over Tile Layer**
 
-3. **Camada: Main Layer**
+	 É só uma camada para colocar tiles de ENFEITE do level, caso seja necessário colocar tiles que fiquem acima do Main Objects Layer, Main Tile Layer, Under Tile Layer... E assim por diante.
 
-	Camada por onde há as colisões com Tiles. Camada para colocar paredes e chão. Qualquer Tile colocado nessa camada, será interpretado como um tile com colisão, ou seja, se o player tentar passar, irá colidir.
+3. **Camada de Objetos: Main Objects Layer**
 
-4. **Camada: Under Layer**
+	Nessa camada é colocado os objetos do level, como por exemplo, Player, Inimigo Básico, Fogueira, entre outros. Esses objetos diferentemente de qualquer outra camada, não são dispostos em GRID, são dispostos num espaço contínuo. Ou seja, fique atento ao colocar um objeto para ver se encosta no chão ou não, pois diferentemente das outras camadas, você pode mover a posição dos objetos livremente, ao invés de Tiles.
+
+
+4. **Camada de Tile: Main Tile Layer**
 	
-	Camada igual ao Over Layer porém com a ordem de renderização de camada menor, só estando acima do background.
+	Camada por onde há as colisões com Tiles. Camada para colocar paredes e chão. Qualquer Tile colocado nessa camada, será interpretado como um tile com colisão, ou seja, se o player tentar passar, irá colidir. Impórtante não colocar objetos nessa camada, apenas TILES.
 
-5. **Camada: Background Layer**
+5. **Camada de Tile: Under Tile Layer**
 
-	Última camada, similar ao Over Layer e Under Layer, no qual, serve de enfeite, porém é a última na ordem de renderização de camada.
+	 É só uma camada para colocar tiles de ENFEITE do level, caso seja necessário colocar tiles que fiquem acima do Under Objects Layer, Over Background Objects Layer... E assim por diante e fique abaixo de Main Tile Layer, Main Objects Layer e assim por diante.
+
+	 Normalmente utilizada para Tiles que preenchem o chão e parade, mas não são interagíveis com o player.
+
+6. **Camada de Objetos: Under Objects Layer**
+
+	Camada de objetos utilizada para enfeitar o mapa e adicionar objetos que enfeitem o Level, mas não interferem no gameplay. Formam/Compõe o cenário do level.
+
+7. **Camada de Objetos: Over Background Objects Layer**
+	
+	Camada para colocar um background, porém não é o último background. Ainda haverá um background atrás dessa camada.
+
+8. **Camada de Objetos: Background Objects Layer**
+
+	Última camada, background que fica atrás de tudo.
 <br/>
 <br/>
 
