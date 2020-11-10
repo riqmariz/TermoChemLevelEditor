@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="42" tilewidth="191" tileheight="191" infinite="0" nextlayerid="9" nextobjectid="182">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="42" tilewidth="191" tileheight="191" infinite="0" nextlayerid="9" nextobjectid="183">
  <editorsettings>
   <export target="Level_00.xml" format="tmx"/>
  </editorsettings>
@@ -7,10 +7,7 @@
  <tileset firstgid="43" source="../../TermoChemLevelEditor-main/Tileset/PropsGelo/PropsGeloObjects.tsx"/>
  <tileset firstgid="76" source="../../TermoChemLevelEditor-main/Tileset/Backgrounds/backgrounds.tsx"/>
  <tileset firstgid="77" source="../../TermoChemLevelEditor-main/Tileset/Main Object Colection/MainObjectsCollection.tsx"/>
- <tileset firstgid="84" name="pantanoTileset" tilewidth="191" tileheight="191" tilecount="16" columns="4">
-  <image source="../../TermoChemLevelEditor-main/Tileset/TilesetPantano/pantanoTileset.png" trans="000000" width="764" height="764"/>
- </tileset>
- <tileset firstgid="100" source="../../TermoChemLevelEditor-main/Tileset/TilesetDeserto/desertoTileset.tsx"/>
+ <tileset firstgid="84" source="../../TermoChemLevelEditor-main/Tileset/TilesetDeserto/desertoTileset.tsx"/>
  <objectgroup id="7" name="Background Objects Layer" offsetx="16" offsety="0">
   <object id="71" type="backgroundTerra" gid="76" x="-11" y="4201" width="5535" height="4202"/>
   <object id="72" type="backgroundTerra" gid="76" x="-15" y="8377" width="5535" height="4202"/>
