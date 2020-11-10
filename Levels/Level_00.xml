@@ -31,19 +31,13 @@
   <object id="88" type="backgroundTerra" gid="76" x="37425" y="4085" width="5535" height="4202"/>
   <object id="89" type="backgroundTerra" gid="76" x="42241" y="4181" width="5535" height="4202"/>
  </objectgroup>
- <objectgroup id="8" name="Over Background Objects Layer">
-  <object id="114" type="canoPequeno3" gid="60" x="825.273" y="4161.06" width="833" height="797"/>
-  <object id="115" type="luzAcesa" gid="73" x="940.03" y="3691.82" width="126" height="219"/>
-  <object id="116" type="luzAcesa" gid="73" x="1182.45" y="3697.88" width="126" height="219"/>
- </objectgroup>
+ <objectgroup id="8" name="Over Background Objects Layer"/>
  <objectgroup id="5" name="Under Objects Layer">
   <object id="112" type="canoGrande7" gid="61" x="3470.91" y="4788.09" width="432" height="406"/>
   <object id="113" type="canoGrande3" gid="47" x="2402.73" y="4783.88" width="436" height="407"/>
   <object id="117" type="quadroEsq" gid="75" x="825.03" y="4577.39" width="356" height="475"/>
   <object id="118" type="mesaOperacao" gid="54" x="1543.12" y="4572.36" width="538" height="272"/>
   <object id="119" type="cadeiraEsq" gid="56" x="1355.42" y="4577.33" width="174" height="288"/>
-  <object id="121" type="canoPequeno1" gid="49" x="1619.24" y="4909.94" width="38" height="776"/>
-  <object id="122" type="canoPequeno1" gid="49" x="825.303" y="3375.27" width="38" height="776"/>
   <object id="124" type="extintor" gid="52" x="301.394" y="4209.85" width="77" height="250"/>
   <object id="125" type="extintor" gid="52" x="4880.18" y="4388.64" width="77" height="250"/>
   <object id="126" type="extintor" gid="52" x="5652.91" y="4385.61" width="77" height="250"/>
@@ -70,7 +64,6 @@
   <object id="162" type="canoGrande2" gid="46" x="13046.3" y="4584" width="726" height="127"/>
   <object id="163" type="canoGrande2" gid="46" x="12326.3" y="4585.33" width="726" height="127"/>
   <object id="164" type="canoGrande8" gid="62" x="11903.3" y="4589.67" width="436" height="406"/>
-  <object id="178" type="computador" gid="51" x="2092.5" y="4578" width="391" height="380"/>
  </objectgroup>
  <layer id="2" name="Under Tile Layer" width="250" height="42">
   <data encoding="csv">
@@ -296,7 +289,7 @@
 </data>
  </layer>
  <objectgroup id="6" name="Over Objects Layer">
-  <object id="123" type="caixaEnergia" gid="44" x="2121.15" y="4207.21" width="189" height="571"/>
+  <object id="123" type="caixaEnergia" gid="44" x="1769.15" y="4351.21" width="189" height="571"/>
   <object id="128" type="extintor" gid="52" x="11031.3" y="2892.15" width="77" height="250"/>
   <object id="129" type="extintor" gid="52" x="12516.5" y="3037.12" width="77" height="250"/>
   <object id="134" type="luzAcesa" gid="73" x="10337" y="2897.88" width="126" height="219"/>
