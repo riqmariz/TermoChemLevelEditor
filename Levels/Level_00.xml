@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="42" tilewidth="191" tileheight="191" infinite="0" nextlayerid="9" nextobjectid="180">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="42" tilewidth="191" tileheight="191" infinite="0" nextlayerid="9" nextobjectid="181">
  <editorsettings>
   <export target="Level_00.xml" format="tmx"/>
  </editorsettings>
@@ -210,7 +210,7 @@
     <property name="startAtInit" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="103" type="heatPlace" gid="80" x="15189" y="3419" width="382" height="382">
+  <object id="103" type="heatPlace" gid="80" x="15181" y="3435" width="382" height="382">
    <properties>
     <property name="_name" value="default"/>
     <property name="totalEnthalpy" type="float" value="50"/>
@@ -236,11 +236,10 @@
     <property name="startAtInit" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="108" type="finishPlace" gid="79" x="24916" y="3375" width="392" height="653"/>
   <object id="109" type="enemyBasic" gid="77" x="11278" y="3406" width="380" height="404"/>
   <object id="110" type="enemyBasic" gid="77" x="22994" y="3786" width="380" height="404"/>
   <object id="111" type="enemyBasic" gid="77" x="21994" y="3754" width="380" height="404"/>
-  <object id="179" type="fallingPlataform" gid="78" x="17974.6" y="2878.73" width="573" height="212">
+  <object id="179" type="fallingPlataform" gid="78" x="18162.6" y="2894.73" width="573" height="212">
    <properties>
     <property name="_name" value="default"/>
     <property name="shouldRespawn" type="bool" value="true"/>
@@ -248,6 +247,7 @@
     <property name="timeUntilRespawn" type="float" value="3"/>
    </properties>
   </object>
+  <object id="180" type="finishPlace" gid="79" x="24648" y="3407" width="392" height="653"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="250" height="42">
   <data encoding="csv">
