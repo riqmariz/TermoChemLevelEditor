@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="42" tilewidth="191" tileheight="191" infinite="0" nextlayerid="9" nextobjectid="181">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="42" tilewidth="191" tileheight="191" infinite="0" nextlayerid="9" nextobjectid="182">
  <editorsettings>
   <export target="Level_00.xml" format="tmx"/>
  </editorsettings>
@@ -32,39 +32,7 @@
   <object id="89" type="backgroundTerra" gid="76" x="42241" y="4181" width="5535" height="4202"/>
  </objectgroup>
  <objectgroup id="8" name="Over Background Objects Layer"/>
- <objectgroup id="5" name="Under Objects Layer">
-  <object id="112" type="canoGrande7" gid="61" x="3470.91" y="4788.09" width="432" height="406"/>
-  <object id="113" type="canoGrande3" gid="47" x="2402.73" y="4783.88" width="436" height="407"/>
-  <object id="117" type="quadroEsq" gid="75" x="825.03" y="4577.39" width="356" height="475"/>
-  <object id="118" type="mesaOperacao" gid="54" x="1543.12" y="4572.36" width="538" height="272"/>
-  <object id="119" type="cadeiraEsq" gid="56" x="1355.42" y="4577.33" width="174" height="288"/>
-  <object id="124" type="extintor" gid="52" x="301.394" y="4209.85" width="77" height="250"/>
-  <object id="125" type="extintor" gid="52" x="4880.18" y="4388.64" width="77" height="250"/>
-  <object id="126" type="extintor" gid="52" x="5652.91" y="4385.61" width="77" height="250"/>
-  <object id="131" type="mesaOperacao" gid="54" x="11470.4" y="3432.97" width="538" height="272"/>
-  <object id="132" type="fonte" gid="53" x="12019.5" y="3442.15" width="258" height="546"/>
-  <object id="133" type="caixaEnergiaEsq" gid="57" x="12042.4" y="2906.21" width="189" height="570"/>
-  <object id="141" type="canoGrande12" gid="67" x="19234.5" y="2498.33" width="234" height="930"/>
-  <object id="142" type="canoGrande3" gid="47" x="19454.7" y="1704" width="436" height="407"/>
-  <object id="143" type="canoGrande5" gid="58" x="19460.8" y="1312.06" width="431" height="411"/>
-  <object id="148" type="canoGrande2" gid="46" x="18738.3" y="1032" width="726" height="127"/>
-  <object id="149" type="canoGrande2" gid="46" x="18026.3" y="1032" width="726" height="127"/>
-  <object id="150" type="canoGrande2" gid="46" x="17317" y="1032" width="726" height="127"/>
-  <object id="151" type="canoGrande2" gid="46" x="16606.7" y="1033.7" width="726" height="127"/>
-  <object id="152" type="canoGrande6" gid="59" x="16207.7" y="1337.33" width="406" height="431"/>
-  <object id="153" type="canoGrande11" gid="66" x="16208" y="2055" width="128" height="726"/>
-  <object id="154" type="canoGrande11" gid="66" x="16209.3" y="2777.67" width="128" height="726"/>
-  <object id="155" type="canoGrande11" gid="66" x="16209.3" y="3495" width="128" height="726"/>
-  <object id="156" type="canoGrande3" gid="47" x="15900.7" y="3882.67" width="436" height="407"/>
-  <object id="157" type="canoGrande6" gid="59" x="15503.7" y="4184" width="406" height="431"/>
-  <object id="158" type="canoGrande6" gid="59" x="15503.7" y="4184" width="406" height="431"/>
-  <object id="159" type="canoGrande3" gid="47" x="15194" y="4582.67" width="436" height="407"/>
-  <object id="160" type="canoGrande2" gid="46" x="14474.3" y="4580" width="726" height="127"/>
-  <object id="161" type="canoGrande2" gid="46" x="13758.2" y="4582.18" width="726" height="127"/>
-  <object id="162" type="canoGrande2" gid="46" x="13046.3" y="4584" width="726" height="127"/>
-  <object id="163" type="canoGrande2" gid="46" x="12326.3" y="4585.33" width="726" height="127"/>
-  <object id="164" type="canoGrande8" gid="62" x="11903.3" y="4589.67" width="436" height="406"/>
- </objectgroup>
+ <objectgroup id="5" name="Under Objects Layer"/>
  <layer id="2" name="Under Tile Layer" width="250" height="42">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -87,7 +55,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -158,89 +126,7 @@
 </data>
  </layer>
  <objectgroup id="4" name="Main Objects Layer">
-  <object id="90" type="player" gid="83" x="377.788" y="4551.91" width="250" height="322"/>
-  <object id="91" type="enemyBasic" gid="77" x="4086" y="4562" width="380" height="404"/>
-  <object id="98" type="fallingPlataform" gid="78" x="6486" y="4430" width="573" height="212">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="shouldRespawn" type="bool" value="true"/>
-    <property name="timeUntilFall" type="float" value="0.5"/>
-    <property name="timeUntilRespawn" type="float" value="3"/>
-   </properties>
-  </object>
-  <object id="99" type="fallingPlataform" gid="78" x="8030" y="4046" width="573" height="212">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="shouldRespawn" type="bool" value="true"/>
-    <property name="timeUntilFall" type="float" value="0.5"/>
-    <property name="timeUntilRespawn" type="float" value="3"/>
-   </properties>
-  </object>
-  <object id="100" type="fallingPlataform" gid="78" x="8774" y="3846" width="573" height="212">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="shouldRespawn" type="bool" value="true"/>
-    <property name="timeUntilFall" type="float" value="0.5"/>
-    <property name="timeUntilRespawn" type="float" value="3"/>
-   </properties>
-  </object>
-  <object id="101" type="fallingPlataform" gid="78" x="9559.33" y="3653.39" width="573" height="212">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="shouldRespawn" type="bool" value="true"/>
-    <property name="timeUntilFall" type="float" value="0.5"/>
-    <property name="timeUntilRespawn" type="float" value="3"/>
-   </properties>
-  </object>
-  <object id="102" type="movingPlataform" gid="81" x="13220.1" y="3460.55" width="573" height="212">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="finalCoordX" type="float" value="-4"/>
-    <property name="finalCoordY" type="float" value="0"/>
-    <property name="initCoordX" type="float" value="4"/>
-    <property name="initCoordY" type="float" value="0"/>
-    <property name="speed" type="float" value="2"/>
-    <property name="startAtInit" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="103" type="heatPlace" gid="80" x="15181" y="3435" width="382" height="382">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="totalEnthalpy" type="float" value="50"/>
-   </properties>
-  </object>
-  <object id="104" type="fallingPlataform" gid="78" x="7274" y="4262" width="573" height="212">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="shouldRespawn" type="bool" value="true"/>
-    <property name="timeUntilFall" type="float" value="0.5"/>
-    <property name="timeUntilRespawn" type="float" value="3"/>
-   </properties>
-  </object>
-  <object id="105" type="oneWayPlataform" gid="82" x="15078" y="2748" width="573" height="96"/>
-  <object id="106" type="movingPlataform" gid="81" x="16570.2" y="2885.15" width="573" height="212">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="finalCoordX" type="float" value="-4"/>
-    <property name="finalCoordY" type="float" value="0"/>
-    <property name="initCoordX" type="float" value="4"/>
-    <property name="initCoordY" type="float" value="0"/>
-    <property name="speed" type="float" value="2"/>
-    <property name="startAtInit" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="109" type="enemyBasic" gid="77" x="11278" y="3406" width="380" height="404"/>
-  <object id="110" type="enemyBasic" gid="77" x="22994" y="3786" width="380" height="404"/>
-  <object id="111" type="enemyBasic" gid="77" x="21994" y="3754" width="380" height="404"/>
-  <object id="179" type="fallingPlataform" gid="78" x="18162.6" y="2894.73" width="573" height="212">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="shouldRespawn" type="bool" value="true"/>
-    <property name="timeUntilFall" type="float" value="0.5"/>
-    <property name="timeUntilRespawn" type="float" value="3"/>
-   </properties>
-  </object>
-  <object id="180" type="finishPlace" gid="79" x="24648" y="3407" width="392" height="653"/>
+  <object id="181" type="player" gid="83" x="595" y="4497" width="250" height="322"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="250" height="42">
   <data encoding="csv">
@@ -288,24 +174,5 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="Over Objects Layer">
-  <object id="123" type="caixaEnergia" gid="44" x="1769.15" y="4351.21" width="189" height="571"/>
-  <object id="128" type="extintor" gid="52" x="11031.3" y="2892.15" width="77" height="250"/>
-  <object id="129" type="extintor" gid="52" x="12516.5" y="3037.12" width="77" height="250"/>
-  <object id="134" type="luzAcesa" gid="73" x="10337" y="2897.88" width="126" height="219"/>
-  <object id="135" type="luzAcesa" gid="73" x="11499.2" y="2873.88" width="126" height="219"/>
-  <object id="136" type="luzAcesa" gid="73" x="15579.4" y="2964.55" width="126" height="219"/>
-  <object id="137" type="luzAcesa" gid="73" x="15024.9" y="2961.52" width="126" height="219"/>
-  <object id="138" type="capsulaQuebrada" gid="69" x="19143.9" y="2663.61" width="295" height="605"/>
-  <object id="140" type="capsulaQuebradaEsq" gid="70" x="25283.3" y="3423.21" width="295" height="604"/>
-  <object id="165" type="quadroEsq" gid="75" x="5150" y="4578" width="356" height="475"/>
-  <object id="166" type="cadeira" gid="43" x="5501" y="4585" width="174" height="289"/>
-  <object id="167" type="fonte" gid="53" x="5911" y="4585" width="258" height="546"/>
-  <object id="168" type="canoPequeno1" gid="49" x="6045" y="4068" width="38" height="776"/>
-  <object id="169" type="caixaEnergia" gid="44" x="5810" y="4062" width="189" height="571"/>
-  <object id="170" type="canoPequeno3" gid="60" x="5248" y="3299" width="833" height="797"/>
-  <object id="171" type="canoPequeno1" gid="49" x="5247.67" y="2517.33" width="38" height="776"/>
-  <object id="172" type="canoPequeno1" gid="49" x="5247.67" y="1753.33" width="38" height="776"/>
-  <object id="173" type="canoPequeno3" gid="60" x="4452" y="993.667" width="833" height="797"/>
- </objectgroup>
+ <objectgroup id="6" name="Over Objects Layer"/>
 </map>
