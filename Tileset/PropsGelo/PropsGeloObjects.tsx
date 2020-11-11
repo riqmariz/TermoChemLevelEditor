@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="PropsGeloObjects" tilewidth="935" tileheight="930" tilecount="33" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="PropsGeloObjects" tilewidth="935" tileheight="1076" tilecount="37" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="cadeira">
   <image width="174" height="289" source="cadeira.png"/>
@@ -92,12 +92,24 @@
   <image width="258" height="545" source="gerador_esq.png"/>
  </tile>
  <tile id="30" type="luzAcesa">
-  <image width="126" height="219" source="luz_acesa.png"/>
+  <image width="870" height="1076" source="luz_acesa.png"/>
  </tile>
  <tile id="31" type="luzApagada">
   <image width="126" height="219" source="luz_apagada.png"/>
  </tile>
  <tile id="32" type="quadroEsq">
   <image width="356" height="475" source="quadro_esq.png"/>
+ </tile>
+ <tile id="33" type="canoAgua">
+  <image width="261" height="898" source="canoAgua.png"/>
+ </tile>
+ <tile id="34" type="mesaEscritorio">
+  <image width="395" height="239" source="mesa_escritorio.png"/>
+ </tile>
+ <tile id="35" type="tubosEnsaio">
+  <image width="102" height="94" source="tubos de ensaio.png"/>
+ </tile>
+ <tile id="36" type="tubosEnsaioUsado">
+  <image width="102" height="95" source="tubos de ensaio_usado.png"/>
  </tile>
 </tileset>

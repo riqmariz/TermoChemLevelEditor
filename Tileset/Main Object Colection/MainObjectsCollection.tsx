@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="653" tilecount="7" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="678" tilecount="9" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
@@ -40,5 +40,11 @@
  </tile>
  <tile id="6" type="player">
   <image width="250" height="322" source="player.png"/>
+ </tile>
+ <tile id="7" type="stalactite">
+  <image width="119" height="198" source="estalactite.png"/>
+ </tile>
+ <tile id="8" type="capsulaAtiva">
+  <image width="337" height="678" source="capsulaAtiva.png"/>
  </tile>
 </tileset>
