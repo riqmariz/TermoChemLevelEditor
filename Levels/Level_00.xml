@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="42" tilewidth="191" tileheight="191" infinite="0" nextlayerid="9" nextobjectid="274">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="42" tilewidth="191" tileheight="191" infinite="0" nextlayerid="9" nextobjectid="276">
  <editorsettings>
   <export target="Level_00.xml" format="tmx"/>
  </editorsettings>
@@ -254,7 +254,7 @@
     <property name="startAtInit" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="253" type="movingPlataform" gid="81" x="31338" y="7074" width="573" height="212">
+  <object id="253" type="movingPlataform" gid="81" x="30794.1" y="7092.18" width="573" height="212">
    <properties>
     <property name="_name" value="default"/>
     <property name="finalCoordX" type="float" value="-4"/>
@@ -353,6 +353,13 @@
   <object id="271" type="oneWayPlataform" gid="82" x="45840.8" y="5073.21" width="573" height="96"/>
   <object id="272" type="oneWayPlataform" gid="82" x="45840.8" y="4676.24" width="573" height="96"/>
   <object id="273" type="heatPlace" gid="80" x="45905" y="4559" width="382" height="382">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="totalEnthalpy" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="274" type="oneWayPlataform" gid="82" x="32168.5" y="7157.09" width="573" height="96"/>
+  <object id="275" type="heatPlace" gid="80" x="32251.4" y="7069.79" width="382" height="382">
    <properties>
     <property name="_name" value="default"/>
     <property name="totalEnthalpy" type="float" value="50"/>
