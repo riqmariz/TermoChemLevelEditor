@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="678" tilecount="15" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="678" tilecount="17" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
@@ -64,5 +64,11 @@
  </tile>
  <tile id="17" type="checkpoint">
   <image width="210" height="420" source="checkpoint.png"/>
+ </tile>
+ <tile id="18" type="portaoGelo">
+  <image width="145" height="629" source="portaoGelo.png"/>
+ </tile>
+ <tile id="19" type="gradeNotSolid">
+  <image width="251" height="569" source="gradeNotSolid.png"/>
  </tile>
 </tileset>
