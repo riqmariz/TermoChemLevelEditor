@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="678" tilecount="9" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="678" tilecount="15" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
@@ -46,5 +46,23 @@
  </tile>
  <tile id="8" type="capsulaAtiva">
   <image width="337" height="678" source="capsulaAtiva.png"/>
+ </tile>
+ <tile id="9" type="collectableHP">
+  <image width="224" height="300" source="Mask-Shard.png"/>
+ </tile>
+ <tile id="10" type="collectableSalt">
+  <image width="264" height="288" source="_sal_modelo_brilho.png"/>
+ </tile>
+ <tile id="11" type="collectableFlowers">
+  <image width="285" height="101" source="flores_campo.png"/>
+ </tile>
+ <tile id="12" type="collectableNitrogen">
+  <image width="285" height="255" source="nitrogen.png"/>
+ </tile>
+ <tile id="14" type="collectableEgg">
+  <image width="121" height="150" source="Egg.png"/>
+ </tile>
+ <tile id="17" type="checkpoint">
+  <image width="210" height="420" source="checkpoint.png"/>
  </tile>
 </tileset>
