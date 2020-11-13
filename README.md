@@ -135,7 +135,7 @@ Depois de seguir esses passos, você pode subir o arquivo na Pasta /Levels/ do r
 <br/>
 <br/>
 
-## • Objetos (.tsx da camda de Objetos)
+## • Objetos (.tsx da camda de Objetos) *
 <br/>
 
 Cada objeto disponível para ser utilizado na camada de objetos, tem um significado e um tipo associado. Como por exemplo, na imagem abaixo, dá para identificar o Player, pelo type: player, como na imagem, circulado em vermelho.
