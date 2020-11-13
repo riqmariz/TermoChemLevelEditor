@@ -5,6 +5,7 @@ Este repositório é um local para subir os arquivos de level do jogo ThermoChem
 <br/>
 
 # Novidades *
+- Novas Camadas adicionadas: Main Hole Tile Layer, Main Sliding Tile Layer.
 - Novos tilesets adicionados: buraco, chão deslizante.
 - Novos objetos adicionados: Novos Props (enfeites), novos mains objetcs (Sal, Gelo, Capsula Ativa,Flores, Nitrogênio, Checkpoint, Coletável de HP, Portão de Gelo, Grade [Não sólida]).
 - Bugfix no Under Tile Layer, no qual a ordem de renderização dentro de jogo estava errada.
