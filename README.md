@@ -27,7 +27,7 @@ Relacionado a v0.2.0:
 - Novos padrões e Novos tilesets, o que mudou para v0.2.0: [oldlink](https://drive.google.com/file/d/1wBexMTxSD58QM1nP8fQ-17iMBIah21cl/view?usp=sharing)
 
 Relacionado a v0.3.0*:
-- Novidades e Novas camadas, o que mudou para v0.3.0:
+- Novidades e Novas camadas, o que mudou para v0.3.0:[link](https://drive.google.com/file/d/1uP2CVpyAaLjR9FPlvEPCjJj9gTdnh7bs/view?usp=sharing)
 
 <br/>
 
