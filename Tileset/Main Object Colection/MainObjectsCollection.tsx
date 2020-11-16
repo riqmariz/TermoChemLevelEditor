@@ -1,42 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="678" tilecount="17" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="897" tilecount="25" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
  </tile>
- <tile id="1" type="fallingPlataform">
-  <properties>
-   <property name="_name" value="default"/>
-   <property name="shouldRespawn" type="bool" value="true"/>
-   <property name="timeUntilFall" type="float" value="0.5"/>
-   <property name="timeUntilRespawn" type="float" value="3"/>
-  </properties>
-  <image width="573" height="212" source="fallingPlataform.png"/>
- </tile>
  <tile id="2" type="finishPlace">
   <image width="392" height="653" source="finishPlace.png"/>
- </tile>
- <tile id="3" type="heatPlace">
-  <properties>
-   <property name="_name" value="default"/>
-   <property name="totalEnthalpy" type="float" value="50"/>
-  </properties>
-  <image width="382" height="382" source="heatPlace.png"/>
- </tile>
- <tile id="4" type="movingPlataform">
-  <properties>
-   <property name="_name" value="default"/>
-   <property name="finalCoordX" type="float" value="-4"/>
-   <property name="finalCoordY" type="float" value="0"/>
-   <property name="initCoordX" type="float" value="4"/>
-   <property name="initCoordY" type="float" value="0"/>
-   <property name="speed" type="float" value="2"/>
-   <property name="startAtInit" type="bool" value="true"/>
-  </properties>
-  <image width="573" height="212" source="movingPlataform.png"/>
- </tile>
- <tile id="5" type="oneWayPlataform">
-  <image width="573" height="96" source="oneWayPlataform.png"/>
  </tile>
  <tile id="6" type="player">
   <image width="250" height="322" source="player.png"/>
@@ -59,16 +28,101 @@
  <tile id="12" type="collectableNitrogen">
   <image width="285" height="255" source="nitrogen.png"/>
  </tile>
- <tile id="14" type="collectableEgg">
-  <image width="121" height="150" source="Egg.png"/>
- </tile>
- <tile id="17" type="checkpoint">
-  <image width="210" height="420" source="checkpoint.png"/>
- </tile>
  <tile id="18" type="portaoGelo">
   <image width="145" height="629" source="portaoGelo.png"/>
  </tile>
  <tile id="19" type="gradeNotSolid">
   <image width="251" height="569" source="gradeNotSolid.png"/>
+ </tile>
+ <tile id="29" type="fallingPlataformDeserto">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="shouldRespawn" type="bool" value="true"/>
+   <property name="timeUntilFall" type="float" value="0.5"/>
+   <property name="timeUntilRespawn" type="float" value="3"/>
+  </properties>
+  <image width="573" height="191" source="falling_plataform_deserto.png"/>
+ </tile>
+ <tile id="30" type="fallingPlataform">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="shouldRespawn" type="bool" value="true"/>
+   <property name="timeUntilFall" type="float" value="0.5"/>
+   <property name="timeUntilRespawn" type="float" value="3"/>
+  </properties>
+  <image width="573" height="191" source="falling_plataform_gelo.png"/>
+ </tile>
+ <tile id="31" type="fallingPlataformGelo">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="shouldRespawn" type="bool" value="true"/>
+   <property name="timeUntilFall" type="float" value="0.5"/>
+   <property name="timeUntilRespawn" type="float" value="3"/>
+  </properties>
+  <image width="573" height="191" source="falling_plataform_pantano.png"/>
+ </tile>
+ <tile id="32" type="movingPlataformDeserto">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="finalCoordX" type="float" value="-4"/>
+   <property name="finalCoordY" type="float" value="0"/>
+   <property name="initCoordX" type="float" value="4"/>
+   <property name="initCoordY" type="float" value="0"/>
+   <property name="speed" type="float" value="2"/>
+   <property name="startAtInit" type="bool" value="true"/>
+  </properties>
+  <image width="571" height="191" source="moving_plataform_deserto.png"/>
+ </tile>
+ <tile id="33" type="movingPlataform">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="finalCoordX" type="float" value="-4"/>
+   <property name="finalCoordY" type="float" value="0"/>
+   <property name="initCoordX" type="float" value="4"/>
+   <property name="initCoordY" type="float" value="0"/>
+   <property name="speed" type="float" value="2"/>
+   <property name="startAtInit" type="bool" value="true"/>
+  </properties>
+  <image width="571" height="191" source="moving_plataform_gelo.png"/>
+ </tile>
+ <tile id="34" type="movingPlataformPantano">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="finalCoordX" type="float" value="-4"/>
+   <property name="finalCoordY" type="float" value="0"/>
+   <property name="initCoordX" type="float" value="4"/>
+   <property name="initCoordY" type="float" value="0"/>
+   <property name="speed" type="float" value="2"/>
+   <property name="startAtInit" type="bool" value="true"/>
+  </properties>
+  <image width="571" height="191" source="moving_plataform_pantano.png"/>
+ </tile>
+ <tile id="35" type="oneWayPlataformDeserto">
+  <image width="573" height="96" source="oneWay_plataform_deserto.png"/>
+ </tile>
+ <tile id="36" type="oneWayPlataform">
+  <image width="573" height="96" source="oneWay_plataform_gelo.png"/>
+ </tile>
+ <tile id="37" type="oneWayPlataformPantano">
+  <image width="573" height="96" source="oneWay_plataform_pantano.png"/>
+ </tile>
+ <tile id="38" type="checkpoint">
+  <image width="184" height="401" source="checkpoint.png"/>
+ </tile>
+ <tile id="39" type="collectableEgg">
+  <image width="210" height="210" source="ovinho_coletavel.png"/>
+ </tile>
+ <tile id="40" type="collectableHP">
+  <image width="227" height="146" source="vida.png"/>
+ </tile>
+ <tile id="41" type="heatPlace">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="totalEnthalpy" type="float" value="50"/>
+  </properties>
+  <image width="505" height="897" source="fornalha_heatPlace.png"/>
+ </tile>
+ <tile id="42" type="player">
+  <image width="266" height="254" source="axolote.png"/>
  </tile>
 </tileset>
