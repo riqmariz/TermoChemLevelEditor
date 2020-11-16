@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="497">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="498">
  <editorsettings>
-  <export format="tmx"/>
+  <export target="." format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" source="../Tileset/TilesetGelo/geloTileset.tsx"/>
  <tileset firstgid="43" source="../Tileset/PropsGelo/PropsGeloObjects.tsx"/>
@@ -481,6 +481,12 @@
    </properties>
   </object>
   <object id="496" type="heatPlace" gid="84" x="8013" y="4205" width="382" height="382">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="totalEnthalpy" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="497" type="heatPlace" gid="84" x="30461" y="4201" width="382" height="382">
    <properties>
     <property name="_name" value="default"/>
     <property name="totalEnthalpy" type="float" value="50"/>
