@@ -11,7 +11,7 @@ Este repositório é um local para subir os arquivos de level do jogo ThermoChem
 - Novos backgrounds para pantano e deserto adicionados
 - Props do Deserto adicionados
 - Props do Pantano adicionados
-- Novos Main Objects: Geiser de Metano, Flor Trampulim e EspinhosNotSolid.  
+- Novos Main Objects: Geiser de Metano, Flor Trampolim e EspinhosNotSolid.  
 
 
 <br/>
@@ -220,7 +220,7 @@ obs: É importante mencionar, que no momento não é suportado pelo jogo, escala
 
 	Objeto referente a um grande espinho, no qual serve como uma passagem, na qual só passa qualquer estado do player que não seja gasoso. Similar a Grade (Não Sólida), só muda que é um espinho ao invés de uma grade.
 
-- **Flor Trampulim (type: jumpFlower)**
+- **Flor Trampolim (type: jumpFlower)**
 
 	Objeto referente a uma flor que ao pisar no topo de sua flor, faz o jogador ser arremessado para cima como um trampolim.
 
