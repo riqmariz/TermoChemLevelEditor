@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="301">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="317">
  <editorsettings>
   <export target="../../thermochem/Assets/Resources/Levels/Level_01.xml" format="tmx"/>
  </editorsettings>
@@ -12,6 +12,7 @@
  <tileset firstgid="150" source="../Tileset/TilesetSliding/slidingTileset.tsx"/>
  <tileset firstgid="153" source="../Tileset/BuracoTileset/holeTiles.tsx"/>
  <tileset firstgid="154" source="../Tileset/TilesetAguaDeserto/desertoAguaTileset.tsx"/>
+ <tileset firstgid="160" source="../Tileset/PropsDeserto/PropsDesertoObjects.tsx"/>
  <objectgroup id="7" name="Background Objects Layer" offsetx="16" offsety="0">
   <object id="107" type="backgroundTerra" gid="80" x="1" y="4189" width="5535" height="4202"/>
   <object id="108" type="backgroundTerra" gid="80" x="1" y="4189" width="5535" height="4202"/>
@@ -55,6 +56,20 @@
   <object id="234" type="mesaEscritorio" gid="77" x="43149" y="3060" width="395" height="239"/>
   <object id="236" type="cadeiraEsq" gid="56" x="42953" y="3062" width="174" height="288"/>
   <object id="237" type="caixaEnergiaEsq" gid="57" x="43914" y="2527" width="189" height="570"/>
+  <object id="303" gid="172" x="6174" y="10693" width="1172" height="890"/>
+  <object id="304" gid="171" x="10119" y="10749" width="1171" height="890"/>
+  <object id="305" gid="165" x="7797" y="10740" width="839" height="1223"/>
+  <object id="306" gid="165" x="9165" y="10772" width="839" height="1223"/>
+  <object id="307" gid="160" x="6448" y="11675" width="144" height="501"/>
+  <object id="308" gid="168" x="7154" y="12231" width="1900" height="1246"/>
+  <object id="309" gid="169" x="9066" y="12256" width="1900" height="1247"/>
+  <object id="310" gid="164" x="11192" y="11699" width="144" height="358"/>
+  <object id="311" gid="163" x="11752" y="11203" width="144" height="357"/>
+  <object id="312" gid="162" x="11682" y="10572" width="61" height="248"/>
+  <object id="313" gid="161" x="11552" y="10179" width="145" height="501"/>
+  <object id="314" gid="160" x="10888" y="9707" width="144" height="501"/>
+  <object id="315" gid="170" x="5766" y="9419" width="373" height="373"/>
+  <object id="316" gid="167" x="5274" y="10532" width="700" height="1047"/>
  </objectgroup>
  <layer id="2" name="Under Tile Layer" width="250" height="50">
   <data encoding="csv">
