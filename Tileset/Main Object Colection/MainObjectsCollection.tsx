@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="897" tilecount="25" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="573" tileheight="897" tilecount="28" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
@@ -124,5 +124,14 @@
  </tile>
  <tile id="42" type="player">
   <image width="266" height="254" source="axolote.png"/>
+ </tile>
+ <tile id="43" type="geiserMetano">
+  <image width="191" height="382" source="geiserMetano.png"/>
+ </tile>
+ <tile id="44" type="jumpFlower">
+  <image width="181" height="196" source="jumpFlower.png"/>
+ </tile>
+ <tile id="45" type="espinhosNotSolid">
+  <image width="159" height="411" source="parede_de_espinhos.png"/>
  </tile>
 </tileset>
