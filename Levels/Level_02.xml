@@ -243,7 +243,7 @@
 </data>
  </layer>
  <objectgroup id="4" name="Main Objects Layer">
-  <object id="277" type="portaoGelo" gid="99" x="3101.23" y="5542.02" width="145" height="629"/>
+  <object id="277" type="portaoGelo" gid="99" x="3170.93" y="5535.96" width="145" height="629"/>
   <object id="278" type="collectableSalt" gid="91" x="2296" y="5538" width="264" height="288"/>
   <object id="279" type="player" gid="87" x="563" y="5509" width="250" height="322"/>
   <object id="295" type="heatPlace" gid="84" x="3410.21" y="5539.48" width="382" height="382">
