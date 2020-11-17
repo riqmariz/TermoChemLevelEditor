@@ -1,19 +1,22 @@
-# TermoChemLevelEditor **v0.3.0**
+# TermoChemLevelEditor **v0.3.1**
 
 Este repositório é um local para subir os arquivos de level do jogo ThermoChem para poder testá-los e editá-los. Fique atento as versões da documentação
 - \* : siginifica recém modificado 
 <br/>
 
 # Novidades *
-- Novas Camadas adicionadas: Main Hole Tile Layer, Main Sliding Tile Layer.
-- Novos tilesets adicionados: buraco, chão deslizante.
-- Novos objetos adicionados: Novos Props (enfeites), novos mains objetcs (Sal, Gelo, Capsula Ativa,Flores, Nitrogênio, Checkpoint, Coletável de HP, Portão de Gelo, Grade [Não sólida]).
-- Bugfix no Under Tile Layer, no qual a ordem de renderização dentro de jogo estava errada.
+- Novos sprites para plataformas(cenário de gelo, deserto e pantano)
+- Novos sprites para checkpoint, player (axolote), coletável de vida e heatPlace(Fornalha)
+- Novo tileset agua do deserto adicionado
+- Novos backgrounds para pantano e deserto adicionados
+- Props do Deserto adicionados
+- Props do Pantano adicionados
+- Novos Main Objects: Geiser de Metano, Flor Trampulim e EspinhosNotSolid.  
 
 
 <br/>
 
-# Tutorial *
+# Tutorial
 
 Relacionado a v0.1.0 ~ v0.1.1:
 - Como editar um Nível do ThermoChem, sendo mais específico para o contexto do ThermoChem: [old link](https://drive.google.com/file/d/1K_8DbwqHgjTwB0TWyUYcDQdiWE7G1FX7/view?usp=sharing)
@@ -26,7 +29,7 @@ Relacionado a v0.1.0 ~ v0.1.1:
 Relacionado a v0.2.0:
 - Novos padrões e Novos tilesets, o que mudou para v0.2.0: [oldlink](https://drive.google.com/file/d/1wBexMTxSD58QM1nP8fQ-17iMBIah21cl/view?usp=sharing)
 
-Relacionado a v0.3.0*:
+Relacionado a v0.3.0:
 - Novidades e Novas camadas, o que mudou para v0.3.0:[link](https://drive.google.com/file/d/1uP2CVpyAaLjR9FPlvEPCjJj9gTdnh7bs/view?usp=sharing)
 
 <br/>
@@ -38,7 +41,7 @@ Relacionado a v0.3.0*:
 <br/>
 <br/>
 
-## • Camadas*
+## • Camadas
 
 Ao criar/editar um mapa, verifique as camadas que ficam na superior direita localização como na imagem:
 
@@ -212,6 +215,18 @@ obs: É importante mencionar, que no momento não é suportado pelo jogo, escala
 - **Grade (Não sólida) (type: gradeNotSolid)**
 
 	Objeto referente a uma grade/porta, a parte não-sólida significa que o player não passa pela grade se estiver na forma sólida. Consegue passar em qualquer outras forma.
+
+- **Espinhos (Não Sólido) (type: espinhosNotSolid)**
+
+	Objeto referente a um grande espinho, no qual serve como uma passagem, na qual só passa qualquer estado do player que não seja gasoso. Similar a Grade (Não Sólida), só muda que é um espinho ao invés de uma grade.
+
+- **Flor Trampulim (type: jumpFlower)**
+
+	Objeto referente a uma flor que ao pisar no topo de sua flor, faz o jogador ser arremessado para cima como um trampolim.
+
+- **Geiser de Metano (type: geiserMetano)**
+
+	Objeto referente a um geiser de metano no qual serve como um obstáculo dinâmico. De tempos em tempos, o geiser libera metano (umas bolhinhas) que causam dano ao jogador quando tocadas. Então, para passar o jogador deve esperar o geiser parar de liberar metano.
 
 <br/>
 <br/>
