@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="300" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="459">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="300" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="466">
  <editorsettings>
   <export target="Level_02.xml" format="tmx"/>
  </editorsettings>
@@ -314,7 +314,6 @@
   <object id="309" type="collectableEgg" gid="95" x="20001.2" y="5499.24" width="121" height="150"/>
   <object id="310" type="collectableHP" gid="90" x="18512" y="4322" width="224" height="300"/>
   <object id="311" type="portaoGelo" gid="99" x="19338" y="5541" width="145" height="629"/>
-  <object id="320" type="stalactite" gid="1073741912" x="4354.85" y="4591.79" width="119" height="198" rotation="180"/>
   <object id="330" type="capsulaAtiva" gid="89" x="401.697" y="5539" width="337" height="678"/>
   <object id="331" type="fallingPlataform" gid="82" x="22930" y="5370" width="573" height="212">
    <properties>
@@ -526,12 +525,13 @@
    </properties>
   </object>
   <object id="398" type="finishPlace" gid="83" x="55804" y="6103" width="392" height="653"/>
-  <object id="452" type="stalactite" gid="1073741912" x="4732.5" y="4587" width="119" height="198" rotation="180"/>
-  <object id="453" type="stalactite" gid="1073741912" x="5123.34" y="4592.39" width="119" height="198" rotation="180"/>
-  <object id="455" type="stalactite" gid="1073741912" x="5495.59" y="4591.37" width="119" height="198" rotation="180"/>
-  <object id="456" type="stalactite" gid="1073741912" x="5891.9" y="4596.58" width="119" height="198" rotation="180"/>
-  <object id="457" type="stalactite" gid="1073741912" x="6275.41" y="4595.3" width="119" height="198" rotation="180"/>
-  <object id="458" type="stalactite" gid="1073741912" x="6646.5" y="4589" width="119" height="198" rotation="180"/>
+  <object id="459" type="stalactite" gid="88" x="4233" y="4777" width="119" height="198"/>
+  <object id="460" type="stalactite" gid="88" x="4625" y="4775" width="119" height="198"/>
+  <object id="461" type="stalactite" gid="88" x="5007" y="4779" width="119" height="198"/>
+  <object id="462" type="stalactite" gid="88" x="5385" y="4777" width="119" height="198"/>
+  <object id="463" type="stalactite" gid="88" x="5765" y="4779" width="119" height="198"/>
+  <object id="464" type="stalactite" gid="88" x="6155" y="4777" width="119" height="198"/>
+  <object id="465" type="stalactite" gid="88" x="6531" y="4777" width="119" height="198"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="300" height="50">
   <data encoding="csv">
