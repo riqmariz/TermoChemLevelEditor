@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="350" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="543">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="350" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="550">
  <editorsettings>
   <export target="Level_02.xml" format="tmx"/>
  </editorsettings>
@@ -69,6 +69,10 @@
   <object id="492" type="luzAcesa" gid="73" x="1477" y="5576.05" width="870" height="1076"/>
   <object id="493" type="canoGrande8" gid="62" x="1544.8" y="4531.95" width="436" height="406"/>
   <object id="494" type="canoGrande3" gid="47" x="1866.5" y="4532.35" width="436" height="407"/>
+  <object id="546" type="canoGrande3" gid="47" x="43843" y="3802.5" width="436" height="407"/>
+  <object id="547" type="canoGrande2" gid="46" x="43122" y="3801" width="726" height="127"/>
+  <object id="548" type="canoGrande2" gid="46" x="42397.5" y="3800.33" width="726" height="127"/>
+  <object id="549" type="canoGrande8" gid="62" x="41968" y="3801" width="436" height="406"/>
  </objectgroup>
  <layer id="2" name="Under Tile Layer" width="350" height="50">
   <data encoding="csv">
@@ -416,7 +420,7 @@
     <property name="totalEnthalpy" type="float" value="50"/>
    </properties>
   </object>
-  <object id="385" type="oneWayPlataform" gid="86" x="45185" y="5351.15" width="573" height="96"/>
+  <object id="385" type="oneWayPlataform" gid="86" x="45251.7" y="5366.3" width="573" height="96"/>
   <object id="386" type="movingPlataform" gid="85" x="46438" y="5386" width="573" height="212">
    <properties>
     <property name="_name" value="default"/>
@@ -532,19 +536,12 @@
     <property name="timeUntilRespawn" type="float" value="3"/>
    </properties>
   </object>
-  <object id="530" type="stalactite" gid="88" x="41868.3" y="3823.24" width="119" height="198"/>
-  <object id="531" type="stalactite" gid="88" x="42056.2" y="3823.24" width="119" height="198"/>
-  <object id="532" type="stalactite" gid="88" x="42250.1" y="3817.18" width="119" height="198"/>
-  <object id="533" type="stalactite" gid="88" x="42425.8" y="3817.18" width="119" height="198"/>
-  <object id="534" type="stalactite" gid="88" x="42628.9" y="3820.21" width="119" height="198"/>
-  <object id="535" type="stalactite" gid="88" x="42819.8" y="3817.18" width="119" height="198"/>
-  <object id="536" type="stalactite" gid="88" x="43013.7" y="3817.18" width="119" height="198"/>
-  <object id="537" type="stalactite" gid="88" x="43198.6" y="3820.21" width="119" height="198"/>
-  <object id="538" type="stalactite" gid="88" x="43386.5" y="3820.21" width="119" height="198"/>
-  <object id="539" type="stalactite" gid="88" x="43586.5" y="3814.15" width="119" height="198"/>
-  <object id="540" type="stalactite" gid="88" x="43777.4" y="3817.18" width="119" height="198"/>
-  <object id="541" type="stalactite" gid="88" x="43965.2" y="3817.18" width="119" height="198"/>
-  <object id="542" type="stalactite" gid="88" x="44165.2" y="3820.21" width="119" height="198"/>
+  <object id="534" type="stalactite" gid="88" x="42533.6" y="3831.54" width="119" height="198"/>
+  <object id="536" type="stalactite" gid="88" x="42918.4" y="3828.51" width="119" height="198"/>
+  <object id="542" type="stalactite" gid="88" x="43491.9" y="3827.54" width="119" height="198"/>
+  <object id="543" type="stalactite" gid="88" x="43109.2" y="3830.33" width="119" height="198"/>
+  <object id="544" type="stalactite" gid="88" x="42717.2" y="3828.33" width="119" height="198"/>
+  <object id="545" type="stalactite" gid="88" x="43295.2" y="3829.67" width="119" height="198"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="350" height="50">
   <data encoding="csv">
