@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="350" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="550">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="350" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="571">
  <editorsettings>
   <export target="Level_02.xml" format="tmx"/>
  </editorsettings>
@@ -60,7 +60,10 @@
   <object id="445" type="backgroundTerra" gid="80" x="-3839" y="12949" width="5535" height="4202"/>
   <object id="502" type="backgroundTerra" gid="80" x="62128.5" y="13243" width="5535" height="4202"/>
  </objectgroup>
- <objectgroup id="8" name="Over Background Objects Layer"/>
+ <objectgroup id="8" name="Over Background Objects Layer">
+  <object id="552" type="quadroEsq" gid="75" x="42153.3" y="4585.33" width="356" height="475"/>
+  <object id="568" type="luzAcesa" gid="73" x="1471" y="3826" width="870" height="1076"/>
+ </objectgroup>
  <objectgroup id="5" name="Under Objects Layer">
   <object id="284" type="canoPequeno4" gid="65" x="1658.17" y="3998.16" width="776" height="38"/>
   <object id="285" type="canoPequeno4" gid="65" x="2433.97" y="3998.19" width="776" height="38"/>
@@ -73,6 +76,19 @@
   <object id="547" type="canoGrande2" gid="46" x="43122" y="3801" width="726" height="127"/>
   <object id="548" type="canoGrande2" gid="46" x="42397.5" y="3800.33" width="726" height="127"/>
   <object id="549" type="canoGrande8" gid="62" x="41968" y="3801" width="436" height="406"/>
+  <object id="551" type="luzAcesa" gid="73" x="42646.8" y="4662.24" width="870" height="1076"/>
+  <object id="553" type="mesaEscritorio" gid="77" x="42289" y="4583.33" width="395" height="239"/>
+  <object id="555" type="extintor" gid="52" x="41943.3" y="4226.33" width="77" height="250"/>
+  <object id="556" type="canoPequeno2" gid="50" x="41706.7" y="4376.33" width="833" height="797"/>
+  <object id="557" type="tubosEnsaio" gid="78" x="42554.3" y="4343.67" width="102" height="94"/>
+  <object id="558" type="canoAgua" gid="76" x="1322.61" y="5540.94" width="261" height="898"/>
+  <object id="559" type="canoPequeno3" gid="60" x="526.424" y="4729.3" width="833" height="797"/>
+  <object id="560" type="luzApagada" gid="74" x="2917" y="4218" width="126" height="219"/>
+  <object id="561" type="luzApagada" gid="74" x="3465" y="4218" width="126" height="219"/>
+  <object id="562" type="fonteEsq" gid="72" x="2235" y="3821" width="258" height="545"/>
+  <object id="563" type="caixaEnergiaEsq" gid="57" x="2392" y="3287" width="189" height="570"/>
+  <object id="564" type="mesaOperacao" gid="54" x="1613" y="3814" width="538" height="272"/>
+  <object id="565" type="computador" gid="51" x="1235" y="3818" width="391" height="380"/>
  </objectgroup>
  <layer id="2" name="Under Tile Layer" width="350" height="50">
   <data encoding="csv">
@@ -459,8 +475,6 @@
   </object>
   <object id="391" type="portaoGelo" gid="99" x="47794.7" y="6115" width="145" height="629"/>
   <object id="392" type="gradeNotSolid" gid="100" x="48395" y="6110.33" width="251" height="569"/>
-  <object id="393" type="enemyBasic" gid="81" x="49413" y="6108.06" width="380" height="404"/>
-  <object id="394" type="enemyBasic" gid="81" x="50852.4" y="6108.06" width="380" height="404"/>
   <object id="397" type="movingPlataform" gid="85" x="52886" y="6326" width="573" height="212">
    <properties>
     <property name="_name" value="default"/>
@@ -536,12 +550,8 @@
     <property name="timeUntilRespawn" type="float" value="3"/>
    </properties>
   </object>
-  <object id="534" type="stalactite" gid="88" x="42533.6" y="3831.54" width="119" height="198"/>
-  <object id="536" type="stalactite" gid="88" x="42918.4" y="3828.51" width="119" height="198"/>
-  <object id="542" type="stalactite" gid="88" x="43491.9" y="3827.54" width="119" height="198"/>
-  <object id="543" type="stalactite" gid="88" x="43109.2" y="3830.33" width="119" height="198"/>
-  <object id="544" type="stalactite" gid="88" x="42717.2" y="3828.33" width="119" height="198"/>
-  <object id="545" type="stalactite" gid="88" x="43295.2" y="3829.67" width="119" height="198"/>
+  <object id="569" type="enemyBasic" gid="81" x="49813" y="6098.97" width="380" height="404"/>
+  <object id="570" type="enemyBasic" gid="81" x="50837.3" y="6083.82" width="380" height="404"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="350" height="50">
   <data encoding="csv">
@@ -597,5 +607,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="Over Objects Layer"/>
+ <objectgroup id="6" name="Over Objects Layer">
+  <object id="554" type="cadeiraEsq" gid="56" x="42027.7" y="4583.33" width="174" height="288"/>
+  <object id="566" type="cadeira" gid="43" x="2081" y="3819" width="174" height="289"/>
+ </objectgroup>
 </map>
