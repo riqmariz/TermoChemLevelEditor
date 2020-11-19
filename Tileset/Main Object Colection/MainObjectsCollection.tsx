@@ -8,6 +8,12 @@
   <image width="392" height="653" source="finishPlace.png"/>
  </tile>
  <tile id="6" type="player">
+  <properties>
+   <property name="ambientTemperature" type="float" value="0"/>
+   <property name="initialEnthalpy" type="float" value="0"/>
+   <property name="maxEnthalpyOnLevel" type="float" value="100"/>
+   <property name="minEnthalpyOnLevel" type="float" value="0"/>
+  </properties>
   <image width="250" height="322" source="player.png"/>
  </tile>
  <tile id="7" type="stalactite">
@@ -120,6 +126,12 @@
   <image width="505" height="897" source="fornalha_heatPlace.png"/>
  </tile>
  <tile id="42" type="player">
+  <properties>
+   <property name="ambientTemperature" type="float" value="0"/>
+   <property name="initialEnthalpy" type="float" value="0"/>
+   <property name="maxEnthalpyOnLevel" type="float" value="100"/>
+   <property name="minEnthalpyOnLevel" type="float" value="0"/>
+  </properties>
   <image width="266" height="254" source="axolote.png"/>
  </tile>
  <tile id="43" type="geiserMetano">

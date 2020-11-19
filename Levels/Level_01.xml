@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="367">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="368">
  <editorsettings>
   <export target="../../thermochem/Assets/Resources/Levels/Level_01.xml" format="tmx"/>
  </editorsettings>
@@ -402,7 +402,6 @@
   <object id="296" gid="124" x="20264" y="6109" width="505" height="897"/>
   <object id="297" gid="124" x="1084" y="6497" width="505" height="897"/>
   <object id="298" gid="124" x="9000" y="6501" width="505" height="897"/>
-  <object id="299" gid="125" x="818.515" y="6496.7" width="266" height="254"/>
   <object id="351" gid="128" x="3052" y="6495" width="159" height="411"/>
   <object id="352" gid="128" x="3478" y="6493" width="159" height="411"/>
   <object id="354" gid="127" x="2854" y="6493" width="181" height="196"/>
@@ -417,6 +416,7 @@
   <object id="363" gid="131" x="3714" y="6495" width="266" height="219"/>
   <object id="364" gid="132" x="4075" y="6495" width="890" height="558"/>
   <object id="366" gid="134" x="2158" y="5544" width="237" height="151"/>
+  <object id="367" gid="125" x="759" y="6495" width="266" height="254"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="250" height="50">
   <data encoding="csv">
