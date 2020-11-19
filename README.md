@@ -35,7 +35,7 @@ Relacionado a v0.3.0:
 - Novidades e Novas camadas, o que mudou para v0.3.0:[oldlink](https://drive.google.com/file/d/1uP2CVpyAaLjR9FPlvEPCjJj9gTdnh7bs/view?usp=sharing)
 
 Relacionado a v0.3.1:
-- Novidades e Propriedades customizadas para a versão v0.3.1: [link]()
+- Novidades e Propriedades customizadas para a versão v0.3.1: *Link ainda não disponibilizado*
 
 <br/>
 
