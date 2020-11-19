@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="33" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="32" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
@@ -24,9 +24,6 @@
  </tile>
  <tile id="11" type="collectableFlowers">
   <image width="285" height="101" source="flores_campo.png"/>
- </tile>
- <tile id="12" type="collectableNitrogen">
-  <image width="285" height="255" source="nitrogen.png"/>
  </tile>
  <tile id="18" type="portaoGelo">
   <image width="145" height="629" source="portaoGelo.png"/>
