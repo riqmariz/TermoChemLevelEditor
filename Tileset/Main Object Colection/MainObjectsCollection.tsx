@@ -55,7 +55,7 @@
   </properties>
   <image width="573" height="191" source="falling_plataform_gelo.png"/>
  </tile>
- <tile id="31" type="fallingPlataformGelo">
+ <tile id="31" type="fallingPlataformPantano">
   <properties>
    <property name="_name" value="default"/>
    <property name="shouldRespawn" type="bool" value="true"/>
