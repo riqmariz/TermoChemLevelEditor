@@ -11,7 +11,7 @@ Este repositório é um local para subir os arquivos de level do jogo ThermoChem
 - Novos backgrounds para pantano e deserto adicionados
 - Props do Deserto adicionados
 - Props do Pantano adicionados
-- Novos Main Objects: Geiser de Metano, Flor Trampolim e EspinhosNotSolid.  
+- Novos Main Objects: Geiser de Metano, Flor Trampolim, EspinhosNotSolid, inimigo voador (NotFollow),inimigo Voador (Follow), Cacto Perfurante, Nuvem de Areia.  
 
 
 <br/>
@@ -227,6 +227,23 @@ obs: É importante mencionar, que no momento não é suportado pelo jogo, escala
 - **Geiser de Metano (type: geiserMetano)**
 
 	Objeto referente a um geiser de metano no qual serve como um obstáculo dinâmico. De tempos em tempos, o geiser libera metano (umas bolhinhas) que causam dano ao jogador quando tocadas. Então, para passar o jogador deve esperar o geiser parar de liberar metano.
+
+- **Inimigo Voador (Not Follow) (type: fly)**
+
+	Objeto referente ao inimigo voador (mosca) que se move no eixo Y, para cima e para baixo. Colisão = dano, criatura também morre.
+
+- **Inimigo Voador (Follow) (type: flyFollow)**
+
+	Objeto referente ao inimigo voador (mosca) que segue ao chegar perto dela, funciona do mesmo jeito que o citado acima, porém apenas segue o jogador.
+
+- **Cacto Perfurante (type: cactoPerfurante)**
+
+	Objeto referente a um obstáculo de um cacto com espinhos. Colisão = dano.
+
+- **Nuvem Areia (NotGas) (type: nuvemAreiaNotGas)**
+
+	Objeto referente a uma nuvem de areia que não permite o jogador passar se estiver na forma de gás.
+
 
 <br/>
 <br/>
