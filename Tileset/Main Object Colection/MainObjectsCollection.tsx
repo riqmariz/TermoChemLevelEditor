@@ -77,9 +77,9 @@
  <tile id="32" type="movingPlataformDeserto">
   <properties>
    <property name="_name" value="default"/>
-   <property name="finalCoordX" type="float" value="-4"/>
+   <property name="finalCoordX" type="float" value="4"/>
    <property name="finalCoordY" type="float" value="0"/>
-   <property name="initCoordX" type="float" value="4"/>
+   <property name="initCoordX" type="float" value="-4"/>
    <property name="initCoordY" type="float" value="0"/>
    <property name="speed" type="float" value="2"/>
    <property name="startAtInit" type="bool" value="true"/>
@@ -89,9 +89,9 @@
  <tile id="33" type="movingPlataform">
   <properties>
    <property name="_name" value="default"/>
-   <property name="finalCoordX" type="float" value="-4"/>
+   <property name="finalCoordX" type="float" value="4"/>
    <property name="finalCoordY" type="float" value="0"/>
-   <property name="initCoordX" type="float" value="4"/>
+   <property name="initCoordX" type="float" value="-4"/>
    <property name="initCoordY" type="float" value="0"/>
    <property name="speed" type="float" value="2"/>
    <property name="startAtInit" type="bool" value="true"/>
@@ -101,9 +101,9 @@
  <tile id="34" type="movingPlataformPantano">
   <properties>
    <property name="_name" value="default"/>
-   <property name="finalCoordX" type="float" value="-4"/>
+   <property name="finalCoordX" type="float" value="4"/>
    <property name="finalCoordY" type="float" value="0"/>
-   <property name="initCoordX" type="float" value="4"/>
+   <property name="initCoordX" type="float" value="-4"/>
    <property name="initCoordY" type="float" value="0"/>
    <property name="speed" type="float" value="2"/>
    <property name="startAtInit" type="bool" value="true"/>
