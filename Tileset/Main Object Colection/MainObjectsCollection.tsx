@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="32" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="34" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
@@ -161,5 +161,17 @@
  </tile>
  <tile id="51" type="collectableNitrogen">
   <image width="237" height="151" source="nitrogenioLiquido.png"/>
+ </tile>
+ <tile id="52" type="coldPlace">
+  <image width="837" height="437" source="canoGelo.png"/>
+ </tile>
+ <tile id="53" type="heatPlacePantano">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="reloadWhenPlayerHasXofEnthalpy" type="float" value="50"/>
+   <property name="totalEnthalpy" type="float" value="50"/>
+   <property name="useReloadSafeEnthalpy" type="bool" value="false"/>
+  </properties>
+  <image width="220" height="254" source="heatPlacePantano.png"/>
  </tile>
 </tileset>
