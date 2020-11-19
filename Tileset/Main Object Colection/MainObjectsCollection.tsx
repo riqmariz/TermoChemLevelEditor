@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="32" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="33" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
@@ -145,5 +145,8 @@
  </tile>
  <tile id="49" type="nuvemAreiaNotGas">
   <image width="890" height="558" source="modelo_nuvem_de_areia.png"/>
+ </tile>
+ <tile id="51" type="collectableNitrogen">
+  <image width="237" height="151" source="nitrogenioLiquido.png"/>
  </tile>
 </tileset>
