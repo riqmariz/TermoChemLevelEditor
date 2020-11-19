@@ -9,6 +9,7 @@
  </tile>
  <tile id="6" type="player">
   <properties>
+   <property name="_name" value="default"/>
    <property name="ambientTemperature" type="float" value="0"/>
    <property name="initialEnthalpy" type="float" value="0"/>
    <property name="maxEnthalpyOnLevel" type="float" value="100"/>
@@ -121,12 +122,15 @@
  <tile id="41" type="heatPlace">
   <properties>
    <property name="_name" value="default"/>
+   <property name="reloadWhenPlayerHasXofEnthalpy" type="float" value="50"/>
    <property name="totalEnthalpy" type="float" value="50"/>
+   <property name="useReloadSafeEnthalpy" type="bool" value="false"/>
   </properties>
   <image width="505" height="897" source="fornalha_heatPlace.png"/>
  </tile>
  <tile id="42" type="player">
   <properties>
+   <property name="_name" value="default"/>
    <property name="ambientTemperature" type="float" value="0"/>
    <property name="initialEnthalpy" type="float" value="0"/>
    <property name="maxEnthalpyOnLevel" type="float" value="100"/>
