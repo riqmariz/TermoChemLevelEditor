@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="795" tileheight="897" tilecount="30" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="32" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <image width="380" height="404" source="enemyBasic.png"/>
@@ -139,5 +139,11 @@
  </tile>
  <tile id="47" type="flyFollow">
   <image width="795" height="800" source="flyFollow.png"/>
+ </tile>
+ <tile id="48" type="cactoPerfurante">
+  <image width="266" height="219" source="cactoPerfurante.png"/>
+ </tile>
+ <tile id="49" type="nuvemAreiaNotGas">
+  <image width="890" height="558" source="modelo_nuvem_de_areia.png"/>
  </tile>
 </tileset>
