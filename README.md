@@ -63,7 +63,7 @@ Verifique se as camadas estão de acordo com os seguintes nomes(respeitando letr
 7. Under Tile Layer
 8. Under Objects Layer
 9. Over Background Objects Layer
-10. Backgroound Objects Layer
+10. Background Objects Layer
 
 Se estiver correto, você não terá nenhum problema com relação a definição das camadas.
 
