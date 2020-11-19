@@ -156,12 +156,6 @@
  <tile id="45" type="espinhosNotSolid">
   <image width="159" height="411" source="parede_de_espinhos.png"/>
  </tile>
- <tile id="46" type="fly">
-  <image width="795" height="800" source="fly.png"/>
- </tile>
- <tile id="47" type="flyFollow">
-  <image width="795" height="800" source="flyFollow.png"/>
- </tile>
  <tile id="48" type="cactoPerfurante">
   <image width="266" height="219" source="cactoPerfurante.png"/>
  </tile>
@@ -188,5 +182,26 @@
    <property name="useReloadSafeEnthalpy" type="bool" value="false"/>
   </properties>
   <image width="220" height="254" source="heatPlacePantano.png"/>
+ </tile>
+ <tile id="54" type="fly">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="idleTime" type="float" value="2"/>
+   <property name="walkSpeed" type="float" value="1.2"/>
+   <property name="walkTime" type="float" value="2"/>
+  </properties>
+  <image width="398" height="400" source="fly.png"/>
+ </tile>
+ <tile id="55" type="flyFollow">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="followRadiusRange" type="float" value="5"/>
+   <property name="followSpeed" type="float" value="3"/>
+   <property name="followTime" type="float" value="3"/>
+   <property name="idleTime" type="float" value="2"/>
+   <property name="walkSpeed" type="float" value="1.2"/>
+   <property name="walkTime" type="float" value="2"/>
+  </properties>
+  <image width="398" height="400" source="flyFollow.png"/>
  </tile>
 </tileset>
