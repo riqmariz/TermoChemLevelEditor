@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="372">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="50" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="373">
  <editorsettings>
   <export target="../../thermochem/Assets/Resources/Levels/Level_01.xml" format="tmx"/>
  </editorsettings>
@@ -97,7 +97,7 @@
   <object id="334" gid="201" x="20829" y="10806" width="486" height="2252"/>
   <object id="335" gid="202" x="21352" y="10852" width="448" height="2200"/>
   <object id="342" gid="197" x="18811" y="10807" width="475" height="2301"/>
-  <object id="371" gid="135" x="1834" y="5583" width="837" height="437"/>
+  <object id="372" gid="135" x="1846" y="5567" width="837" height="437"/>
  </objectgroup>
  <layer id="2" name="Under Tile Layer" width="250" height="50">
   <data encoding="csv">
@@ -333,7 +333,16 @@
    </properties>
   </object>
   <object id="187" type="gradeNotSolid" gid="102" x="2165" y="3817" width="251" height="569"/>
-  <object id="190" type="enemyBasic" gid="83" x="7483.94" y="6499.82" width="380" height="404"/>
+  <object id="190" type="enemyBasic" gid="83" x="7483.94" y="6499.82" width="380" height="404">
+   <properties>
+    <property name="followSpeed" type="float" value="8"/>
+    <property name="followTime" type="float" value="8"/>
+    <property name="followXRange" type="float" value="8"/>
+    <property name="idleTime" type="float" value="8"/>
+    <property name="walkSpeed" type="float" value="8"/>
+    <property name="walkTime" type="float" value="8"/>
+   </properties>
+  </object>
   <object id="191" type="stalactite" gid="90" x="5768.27" y="4974.76" width="119" height="198"/>
   <object id="192" type="stalactite" gid="90" x="5959.18" y="4974.76" width="119" height="198"/>
   <object id="193" type="stalactite" gid="90" x="6144.03" y="4977.79" width="119" height="198"/>

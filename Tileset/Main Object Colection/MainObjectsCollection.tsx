@@ -2,6 +2,15 @@
 <tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="34" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="followSpeed" type="float" value="3"/>
+   <property name="followTime" type="float" value="3"/>
+   <property name="followXRange" type="float" value="5"/>
+   <property name="idleTime" type="float" value="2"/>
+   <property name="walkSpeed" type="float" value="1.2"/>
+   <property name="walkTime" type="float" value="2"/>
+  </properties>
   <image width="380" height="404" source="enemyBasic.png"/>
  </tile>
  <tile id="2" type="finishPlace">
@@ -163,6 +172,12 @@
   <image width="237" height="151" source="nitrogenioLiquido.png"/>
  </tile>
  <tile id="52" type="coldPlace">
+  <properties>
+   <property name="_name" value="default"/>
+   <property name="reloadWhenPlayerHasXofEnthalpy" type="float" value="50"/>
+   <property name="totalNegEnthalpy" type="float" value="50"/>
+   <property name="useReloadSafeEnthalpy" type="bool" value="false"/>
+  </properties>
   <image width="837" height="437" source="canoGelo.png"/>
  </tile>
  <tile id="53" type="heatPlacePantano">
