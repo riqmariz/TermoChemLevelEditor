@@ -1,10 +1,15 @@
-# TermoChemLevelEditor **v0.3.1**
+# TermoChemLevelEditor **v0.3.2**
 
 Este repositório é um local para subir os arquivos de level do jogo ThermoChem para poder testá-los e editá-los. Fique atento as versões da documentação
-- \* : siginifica recém modificado 
+- \* : siginifica que foi modificado recentemente, porém quanto mais asterisco, mais novo é. E aos poucos, modificações que não estão mais tão novas, perdem seu asterisco, até ficar sem asterisco.
 <br/>
 
-# Novidades **
+# Novidades ***
+- Novo sprite para tilesetGelo (bugfix) * 
+- Novo tileset de Cipo *
+- Nova camada para colocar cipós (Vine Tile Layer)*
+- Bugfix na ordem de renderização da fornalha*
+- Bugfix na posição da Estalactite*
 - Novos sprites para plataformas(cenário de gelo, deserto e pantano)
 - Novos sprites para checkpoint, player (axolote), coletável de vida, heatPlace(Fornalha), coletável de nitrogênio
 - bugfix na fallingPlataformPantano
@@ -46,7 +51,7 @@ Relacionado a v0.3.1:
 <br/>
 <br/>
 
-## • Camadas
+## • Camadas **
 
 Ao criar/editar um mapa, verifique as camadas que ficam na superior direita localização como na imagem:
 
@@ -60,10 +65,11 @@ Verifique se as camadas estão de acordo com os seguintes nomes(respeitando letr
 4. Main Hole Tile Layer
 5. Main Sliding Tile Layer
 6. Main Tile Layer
-7. Under Tile Layer
-8. Under Objects Layer
-9. Over Background Objects Layer
-10. Background Objects Layer
+7. Vine Tile Layer **
+8. Under Tile Layer
+9. Under Objects Layer
+10. Over Background Objects Layer
+11. Background Objects Layer
 
 Se estiver correto, você não terá nenhum problema com relação a definição das camadas.
 
@@ -96,21 +102,25 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 	
 	Camada por onde há as colisões com Tiles. Camada para colocar paredes e chão. Qualquer Tile colocado nessa camada, será interpretado como um tile com colisão, ou seja, se o player tentar passar, irá colidir. Impórtante não colocar objetos nessa camada, apenas TILES.
 
-7. **Camada de Tile: Under Tile Layer**
+7. **Camada de Tile: Vine Tile Layer****
+
+	 É uma camada para colocar os cipós, no qual o jogador irá se pendurar se pular em cima. É importante utilizar o tileset apropriado, tileset de cipó.
+
+8. **Camada de Tile: Under Tile Layer**
 
 	 É só uma camada para colocar tiles de ENFEITE do level, caso seja necessário colocar tiles que fiquem acima do Under Objects Layer, Over Background Objects Layer... E assim por diante e fique abaixo de Main Tile Layer, Main Sliding Tile Layer e assim por diante.
 
 	 Normalmente utilizada para Tiles que preenchem o chão e parade, mas não são interagíveis com o player.
 
-8. **Camada de Objetos: Under Objects Layer**
+9. **Camada de Objetos: Under Objects Layer**
 
 	Camada de objetos utilizada para enfeitar o mapa e adicionar objetos que enfeitem o Level, mas não interferem no gameplay. Formam/Compõe o cenário do level.
 
-9. **Camada de Objetos: Over Background Objects Layer**
+10. **Camada de Objetos: Over Background Objects Layer**
 	
 	Camada para colocar um background, porém não é o último background. Ainda haverá um background atrás dessa camada.
 
-10. **Camada de Objetos: Background Objects Layer**
+11. **Camada de Objetos: Background Objects Layer**
 
 	Última camada, background que fica atrás de tudo.
 <br/>
@@ -260,7 +270,7 @@ obs: É importante mencionar, que no momento não é suportado pelo jogo, escala
 <br/>
 <br/>
 
-## • Propriedades Customizáveis dos Objetos **
+## • Propriedades Customizáveis dos Objetos *
 
 <br/>
 Propriedades customizáveis são propriedades adicionadas a algum objeto para poder customizá-lo de alguma forma, como exemplo, modificar seu comportamento. Alguma variáveis estarão relacionadas a essas tais propriedades e ao modificá-las, mudará o comportamento do objeto. É o local para modificar e testar vários comportamentos diferentes, para realizar vários testes em um objeto dentro do jogo. Por exemplo, atente a imagem disposta logo abaixo, perceba que a fallingPlataformDeserto está selecionada e na parte circulada em vermelho em propriedades tem algumas variáveis. É aí que se encontra as propriedades customizadas. Nem todos objetos tem propriedades customizadas, então deve-se ficar atento a documentação para saber quais objetos têm. Essas propriedades vêm previamente configurada no arquivo .tsx, então não se deve modificar nenhum nome de variável, apenas o campo à sua direita. Por exemplo, a fallingPlataformDeserto, tem um campo chamado timeUntilRespawn e a sua direita um valor, esse valor é que deve ser alterado se quiser modificar o comportamento do objeto.
