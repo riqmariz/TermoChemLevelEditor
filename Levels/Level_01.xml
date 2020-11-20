@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="615">
  <editorsettings>
-  <export target="." format="tmx"/>
+  <export target="Level_01.xml" format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" source="../Tileset/TilesetGelo/geloTileset.tsx"/>
  <tileset firstgid="43" source="../Tileset/PropsGelo/PropsGeloObjects.tsx"/>
@@ -136,8 +136,7 @@
   <object id="569" type="canoPequeno4" gid="65" x="17916" y="3130" width="776" height="38"/>
   <object id="570" type="canoPequeno4" gid="65" x="18670" y="3130.33" width="776" height="38"/>
   <object id="571" type="canoPequeno4" gid="65" x="19372.4" y="3130.25" width="776" height="38"/>
-  <object id="572" type="canoPequeno4" gid="65" x="20134" y="3133" width="776" height="38"/>
-  <object id="573" type="canoPequeno4" gid="65" x="20134" y="3133" width="776" height="38"/>
+  <object id="572" type="canoPequeno4" gid="65" x="20132" y="3130.33" width="776" height="38"/>
   <object id="574" type="canoPequeno4" gid="65" x="16394" y="3129" width="776" height="38"/>
   <object id="575" type="canoPequeno4" gid="65" x="15668" y="3128" width="776" height="38"/>
   <object id="576" type="luzAcesa" gid="73" x="19027" y="4202" width="870" height="1076"/>
@@ -332,16 +331,16 @@
     <property name="minEnthalpyOnLevel" type="float" value="0"/>
    </properties>
   </object>
-  <object id="577" type="stalactite" gid="90" x="16643" y="3055" width="119" height="198"/>
-  <object id="578" type="stalactite" gid="90" x="17029" y="3053" width="119" height="198"/>
-  <object id="579" type="stalactite" gid="90" x="17413" y="3053" width="119" height="198"/>
-  <object id="580" type="stalactite" gid="90" x="17797" y="3051" width="119" height="198"/>
-  <object id="581" type="stalactite" gid="90" x="18179" y="3055" width="119" height="198"/>
-  <object id="582" type="stalactite" gid="90" x="18563.7" y="3053.67" width="119" height="198"/>
-  <object id="583" type="stalactite" gid="90" x="18945" y="3052.33" width="119" height="198"/>
-  <object id="584" type="stalactite" gid="90" x="19326.3" y="3055" width="119" height="198"/>
-  <object id="585" type="stalactite" gid="90" x="19710.3" y="3053.67" width="119" height="198"/>
-  <object id="586" type="stalactite" gid="90" x="20091.7" y="3052.33" width="119" height="198"/>
+  <object id="577" type="stalactite" gid="90" x="16650" y="3014" width="119" height="198"/>
+  <object id="578" type="stalactite" gid="90" x="17033" y="3013" width="119" height="198"/>
+  <object id="579" type="stalactite" gid="90" x="17412" y="3004" width="119" height="198"/>
+  <object id="580" type="stalactite" gid="90" x="17804" y="3009" width="119" height="198"/>
+  <object id="581" type="stalactite" gid="90" x="18182" y="2994" width="119" height="198"/>
+  <object id="582" type="stalactite" gid="90" x="18555.7" y="2984.67" width="119" height="198"/>
+  <object id="583" type="stalactite" gid="90" x="18947" y="2987.33" width="119" height="198"/>
+  <object id="584" type="stalactite" gid="90" x="19326.3" y="2984" width="119" height="198"/>
+  <object id="585" type="stalactite" gid="90" x="19710.3" y="2969.67" width="119" height="198"/>
+  <object id="586" type="stalactite" gid="90" x="20089.7" y="2970.33" width="119" height="198"/>
   <object id="587" type="oneWayPlataform" gid="119" x="22900.8" y="3907.64" width="573" height="96"/>
   <object id="588" type="fallingPlataform" gid="113" x="23852" y="3796" width="573" height="191">
    <properties>
@@ -485,10 +484,10 @@
    </properties>
   </object>
   <object id="609" type="portaoGelo" gid="101" x="45122.7" y="4201.67" width="145" height="629"/>
-  <object id="610" type="stalactite" gid="90" x="42821.8" y="3440.58" width="119" height="198"/>
-  <object id="611" type="stalactite" gid="90" x="42628.8" y="3437.55" width="119" height="198"/>
+  <object id="610" type="stalactite" gid="90" x="42820.5" y="3400.58" width="119" height="198"/>
+  <object id="611" type="stalactite" gid="90" x="42632.8" y="3413.55" width="119" height="198"/>
   <object id="612" type="gradeNotSolid" gid="102" x="42081" y="4201" width="251" height="569"/>
-  <object id="613" type="stalactite" gid="90" x="43007" y="3441" width="119" height="198"/>
+  <object id="613" type="stalactite" gid="90" x="43009.7" y="3406.33" width="119" height="198"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="250" height="30">
   <data encoding="csv">
