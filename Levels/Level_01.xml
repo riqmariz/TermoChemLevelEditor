@@ -479,7 +479,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="607" type="heatPlace" gid="124" x="39602" y="4209" width="505" height="897">
+  <object id="607" type="heatPlace" gid="124" x="39624.2" y="4203.97" width="505" height="897">
    <properties>
     <property name="_name" value="default"/>
     <property name="reloadWhenPlayerHasXofEnthalpy" type="float" value="50"/>
