@@ -28,7 +28,7 @@
   <object id="621" type="backgroundTerra" gid="80" x="38832.5" y="4219" width="5535" height="4202"/>
  </objectgroup>
  <objectgroup id="8" name="Over Background Objects Layer">
-  <object id="362" type="canoPequeno4" gid="65" x="1080.67" y="4180.33" width="776" height="38"/>
+  <object id="362" type="canoPequeno4" gid="65" x="956.67" y="4180.33" width="776" height="38"/>
   <object id="375" type="computador" gid="51" x="1690" y="4204" width="391" height="380"/>
   <object id="380" type="luzAcesa" gid="73" x="2289" y="4200" width="870" height="1076"/>
   <object id="557" type="luzApagada" gid="74" x="1451" y="3498" width="126" height="219"/>
@@ -135,7 +135,6 @@
   <object id="562" type="mesaEscritorio" gid="77" x="3472.18" y="4202.68" width="395" height="239"/>
   <object id="563" type="tubosEnsaioUsado" gid="79" x="3737.18" y="3963.68" width="102" height="95"/>
   <object id="564" type="tubosEnsaio" gid="78" x="3553.18" y="3961.68" width="102" height="94"/>
-  <object id="565" type="quadroEsq" gid="75" x="3191.18" y="4199.68" width="356" height="475"/>
   <object id="568" type="canoPequeno4" gid="65" x="17154" y="3130" width="776" height="38"/>
   <object id="569" type="canoPequeno4" gid="65" x="17916" y="3130" width="776" height="38"/>
   <object id="570" type="canoPequeno4" gid="65" x="18670" y="3130.33" width="776" height="38"/>
