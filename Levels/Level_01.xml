@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="630">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="12" nextobjectid="637">
  <editorsettings>
   <export target="Level_01.xml" format="tmx"/>
  </editorsettings>
@@ -101,16 +101,10 @@
   <object id="526" type="canoPequeno4" gid="65" x="40567" y="2677" width="776" height="38"/>
   <object id="527" type="canoGrande8" gid="62" x="39528.5" y="3193.97" width="436" height="406"/>
   <object id="528" type="canoGrande3" gid="47" x="39871.2" y="3196.36" width="436" height="407"/>
-  <object id="529" type="quadroEsq" gid="75" x="38313.4" y="4227.3" width="356" height="475"/>
-  <object id="531" type="capsulaQuebradaEsq" gid="70" x="35995.5" y="4210.13" width="295" height="604"/>
   <object id="532" type="canoPequeno4" gid="65" x="38029.1" y="4195.55" width="776" height="38"/>
-  <object id="533" type="capsula" gid="68" x="37794" y="4209.44" width="295" height="605"/>
-  <object id="534" type="capsula" gid="68" x="37146.3" y="4210.06" width="295" height="605"/>
-  <object id="535" type="capsula" gid="68" x="36582.8" y="4208.42" width="295" height="605"/>
   <object id="536" type="canoPequeno4" gid="65" x="37210.2" y="4195.23" width="776" height="38"/>
   <object id="537" type="canoPequeno4" gid="65" x="36643.6" y="4189.27" width="776" height="38"/>
   <object id="538" type="canoPequeno4" gid="65" x="36047.6" y="4187.51" width="776" height="38"/>
-  <object id="539" type="fonte" gid="53" x="38744.7" y="4213.15" width="258" height="546"/>
   <object id="540" type="mesaOperacao" gid="54" x="39045.5" y="4215.39" width="538" height="272"/>
   <object id="541" type="computador" gid="51" x="40297" y="4208.89" width="391" height="380"/>
   <object id="542" type="cadeira" gid="43" x="40748.5" y="4197.23" width="174" height="289"/>
@@ -141,7 +135,6 @@
   <object id="608" type="luzAcesa" gid="73" x="39279.7" y="4267.5" width="870" height="1076"/>
   <object id="614" type="luzAcesa" gid="73" x="43605" y="4210" width="870" height="1076"/>
   <object id="622" type="canoPequeno4" gid="65" x="955" y="4202" width="776" height="38"/>
-  <object id="623" type="computador" gid="51" x="1719" y="4202" width="391" height="380"/>
   <object id="624" type="luzApagada" gid="74" x="1421.53" y="3438.12" width="126" height="219"/>
   <object id="625" type="luzApagada" gid="74" x="1665.53" y="3439.12" width="126" height="219"/>
   <object id="626" type="canoPequeno2" gid="50" x="1184.53" y="3666.79" width="833" height="797"/>
@@ -530,5 +523,12 @@
  </layer>
  <objectgroup id="6" name="Over Objects Layer">
   <object id="478" type="cadeiraEsq" gid="56" x="26183.7" y="4201.33" width="174" height="288"/>
+  <object id="630" type="computador" gid="51" x="1686.5" y="4200" width="391" height="380"/>
+  <object id="631" type="quadroEsq" gid="75" x="38365.8" y="4200.41" width="356" height="475"/>
+  <object id="632" type="capsulaQuebradaEsq" gid="70" x="35987.3" y="4201.42" width="295" height="604"/>
+  <object id="633" type="capsula" gid="68" x="37854.5" y="4201.73" width="295" height="605"/>
+  <object id="634" type="capsula" gid="68" x="37195.7" y="4201.35" width="295" height="605"/>
+  <object id="635" type="capsula" gid="68" x="36617" y="4199.71" width="295" height="605"/>
+  <object id="636" type="fonte" gid="53" x="38794.1" y="4204.44" width="258" height="546"/>
  </objectgroup>
 </map>
