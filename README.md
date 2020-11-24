@@ -4,21 +4,9 @@ Este repositório é um local para subir os arquivos de level do jogo ThermoChem
 - \* : siginifica que foi modificado recentemente, porém quanto mais asterisco, mais novo é. E aos poucos, modificações que não estão mais tão novas, perdem seu asterisco, até ficar sem asterisco.
 <br/>
 
-# Novidades ***
-- Novo sprite para tilesetGelo (bugfix) * 
-- Novo tileset de Cipo *
-- Nova camada para colocar cipós (Vine Tile Layer)*
-- Bugfix na ordem de renderização da fornalha*
-- Bugfix na posição da Estalactite*
-- Novos sprites para plataformas(cenário de gelo, deserto e pantano)
-- Novos sprites para checkpoint, player (axolote), coletável de vida, heatPlace(Fornalha), coletável de nitrogênio
-- bugfix na fallingPlataformPantano
-- Novo tileset agua do deserto adicionado
-- Novos backgrounds para pantano e deserto adicionados
-- Props do Deserto adicionados
-- Props do Pantano adicionados
-- Novos Main Objects: Geiser de Metano, Flor Trampolim, EspinhosNotSolid, inimigo voador (NotFollow),inimigo Voador (Follow), Cacto Perfurante, Nuvem de Areia, Fogueira(heatPlacePantano) e Cano de Gelo (coldPlace).  
-- Propriedades Customizadas adicionadas para os tipos: player, movingPlataform, fallingPlataform, heatPlace, coldPlace, basicEnemy, fly, flyFollow -> Olhar documentação.
+# Novidades **
+- Novas sprites para inimigos (fly, flyNotFollow, enemyBasic) **
+- Nova propriedade customizável para o tipo enemyBasic (olhar documentação) **
 
 
 <br/>
@@ -270,7 +258,7 @@ obs: É importante mencionar, que no momento não é suportado pelo jogo, escala
 <br/>
 <br/>
 
-## • Propriedades Customizáveis dos Objetos *
+## • Propriedades Customizáveis dos Objetos
 
 <br/>
 Propriedades customizáveis são propriedades adicionadas a algum objeto para poder customizá-lo de alguma forma, como exemplo, modificar seu comportamento. Alguma variáveis estarão relacionadas a essas tais propriedades e ao modificá-las, mudará o comportamento do objeto. É o local para modificar e testar vários comportamentos diferentes, para realizar vários testes em um objeto dentro do jogo. Por exemplo, atente a imagem disposta logo abaixo, perceba que a fallingPlataformDeserto está selecionada e na parte circulada em vermelho em propriedades tem algumas variáveis. É aí que se encontra as propriedades customizadas. Nem todos objetos tem propriedades customizadas, então deve-se ficar atento a documentação para saber quais objetos têm. Essas propriedades vêm previamente configurada no arquivo .tsx, então não se deve modificar nenhum nome de variável, apenas o campo à sua direita. Por exemplo, a fallingPlataformDeserto, tem um campo chamado timeUntilRespawn e a sua direita um valor, esse valor é que deve ser alterado se quiser modificar o comportamento do objeto.
@@ -341,7 +329,7 @@ OBS: Quando você cria um clone no .tsx, você está modificando o arquivo .tsx 
 <br/>
 <br/>
 
-## Objetos e suas propriedades
+## Objetos e suas propriedades **
 
 <br/>
 Nessa seção, irei detalhar cada propriedade de cada objeto que tem propriedades customizáveis.
@@ -566,7 +554,7 @@ A imagem de referência, é a mesma que a plataforma móvel de gelo. Entre uma e
 
 <br/>
 
-### • Inimigo Básico (type: **enemyBasic**)
+### • Inimigo Básico (type: **enemyBasic**) **
 
 - variável: **idleTime**, tipo: **float**
 
@@ -579,6 +567,10 @@ A imagem de referência, é a mesma que a plataforma móvel de gelo. Entre uma e
 - variável: **walkSpeed**, tipo: **float**
 
 	Propriedade relacionada a velocidade do inimigo ao andar. Valor entre 0 e infinito.
+
+- variável: **maxWalkTimeInSameDirection**, tipo: **float** **
+
+	Propriedade relacionada ao tempo máximo que o inimigo pode andar numa mesma direção entre várias caminhadas diferentes. Essa propriedade serve para o inimigo não ir muito longe numa só direção.
 
 - variável: **followTime**, tipo: **float**
 

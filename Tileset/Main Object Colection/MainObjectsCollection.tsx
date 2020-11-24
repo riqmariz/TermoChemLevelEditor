@@ -8,10 +8,11 @@
    <property name="followTime" type="float" value="3"/>
    <property name="followXRange" type="float" value="5"/>
    <property name="idleTime" type="float" value="2"/>
+   <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
    <property name="walkSpeed" type="float" value="1.2"/>
    <property name="walkTime" type="float" value="2"/>
   </properties>
-  <image width="380" height="404" source="enemyBasic.png"/>
+  <image width="201" height="191" source="enemyBasic.png"/>
  </tile>
  <tile id="2" type="finishPlace">
   <image width="392" height="653" source="finishPlace.png"/>
@@ -190,7 +191,7 @@
    <property name="walkSpeed" type="float" value="1.2"/>
    <property name="walkTime" type="float" value="2"/>
   </properties>
-  <image width="398" height="400" source="fly.png"/>
+  <image width="250" height="238" source="fly.png"/>
  </tile>
  <tile id="55" type="flyFollow">
   <properties>
@@ -202,6 +203,6 @@
    <property name="walkSpeed" type="float" value="1.2"/>
    <property name="walkTime" type="float" value="2"/>
   </properties>
-  <image width="398" height="400" source="flyFollow.png"/>
+  <image width="250" height="238" source="flyFollow.png"/>
  </tile>
 </tileset>
