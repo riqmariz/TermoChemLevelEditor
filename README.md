@@ -5,6 +5,8 @@ Este repositório é um local para subir os arquivos de level do jogo ThermoChem
 <br/>
 
 # Novidades **
+- Novos Objetos adicionados ao MainObjectsCollection: Cano de Entrada do Pantano, Cano de Saída do Gelo de Level Completo.
+- Tileset de cipó modificado. Adicionado um tile referente ao topo do cipó (esse topo do cipó deve ser utilizado IDEALMENTE como enfeite)
 - Novas sprites para inimigos (fly, flyNotFollow, enemyBasic) **
 - Nova propriedade customizável para o tipo enemyBasic (olhar documentação) **
 
@@ -142,7 +144,7 @@ Depois de seguir esses passos, você pode subir o arquivo na Pasta /Levels/ do r
 <br/>
 <br/>
 
-## • Objetos (.tsx da camda de Objetos) *
+## • Objetos (.tsx da camda de Objetos) **
 <br/>
 
 Cada objeto disponível para ser utilizado na camada de objetos, tem um significado e um tipo associado. Como por exemplo, na imagem abaixo, dá para identificar o Player, pelo type: player, como na imagem, circulado em vermelho.
@@ -254,6 +256,14 @@ obs: É importante mencionar, que no momento não é suportado pelo jogo, escala
 - **Cano de Gelo (type: coldPlace)**
 
 	Objeto similar a fogueira ou fornalha, porém, funciona inversamente. Esse local absorve calor, então o jogador liberará calor para o objeto. 
+
+- **Cano de Saída do Gelo de Level Completo (type: levelCompletedPipeIce)** **
+
+	Objeto que ao jogador entrar dentro do cano, o level é completado. Esse objeto foi feito para ser usado no último level de gelo, como se fosse uma transição para o level do pantano, mas funciona igual para outros levels. 
+
+- **Cano de Entrada do Pantano (type: levelBeginPipePantano)** **
+
+	Objeto similar ao cano de saída, porém é apenas "visual", apesar de ter colisão, não há nenhuma interação com o jogador, serve apenas de enfeite. Foi feito para ser usado no primeiro nível do pantano, como se fosse a entrada dos estágios do pantano.
 
 <br/>
 <br/>
