@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="34" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="897" tilecount="36" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <properties>
@@ -204,5 +204,11 @@
    <property name="walkTime" type="float" value="2"/>
   </properties>
   <image width="250" height="238" source="flyFollow.png"/>
+ </tile>
+ <tile id="56" type="levelBeginPipePantano">
+  <image width="800" height="728" source="levelBeginPipePantano.png"/>
+ </tile>
+ <tile id="57" type="levelCompletedPipeIce">
+  <image width="800" height="728" source="levelCompletedPipeIce.png"/>
  </tile>
 </tileset>
