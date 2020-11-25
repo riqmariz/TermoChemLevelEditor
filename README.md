@@ -98,7 +98,7 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 	
 	Camada por onde há as colisões com Tiles. Camada para colocar paredes e chão. Qualquer Tile colocado nessa camada, será interpretado como um tile com colisão, ou seja, se o player tentar passar, irá colidir. Impórtante não colocar objetos nessa camada, apenas TILES.
 
-7. **Camada de Tile: Vine Tile Layer****
+7. **Camada de Tile: Vine Tile Layer***
 
 	 É uma camada para colocar os cipós, no qual o jogador irá se pendurar se pular em cima. É importante utilizar o tileset apropriado, tileset de cipó.
 
@@ -116,7 +116,7 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 	
 	Camada para colocar um background, porém não é o último background. Ainda haverá um background atrás dessa camada.
 
-11. **Camada de Objetos: Over Background Tile Layer**
+11. **Camada de Objetos: Over Background Tile Layer** **
 	
 	Camada para colocar um tile de background, porém não é o último background. Ainda haverá um background atrás dessa camada.
 
