@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="250" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="16" nextobjectid="50">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="250" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="16" nextobjectid="53">
  <editorsettings>
-  <export target="Level_04..tmx" format="tmx"/>
+  <export target="Level_04.xml" format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" source="../Tileset/Backgrounds/backgrounds.tsx"/>
  <tileset firstgid="7" source="../Tileset/TilesetPantano/pantanoTileset.tsx"/>
@@ -19,16 +19,7 @@
   <object id="10" type="backgroundPantano" gid="3" x="-5539" y="6112" width="5638" height="3545"/>
  </objectgroup>
  <objectgroup id="5" name="Over Background Objects Layer"/>
- <objectgroup id="6" name="Under Objects Layer">
-  <object id="46" type="coldPlace" gid="75" x="2683.64" y="4798.94" width="837" height="437">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="reloadWhenPlayerHasXofEnthalpy" type="float" value="50"/>
-    <property name="totalNegEnthalpy" type="float" value="50"/>
-    <property name="useReloadSafeEnthalpy" type="bool" value="false"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="6" name="Under Objects Layer"/>
  <layer id="7" name="Under Tile Layer" width="250" height="32">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -248,8 +239,8 @@
   </object>
   <object id="42" type="oneWayPlataformPantano" gid="60" x="5348" y="3247" width="573" height="96"/>
   <object id="47" type="espinhosNotSolid" gid="68" x="1719" y="4775" width="159" height="411"/>
-  <object id="48" type="espinhosNotSolid" gid="68" x="2292" y="4775" width="159" height="411"/>
-  <object id="49" type="jumpFlower" gid="67" x="2101" y="4011" width="181" height="196"/>
+  <object id="49" type="jumpFlower" gid="67" x="2101" y="4775" width="181" height="196"/>
+  <object id="51" type="geiserMetano" gid="66" x="2865" y="4775" width="191" height="382"/>
  </objectgroup>
  <layer id="14" name="Over Tile Layer" width="250" height="32">
   <data encoding="csv">
