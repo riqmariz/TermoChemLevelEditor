@@ -1,12 +1,17 @@
-# TermoChemLevelEditor **v0.3.2**
+# TermoChemLevelEditor **v0.3.3**
 
 Este repositório é um local para subir os arquivos de level do jogo ThermoChem para poder testá-los e editá-los. Fique atento as versões da documentação
 - \* : siginifica que foi modificado recentemente, porém quanto mais asterisco, mais novo é. E aos poucos, modificações que não estão mais tão novas, perdem seu asterisco, até ficar sem asterisco.
 <br/>
 
 # Novidades **
-- Novos Objetos adicionados ao MainObjectsCollection: Cano de Entrada do Pantano, Cano de Saída do Gelo de Level Completo.
-- Tileset de cipó modificado. Adicionado um tile referente ao topo do cipó (esse topo do cipó deve ser utilizado IDEALMENTE como enfeite)
+- Geiser de Metano e jumpFlower sprite update **
+- Nova camada: Over Background Tile Layer e Over background tileset ice adicionado **
+- Novos backgrounds adicionados **
+- Bugfix Over Objects Layer **
+- Bugfix nos tilesets em relação ao espaço em vazio dentro de alguns tiles **
+- Novos Objetos adicionados ao MainObjectsCollection: Cano de Entrada do Pantano, Cano de Saída do Gelo de Level Completo. **
+- Tileset de cipó modificado. Adicionado um tile referente ao topo do cipó (esse topo do cipó deve ser utilizado IDEALMENTE como enfeite) **
 - Novas sprites para inimigos (fly, flyNotFollow, enemyBasic) **
 - Nova propriedade customizável para o tipo enemyBasic (olhar documentação) **
 
@@ -55,11 +60,12 @@ Verifique se as camadas estão de acordo com os seguintes nomes(respeitando letr
 4. Main Hole Tile Layer
 5. Main Sliding Tile Layer
 6. Main Tile Layer
-7. Vine Tile Layer **
+7. Vine Tile Layer *
 8. Under Tile Layer
 9. Under Objects Layer
 10. Over Background Objects Layer
-11. Background Objects Layer
+11. Over Background Tile Layer **
+12. Background Objects Layer
 
 Se estiver correto, você não terá nenhum problema com relação a definição das camadas.
 
@@ -109,6 +115,10 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 10. **Camada de Objetos: Over Background Objects Layer**
 	
 	Camada para colocar um background, porém não é o último background. Ainda haverá um background atrás dessa camada.
+
+11. **Camada de Objetos: Over Background Tile Layer**
+	
+	Camada para colocar um tile de background, porém não é o último background. Ainda haverá um background atrás dessa camada.
 
 11. **Camada de Objetos: Background Objects Layer**
 
