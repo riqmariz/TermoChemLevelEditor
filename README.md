@@ -117,7 +117,7 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 	
 	Camada para colocar um background, porém não é o último background. Ainda haverá um background atrás dessa camada.
 
-11. **Camada de Objetos: Over Background Tile Layer**
+11. **Camada de Objetos: Over Background Tile Layer** *
 	
 	Camada para colocar um tile de background, porém não é o último background. Ainda haverá um background atrás dessa camada.
 
