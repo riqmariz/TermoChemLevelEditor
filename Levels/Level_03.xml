@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="550" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="1407">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="550" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="1408">
  <editorsettings>
   <export target="Level_03.xml" format="tmx"/>
  </editorsettings>
@@ -79,7 +79,7 @@
   <object id="1398" type="backgroundTerra" gid="80" x="4202" y="1719" width="5535" height="4202"/>
   <object id="1399" type="backgroundTerra" gid="80" x="191" y="1719" width="5535" height="4202"/>
   <object id="1400" type="backgroundTerra" gid="80" x="-3629" y="1719" width="5535" height="4202"/>
-  <object id="1403" type="backgroundTerra" gid="80" x="99320" y="1528" width="5535" height="4202"/>
+  <object id="1403" type="backgroundTerra" gid="80" x="99129" y="1528" width="5535" height="4202"/>
  </objectgroup>
  <layer id="12" name="Over Background Tile Layer" width="550" height="30">
   <data encoding="csv">
@@ -1401,7 +1401,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="1406" type="levelCompletedPipeIce" gid="145" x="98707.6" y="1910" width="800" height="728"/>
+  <object id="1406" type="levelCompletedPipeIce" gid="145" x="98711" y="1905" width="800" height="728"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="550" height="30">
   <data encoding="csv">

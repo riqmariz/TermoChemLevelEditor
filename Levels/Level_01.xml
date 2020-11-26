@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="638">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="639">
  <editorsettings>
   <export target="Level_01.xml" format="tmx"/>
  </editorsettings>
@@ -65,6 +65,7 @@
  </layer>
  <objectgroup id="8" name="Over Background Objects Layer">
   <object id="380" type="luzAcesa" gid="73" x="2289" y="4200" width="870" height="1076"/>
+  <object id="638" type="levelCompletedPipeIce" gid="145" x="44885" y="4202" width="800" height="728"/>
  </objectgroup>
  <objectgroup id="5" name="Under Objects Layer">
   <object id="364" type="fonteEsq" gid="72" x="6532.76" y="3246.03" width="258" height="545"/>
@@ -523,7 +524,6 @@
   <object id="613" type="stalactite" gid="95" x="43009.7" y="3406.33" width="119" height="198"/>
   <object id="627" type="collectableHP" gid="128" x="31497.7" y="2837" width="227" height="146"/>
   <object id="628" type="collectableHP" gid="128" x="31497.7" y="2837" width="227" height="146"/>
-  <object id="637" type="levelCompletedPipeIce" gid="145" x="44885" y="4202" width="800" height="728"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="250" height="30">
   <data encoding="csv">
