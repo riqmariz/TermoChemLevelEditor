@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="640">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="250" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="642">
  <editorsettings>
   <export target="Level_01.xml" format="tmx"/>
  </editorsettings>
@@ -523,7 +523,7 @@
   <object id="613" type="stalactite" gid="95" x="43009.7" y="3406.33" width="119" height="198"/>
   <object id="627" type="collectableHP" gid="128" x="31497.7" y="2837" width="227" height="146"/>
   <object id="628" type="collectableHP" gid="128" x="31497.7" y="2837" width="227" height="146"/>
-  <object id="639" type="levelBeginPipeIce" gid="146" x="1337" y="4202" width="800" height="728"/>
+  <object id="641" type="levelBeginPipeIce" gid="146" x="1337" y="4202" width="800" height="728"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="250" height="30">
   <data encoding="csv">
