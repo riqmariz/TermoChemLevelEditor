@@ -1,19 +1,20 @@
-# TermoChemLevelEditor **v0.3.3**
+# TermoChemLevelEditor **v0.3.5**
 
 Este repositório é um local para subir os arquivos de level do jogo ThermoChem para poder testá-los e editá-los. Fique atento as versões da documentação
 - \* : siginifica que foi modificado recentemente, porém quanto mais asterisco, mais novo é. E aos poucos, modificações que não estão mais tão novas, perdem seu asterisco, até ficar sem asterisco.
 <br/>
 
 # Novidades **
-- Geiser de Metano e jumpFlower sprite update **
-- Nova camada: Over Background Tile Layer e Over background tileset ice adicionado **
-- Novos backgrounds adicionados **
-- Bugfix Over Objects Layer **
-- Bugfix nos tilesets em relação ao espaço em vazio dentro de alguns tiles **
-- Novos Objetos adicionados ao MainObjectsCollection: Cano de Entrada do Pantano, Cano de Saída do Gelo de Level Completo. **
-- Tileset de cipó modificado. Adicionado um tile referente ao topo do cipó (esse topo do cipó deve ser utilizado IDEALMENTE como enfeite) **
-- Novas sprites para inimigos (fly, flyNotFollow, enemyBasic) **
-- Nova propriedade customizável para o tipo enemyBasic (olhar documentação) **
+- Novos MainObjetcs: levelBeginPipeIce,levelBeginTree,levelCompletedTree **
+- Geiser de Metano e jumpFlower sprite update *
+- Nova camada: Over Background Tile Layer e Over background tileset ice adicionado *
+- Novos backgrounds adicionados *
+- Bugfix Over Objects Layer *
+- Bugfix nos tilesets em relação ao espaço em vazio dentro de alguns tiles *
+- Novos Objetos adicionados ao MainObjectsCollection: Cano de Entrada do Pantano, Cano de Saída do Gelo de Level Completo. *
+- Tileset de cipó modificado. Adicionado um tile referente ao topo do cipó (esse topo do cipó deve ser utilizado IDEALMENTE como enfeite) *
+- Novas sprites para inimigos (fly, flyNotFollow, enemyBasic) *
+- Nova propriedade customizável para o tipo enemyBasic (olhar documentação) *
 
 
 <br/>
@@ -46,7 +47,7 @@ Relacionado a v0.3.1:
 <br/>
 <br/>
 
-## • Camadas **
+## • Camadas *
 
 Ao criar/editar um mapa, verifique as camadas que ficam na superior direita localização como na imagem:
 
@@ -60,11 +61,11 @@ Verifique se as camadas estão de acordo com os seguintes nomes(respeitando letr
 4. Main Hole Tile Layer
 5. Main Sliding Tile Layer
 6. Main Tile Layer
-7. Vine Tile Layer *
+7. Vine Tile Layer 
 8. Under Tile Layer
 9. Under Objects Layer
 10. Over Background Objects Layer
-11. Over Background Tile Layer **
+11. Over Background Tile Layer *
 12. Background Objects Layer
 
 Se estiver correto, você não terá nenhum problema com relação a definição das camadas.
@@ -98,7 +99,7 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 	
 	Camada por onde há as colisões com Tiles. Camada para colocar paredes e chão. Qualquer Tile colocado nessa camada, será interpretado como um tile com colisão, ou seja, se o player tentar passar, irá colidir. Impórtante não colocar objetos nessa camada, apenas TILES.
 
-7. **Camada de Tile: Vine Tile Layer****
+7. **Camada de Tile: Vine Tile Layer**
 
 	 É uma camada para colocar os cipós, no qual o jogador irá se pendurar se pular em cima. É importante utilizar o tileset apropriado, tileset de cipó.
 
@@ -267,13 +268,25 @@ obs: É importante mencionar, que no momento não é suportado pelo jogo, escala
 
 	Objeto similar a fogueira ou fornalha, porém, funciona inversamente. Esse local absorve calor, então o jogador liberará calor para o objeto. 
 
-- **Cano de Saída do Gelo de Level Completo (type: levelCompletedPipeIce)** **
+- **Cano de Saída do Gelo de Level Completo (type: levelCompletedPipeIce)** *
 
 	Objeto que ao jogador entrar dentro do cano, o level é completado. Esse objeto foi feito para ser usado no último level de gelo, como se fosse uma transição para o level do pantano, mas funciona igual para outros levels. 
 
-- **Cano de Entrada do Pantano (type: levelBeginPipePantano)** **
+- **Cano de Entrada do Pantano (type: levelBeginPipePantano)** *
 
 	Objeto similar ao cano de saída, porém é apenas "visual", apesar de ter colisão, não há nenhuma interação com o jogador, serve apenas de enfeite. Foi feito para ser usado no primeiro nível do pantano, como se fosse a entrada dos estágios do pantano.
+
+- **Cano de Entrada do Gelo (type: levelBeginPipeIce)** **
+
+	Objeto similar ao Cano de Entrada do Pantano, é apenas "visual", apesar de ter colisão, não há nenhuma interação com o jogador, serve apenas de enfeite.
+
+- **Árvore de Entrada do Pantano (type: levelBeginTree)** **
+
+	Objeto similar ao Cano de Entrada do Pantano, é apenas "visual", apesar de ter colisão, não há nenhuma interação com o jogador, serve apenas de enfeite.
+
+- **Árvore de Saída de Level Completo (type: levelCompletedTree)** **
+
+	Objeto que ao jogador entrar dentro da arvore, o level é completado.
 
 <br/>
 <br/>
