@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="350" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="17" nextobjectid="859">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="350" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="17" nextobjectid="1174">
  <editorsettings>
   <export target="Level_04.xml" format="tmx"/>
  </editorsettings>
@@ -222,6 +222,21 @@
   <object id="826" type="arvoreFundo4" gid="94" x="10505" y="2674" width="428" height="2224"/>
   <object id="831" type="arvoreFundo4" gid="94" x="8595" y="4966" width="428" height="2224"/>
   <object id="832" type="arvoreFundo4" gid="94" x="8595" y="2865" width="428" height="2224"/>
+  <object id="882" type="arvoreFundo2" gid="92" x="6876" y="5921" width="241" height="2224"/>
+  <object id="883" type="arvoreFundo2" gid="92" x="6876" y="4966" width="241" height="2224"/>
+  <object id="884" type="arvoreFundo2" gid="92" x="8213" y="5348" width="241" height="2224"/>
+  <object id="885" type="arvoreFundo2" gid="92" x="8213" y="4202" width="241" height="2224"/>
+  <object id="889" type="arvoreFundo4" gid="94" x="12606" y="5921" width="428" height="2224"/>
+  <object id="890" type="arvoreFundo4" gid="94" x="12606" y="4393" width="428" height="2224"/>
+  <object id="891" type="arvoreFundo5" gid="95" x="10887" y="4202" width="180" height="2258"/>
+  <object id="892" type="arvoreFundo5" gid="95" x="14325" y="5921" width="180" height="2258"/>
+  <object id="893" type="arvoreFundo5" gid="95" x="14325" y="4202" width="180" height="2258"/>
+  <object id="916" type="arvoreFundo3" gid="93" x="32279" y="2674" width="180" height="2258"/>
+  <object id="917" type="arvoreFundo4" gid="94" x="24257" y="2101" width="428" height="2224"/>
+  <object id="918" type="copaFundo" gid="104" x="16568" y="1890" width="608" height="1188"/>
+  <object id="925" type="copaFundo" gid="104" x="8022" y="2292" width="608" height="1188"/>
+  <object id="953" type="arvoreFundo2" gid="92" x="4393" y="5921" width="241" height="2224"/>
+  <object id="954" type="arvoreFundo2" gid="92" x="4393" y="4202" width="241" height="2224"/>
  </objectgroup>
  <objectgroup id="6" name="Under Objects Layer">
   <object id="115" type="algas1Esq" gid="88" x="3247" y="5539" width="174" height="381"/>
@@ -572,6 +587,191 @@
   <object id="819" type="copaFundo" gid="104" x="25060" y="862" width="608" height="1188"/>
   <object id="820" type="copaFundo" gid="104" x="23236" y="842" width="608" height="1188"/>
   <object id="821" type="copaFundo" gid="104" x="22652" y="622" width="608" height="1188"/>
+  <object id="894" type="arvoreTerceiroPlano3" gid="99" x="13943" y="5921" width="448" height="2200"/>
+  <object id="895" type="arvoreTerceiroPlano3" gid="99" x="13943" y="4393" width="448" height="2200"/>
+  <object id="896" type="arvoreTerceiroPlano3" gid="99" x="13943" y="4393" width="448" height="2200"/>
+  <object id="897" type="arvoreTerceiroPlano2" gid="98" x="15280" y="5921" width="486" height="2252"/>
+  <object id="898" type="arvoreTerceiroPlano2" gid="98" x="15280" y="4011" width="486" height="2252"/>
+  <object id="899" type="arvoreTerceiroPlano2" gid="98" x="16044" y="5921" width="486" height="2252"/>
+  <object id="900" type="arvoreTerceiroPlano2" gid="98" x="16044" y="3820" width="486" height="2252"/>
+  <object id="901" type="arvoreTerceiroPlano2" gid="98" x="21201" y="2674" width="486" height="2252"/>
+  <object id="902" type="arvoreTerceiroPlano2" gid="98" x="21201" y="1910" width="486" height="2252"/>
+  <object id="903" type="arvoreTerceiroPlano2" gid="98" x="22920" y="4011" width="486" height="2252"/>
+  <object id="904" type="arvoreTerceiroPlano2" gid="98" x="22920" y="1910" width="486" height="2252"/>
+  <object id="905" type="arvoreFundo4" gid="94" x="24257" y="4011" width="428" height="2224"/>
+  <object id="907" type="arvoreFundo3" gid="93" x="29414" y="4202" width="180" height="2258"/>
+  <object id="908" type="arvoreFundo3" gid="93" x="29414" y="2865" width="180" height="2258"/>
+  <object id="909" type="arvoreFundo3" gid="93" x="32279" y="4011" width="180" height="2258"/>
+  <object id="911" type="arvoreFundo3" gid="93" x="31324" y="4202" width="180" height="2258"/>
+  <object id="912" type="arvoreFundo3" gid="93" x="31324" y="2865" width="180" height="2258"/>
+  <object id="913" type="arvoreFundo3" gid="93" x="38391" y="5348" width="180" height="2258"/>
+  <object id="914" type="arvoreFundo3" gid="93" x="38391" y="4202" width="180" height="2258"/>
+  <object id="915" type="copaFundo" gid="104" x="32016" y="1722" width="608" height="1188"/>
+  <object id="919" type="copaFundo" gid="104" x="16584" y="1914" width="608" height="1188"/>
+  <object id="920" type="copaFundo" gid="104" x="24144" y="882" width="608" height="1188"/>
+  <object id="921" type="copaFundo" gid="104" x="12456" y="3258" width="608" height="1188"/>
+  <object id="939" type="copaFundo" gid="104" x="14216" y="2354" width="608" height="1188"/>
+  <object id="940" type="copaFundo" gid="104" x="12552" y="2378" width="608" height="1188"/>
+  <object id="941" type="copaFundo" gid="104" x="11464" y="2306" width="608" height="1188"/>
+  <object id="942" type="copaFundo" gid="104" x="10864" y="1610" width="608" height="1188"/>
+  <object id="943" type="copaFundo" gid="104" x="8768" y="1970" width="608" height="1188"/>
+  <object id="944" type="copaFundo" gid="104" x="8400" y="2058" width="608" height="1188"/>
+  <object id="945" type="copaFundo" gid="104" x="6936" y="2570" width="608" height="1188"/>
+  <object id="946" type="copaFundo" gid="104" x="7576" y="2626" width="608" height="1188"/>
+  <object id="947" type="copaFundo" gid="104" x="8032" y="2562" width="608" height="1188"/>
+  <object id="948" type="copaFundo" gid="104" x="8432" y="2634" width="608" height="1188"/>
+  <object id="949" type="copaFundo" gid="104" x="5608" y="2914" width="608" height="1188"/>
+  <object id="950" type="copaFundo" gid="104" x="4976" y="2818" width="608" height="1188"/>
+  <object id="951" type="copaFundo" gid="104" x="3920" y="2786" width="608" height="1188"/>
+  <object id="952" type="copaFundo" gid="104" x="4536" y="2794" width="608" height="1188"/>
+  <object id="955" type="copaFundo" gid="104" x="17904" y="1578" width="608" height="1188"/>
+  <object id="956" type="copaFundo" gid="104" x="18576" y="1474" width="608" height="1188"/>
+  <object id="957" type="copaFundo" gid="104" x="19128" y="1386" width="608" height="1188"/>
+  <object id="958" type="copaFundo" gid="104" x="19608" y="1394" width="608" height="1188"/>
+  <object id="959" type="copaFundo" gid="104" x="20544" y="1010" width="608" height="1188"/>
+  <object id="960" type="copaFundo" gid="104" x="20832" y="874" width="608" height="1188"/>
+  <object id="961" type="copaFundo" gid="104" x="21320" y="874" width="608" height="1188"/>
+  <object id="962" type="copaFundo" gid="104" x="21896" y="946" width="608" height="1188"/>
+  <object id="963" type="copaFundo" gid="104" x="23872" y="682" width="608" height="1188"/>
+  <object id="964" type="copaFundo" gid="104" x="24680" y="634" width="608" height="1188"/>
+  <object id="965" type="copaFundo" gid="104" x="24752" y="890" width="608" height="1188"/>
+  <object id="966" type="copaFundo" gid="104" x="22424" y="826" width="608" height="1188"/>
+  <object id="967" type="copaFundo" gid="104" x="26640" y="1026" width="608" height="1188"/>
+  <object id="968" type="copaFundo" gid="104" x="27320" y="794" width="608" height="1188"/>
+  <object id="969" type="copaFundo" gid="104" x="27152" y="834" width="608" height="1188"/>
+  <object id="970" type="copaFundo" gid="104" x="28336" y="962" width="608" height="1188"/>
+  <object id="971" type="copaFundo" gid="104" x="29616" y="986" width="608" height="1188"/>
+  <object id="972" type="copaFundo" gid="104" x="29416" y="1354" width="608" height="1188"/>
+  <object id="973" type="copaFundo" gid="104" x="30544" y="1474" width="608" height="1188"/>
+  <object id="974" type="copaFundo" gid="104" x="30336" y="1490" width="608" height="1188"/>
+  <object id="975" type="copaFundo" gid="104" x="30656" y="1738" width="608" height="1188"/>
+  <object id="976" type="copaFundo" gid="104" x="31344" y="1666" width="608" height="1188"/>
+  <object id="977" type="copaFundo" gid="104" x="31264" y="1050" width="608" height="1188"/>
+  <object id="978" type="copaFundo" gid="104" x="30768" y="930" width="608" height="1188"/>
+  <object id="979" type="copaFundo" gid="104" x="32024" y="714" width="608" height="1188"/>
+  <object id="980" type="copaFundo" gid="104" x="32480" y="1482" width="608" height="1188"/>
+  <object id="981" type="copaFundo" gid="104" x="33200" y="1634" width="608" height="1188"/>
+  <object id="982" type="copaFundo" gid="104" x="32512" y="1834" width="608" height="1188"/>
+  <object id="983" type="copaFundo" gid="104" x="32472" y="754" width="608" height="1188"/>
+  <object id="984" type="copaFundo" gid="104" x="33592" y="922" width="608" height="1188"/>
+  <object id="985" type="copaFundo" gid="104" x="33072" y="1882" width="608" height="1188"/>
+  <object id="986" type="copaFundo" gid="104" x="33384" y="850" width="608" height="1188"/>
+  <object id="987" type="copaFundo" gid="104" x="34632" y="1642" width="608" height="1188"/>
+  <object id="988" type="copaFundo" gid="104" x="34752" y="818" width="608" height="1188"/>
+  <object id="989" type="copaFundo" gid="104" x="35600" y="1138" width="608" height="1188"/>
+  <object id="990" type="copaFundo" gid="104" x="35304" y="866" width="608" height="1188"/>
+  <object id="991" type="copaFundo" gid="104" x="35712" y="2122" width="608" height="1188"/>
+  <object id="992" type="copaFundo" gid="104" x="36088" y="1946" width="608" height="1188"/>
+  <object id="993" type="copaFundo" gid="104" x="36504" y="1610" width="608" height="1188"/>
+  <object id="994" type="copaFundo" gid="104" x="36424" y="978" width="608" height="1188"/>
+  <object id="996" type="copaFundo" gid="104" x="37192" y="1994" width="608" height="1188"/>
+  <object id="997" type="copaFundo" gid="104" x="36984" y="2322" width="608" height="1188"/>
+  <object id="998" type="copaFundo" gid="104" x="39368" y="2290" width="608" height="1188"/>
+  <object id="999" type="copaFundo" gid="104" x="39720" y="2130" width="608" height="1188"/>
+  <object id="1000" type="copaFundo" gid="104" x="39376" y="2026" width="608" height="1188"/>
+  <object id="1001" type="copaFundo" gid="104" x="39040" y="2002" width="608" height="1188"/>
+  <object id="1002" type="copaFundo" gid="104" x="39968" y="1754" width="608" height="1188"/>
+  <object id="1003" type="copaFundo" gid="104" x="38936" y="858" width="608" height="1188"/>
+  <object id="1004" type="copaFundo" gid="104" x="37968" y="994" width="608" height="1188"/>
+  <object id="1005" type="copaFundo" gid="104" x="37664" y="898" width="608" height="1188"/>
+  <object id="1006" type="copaFundo" gid="104" x="38296" y="786" width="608" height="1188"/>
+  <object id="1007" type="copaFundo" gid="104" x="38504" y="858" width="608" height="1188"/>
+  <object id="1008" type="copaFundo" gid="104" x="39016" y="1394" width="608" height="1188"/>
+  <object id="1017" type="copaFundo" gid="104" x="41976" y="1698" width="608" height="1188"/>
+  <object id="1018" type="copaFundo" gid="104" x="41488" y="1626" width="608" height="1188"/>
+  <object id="1019" type="copaFundo" gid="104" x="42720" y="1546" width="608" height="1188"/>
+  <object id="1020" type="copaFundo" gid="104" x="43216" y="1498" width="608" height="1188"/>
+  <object id="1021" type="copaFundo" gid="104" x="43760" y="1042" width="608" height="1188"/>
+  <object id="1022" type="copaFundo" gid="104" x="44056" y="1090" width="608" height="1188"/>
+  <object id="1023" type="copaFundo" gid="104" x="44632" y="1018" width="608" height="1188"/>
+  <object id="1024" type="copaFundo" gid="104" x="45040" y="1234" width="608" height="1188"/>
+  <object id="1025" type="copaFundo" gid="104" x="44992" y="1762" width="608" height="1188"/>
+  <object id="1026" type="copaFundo" gid="104" x="45240" y="1810" width="608" height="1188"/>
+  <object id="1027" type="copaFundo" gid="104" x="45776" y="1618" width="608" height="1188"/>
+  <object id="1028" type="copaFundo" gid="104" x="46048" y="1122" width="608" height="1188"/>
+  <object id="1029" type="copaFundo" gid="104" x="46368" y="1186" width="608" height="1188"/>
+  <object id="1040" type="copaFundo" gid="104" x="45776" y="906" width="608" height="1188"/>
+  <object id="1041" type="copaFundo" gid="104" x="47912" y="1994" width="608" height="1188"/>
+  <object id="1042" type="copaFundo" gid="104" x="47616" y="2066" width="608" height="1188"/>
+  <object id="1043" type="copaFundo" gid="104" x="48224" y="2402" width="608" height="1188"/>
+  <object id="1044" type="copaFundo" gid="104" x="48432" y="1978" width="608" height="1188"/>
+  <object id="1067" type="arvoreTerceiroPlano3" gid="99" x="25785" y="4011" width="448" height="2200"/>
+  <object id="1068" type="arvoreTerceiroPlano3" gid="99" x="25785" y="1910" width="448" height="2200"/>
+  <object id="1069" type="copaFundo" gid="104" x="24080" y="58" width="608" height="1188"/>
+  <object id="1070" type="copaFundo" gid="104" x="27400" y="138" width="608" height="1188"/>
+  <object id="1071" type="copaFundo" gid="104" x="27912" y="274" width="608" height="1188"/>
+  <object id="1072" type="copaFundo" gid="104" x="18800" y="754" width="608" height="1188"/>
+  <object id="1073" type="copaFundo" gid="104" x="20920" y="842" width="608" height="1188"/>
+  <object id="1074" type="copaFundo" gid="104" x="21296" y="1058" width="608" height="1188"/>
+  <object id="1075" type="copaFundo" gid="104" x="14688" y="2962" width="608" height="1188"/>
+  <object id="1076" type="copaFundo" gid="104" x="15432" y="2970" width="608" height="1188"/>
+  <object id="1077" type="copaFundo" gid="104" x="15104" y="3066" width="608" height="1188"/>
+  <object id="1078" type="copaFundo" gid="104" x="16400" y="2890" width="608" height="1188"/>
+  <object id="1079" type="copaFundo" gid="104" x="16800" y="2474" width="608" height="1188"/>
+  <object id="1080" type="copaFundo" gid="104" x="17464" y="2026" width="608" height="1188"/>
+  <object id="1082" type="copaFundo" gid="104" x="17384" y="2346" width="608" height="1188"/>
+  <object id="1083" type="copaFundo" gid="104" x="18304" y="1450" width="608" height="1188"/>
+  <object id="1085" type="copaFundo" gid="104" x="7288" y="2754" width="608" height="1188"/>
+  <object id="1086" type="copaFundo" gid="104" x="8016" y="2962" width="608" height="1188"/>
+  <object id="1087" type="copaFundo" gid="104" x="8776" y="2658" width="608" height="1188"/>
+  <object id="1088" type="copaFundo" gid="104" x="9408" y="2442" width="608" height="1188"/>
+  <object id="1089" type="copaFundo" gid="104" x="10112" y="2378" width="608" height="1188"/>
+  <object id="1115" type="copaFundo" gid="104" x="12912" y="2914" width="608" height="1188"/>
+  <object id="1116" type="copaFundo" gid="104" x="13456" y="2714" width="608" height="1188"/>
+  <object id="1117" type="copaFundo" gid="104" x="13872" y="2794" width="608" height="1188"/>
+  <object id="1118" type="copaFundo" gid="104" x="14304" y="2834" width="608" height="1188"/>
+  <object id="1119" type="copaFundo" gid="104" x="14744" y="2954" width="608" height="1188"/>
+  <object id="1120" type="copaFundo" gid="104" x="16264" y="2898" width="608" height="1188"/>
+  <object id="1121" type="copaFundo" gid="104" x="15744" y="2914" width="608" height="1188"/>
+  <object id="1122" type="copaFundo" gid="104" x="17048" y="2602" width="608" height="1188"/>
+  <object id="1123" type="copaFundo" gid="104" x="17920" y="1818" width="608" height="1188"/>
+  <object id="1124" type="copaFundo" gid="104" x="18712" y="1842" width="608" height="1188"/>
+  <object id="1125" type="copaFundo" gid="104" x="35696" y="2290" width="608" height="1188"/>
+  <object id="1126" type="copaFundo" gid="104" x="39568" y="2490" width="608" height="1188"/>
+  <object id="1127" type="copaFundo" gid="104" x="44496" y="1786" width="608" height="1188"/>
+  <object id="1128" type="copaFundo" gid="104" x="44768" y="1970" width="608" height="1188"/>
+  <object id="1129" type="copaFundo" gid="104" x="46952" y="2754" width="608" height="1188"/>
+  <object id="1130" type="copaFundo" gid="104" x="49424" y="2490" width="608" height="1188"/>
+  <object id="1131" type="copaFundo" gid="104" x="50104" y="2570" width="608" height="1188"/>
+  <object id="1132" type="copaFundo" gid="104" x="51096" y="2490" width="608" height="1188"/>
+  <object id="1133" type="copaFundo" gid="104" x="51872" y="2314" width="608" height="1188"/>
+  <object id="1134" type="copaFundo" gid="104" x="51488" y="2434" width="608" height="1188"/>
+  <object id="1135" type="copaFundo" gid="104" x="53096" y="1946" width="608" height="1188"/>
+  <object id="1136" type="copaFundo" gid="104" x="52632" y="1754" width="608" height="1188"/>
+  <object id="1137" type="copaFundo" gid="104" x="54528" y="1474" width="608" height="1188"/>
+  <object id="1138" type="copaFundo" gid="104" x="55424" y="1482" width="608" height="1188"/>
+  <object id="1139" type="copaFundo" gid="104" x="55944" y="1442" width="608" height="1188"/>
+  <object id="1140" type="copaFundo" gid="104" x="56392" y="1426" width="608" height="1188"/>
+  <object id="1141" type="copaFundo" gid="104" x="57072" y="1250" width="608" height="1188"/>
+  <object id="1142" type="copaFundo" gid="104" x="57464" y="1258" width="608" height="1188"/>
+  <object id="1143" type="copaFundo" gid="104" x="53456" y="1562" width="608" height="1188"/>
+  <object id="1144" type="copaFundo" gid="104" x="58568" y="1434" width="608" height="1188"/>
+  <object id="1145" type="copaFundo" gid="104" x="58784" y="1602" width="608" height="1188"/>
+  <object id="1146" type="copaFundo" gid="104" x="49104" y="2634" width="608" height="1188"/>
+  <object id="1147" type="copaFundo" gid="104" x="48528" y="2658" width="608" height="1188"/>
+  <object id="1148" type="copaFundo" gid="104" x="21136" y="498" width="608" height="1188"/>
+  <object id="1150" type="copaFrente" gid="103" x="19700" y="1414" width="808" height="1612"/>
+  <object id="1151" type="copaFundo" gid="104" x="19960" y="1282" width="608" height="1188"/>
+  <object id="1152" type="copaFundo" gid="104" x="20416" y="1242" width="608" height="1188"/>
+  <object id="1153" type="copaFundo" gid="104" x="20864" y="1186" width="608" height="1188"/>
+  <object id="1154" type="copaFundo" gid="104" x="15160" y="1866" width="608" height="1188"/>
+  <object id="1155" type="copaFundo" gid="104" x="15136" y="1794" width="608" height="1188"/>
+  <object id="1156" type="copaFundo" gid="104" x="12272" y="1130" width="608" height="1188"/>
+  <object id="1157" type="copaFundo" gid="104" x="11688" y="1122" width="608" height="1188"/>
+  <object id="1158" type="copaFundo" gid="104" x="12432" y="1002" width="608" height="1188"/>
+  <object id="1159" type="copaFundo" gid="104" x="12632" y="1050" width="608" height="1188"/>
+  <object id="1160" type="copaFundo" gid="104" x="9704" y="1050" width="608" height="1188"/>
+  <object id="1161" type="copaFundo" gid="104" x="9496" y="1042" width="608" height="1188"/>
+  <object id="1162" type="copaFundo" gid="104" x="10304" y="1010" width="608" height="1188"/>
+  <object id="1163" type="copaFundo" gid="104" x="36760" y="2346" width="608" height="1188"/>
+  <object id="1164" type="copaFundo" gid="104" x="48640" y="1202" width="608" height="1188"/>
+  <object id="1165" type="copaFundo" gid="104" x="49000" y="1130" width="608" height="1188"/>
+  <object id="1166" type="copaFundo" gid="104" x="48536" y="1042" width="608" height="1188"/>
+  <object id="1167" type="copaFundo" gid="104" x="49816" y="1082" width="608" height="1188"/>
+  <object id="1168" type="copaFundo" gid="104" x="50560" y="1090" width="608" height="1188"/>
+  <object id="1169" type="copaFundo" gid="104" x="51088" y="1050" width="608" height="1188"/>
+  <object id="1170" type="copaFundo" gid="104" x="52040" y="682" width="608" height="1188"/>
+  <object id="1171" type="copaFundo" gid="104" x="53320" y="706" width="608" height="1188"/>
  </objectgroup>
  <layer id="7" name="Under Tile Layer" width="350" height="32">
   <data encoding="csv">
@@ -1075,6 +1275,8 @@
   <object id="201" type="finishPlace" gid="27" x="57460" y="3247" width="392" height="653"/>
   <object id="531" type="gradeNotSolid" gid="44" x="2674" y="2865" width="251" height="569"/>
   <object id="533" type="portaoGelo" gid="43" x="2145" y="2869" width="145" height="629"/>
+  <object id="1172" type="oneWayPlataformPantano" gid="62" x="18101.9" y="2302.55" width="573" height="96"/>
+  <object id="1173" type="oneWayPlataformPantano" gid="62" x="19732.2" y="2384.36" width="573" height="96"/>
  </objectgroup>
  <layer id="14" name="Over Tile Layer" width="350" height="32">
   <data encoding="csv">
@@ -1192,20 +1394,86 @@
   <object id="840" type="copaPrimeiroPlano2" gid="106" x="9856" y="2299" width="304" height="997"/>
   <object id="841" type="copaPrimeiroPlano2" gid="106" x="11192" y="2539" width="304" height="997"/>
   <object id="842" type="copaPrimeiroPlano1" gid="105" x="10482" y="2377" width="765" height="1137"/>
-  <object id="843" type="copaPrimeiroPlano1" gid="105" x="14226" y="2481" width="765" height="1137"/>
-  <object id="844" type="copaPrimeiroPlano1" gid="105" x="14226" y="2481" width="765" height="1137"/>
-  <object id="845" type="copaPrimeiroPlano1" gid="105" x="12898" y="2609" width="765" height="1137"/>
-  <object id="846" type="copaPrimeiroPlano1" gid="105" x="21138" y="233" width="765" height="1137"/>
   <object id="847" type="copaPrimeiroPlano2" gid="106" x="22808" y="67" width="304" height="997"/>
   <object id="848" type="copaPrimeiroPlano2" gid="106" x="23008" y="67" width="304" height="997"/>
   <object id="849" type="copaPrimeiroPlano1" gid="105" x="25074" y="-327" width="765" height="1137"/>
-  <object id="851" type="copaPrimeiroPlano1" gid="105" x="29050" y="2233" width="765" height="1137"/>
-  <object id="852" type="copaPrimeiroPlano1" gid="105" x="30410" y="1825" width="765" height="1137"/>
-  <object id="853" type="copaPrimeiroPlano1" gid="105" x="30410" y="1825" width="765" height="1137"/>
-  <object id="854" type="copaPrimeiroPlano2" gid="106" x="30144" y="1635" width="304" height="997"/>
-  <object id="855" type="copaPrimeiroPlano2" gid="106" x="34208" y="2035" width="304" height="997"/>
-  <object id="856" type="copaPrimeiroPlano1" gid="105" x="32842" y="2161" width="765" height="1137"/>
-  <object id="857" type="copaPrimeiroPlano2" gid="106" x="32536" y="2075" width="304" height="997"/>
-  <object id="858" type="copaPrimeiroPlano1" gid="105" x="35002" y="2593" width="765" height="1137"/>
+  <object id="926" type="copaFrente" gid="103" x="15124" y="2830" width="808" height="1612"/>
+  <object id="927" type="copaFrente" gid="103" x="15884" y="2678" width="808" height="1612"/>
+  <object id="928" type="copaFrente" gid="103" x="13676" y="2550" width="808" height="1612"/>
+  <object id="929" type="copaFrente" gid="103" x="12004" y="3150" width="808" height="1612"/>
+  <object id="930" type="copaFrente" gid="103" x="22772" y="494" width="808" height="1612"/>
+  <object id="931" type="copaFrente" gid="103" x="34020" y="2566" width="808" height="1612"/>
+  <object id="932" type="copaFrente" gid="103" x="11356" y="1998" width="808" height="1612"/>
+  <object id="933" type="copaFrente" gid="103" x="12756" y="1734" width="808" height="1612"/>
+  <object id="934" type="copaFrente" gid="103" x="14396" y="1590" width="808" height="1612"/>
+  <object id="935" type="copaFrente" gid="103" x="15004" y="1518" width="808" height="1612"/>
+  <object id="936" type="copaFrente" gid="103" x="13916" y="1438" width="808" height="1612"/>
+  <object id="937" type="copaFrente" gid="103" x="16028" y="1630" width="808" height="1612"/>
+  <object id="938" type="copaFundo" gid="104" x="16192" y="1562" width="608" height="1188"/>
+  <object id="995" type="copaFrente" gid="103" x="36356" y="1854" width="808" height="1612"/>
+  <object id="1009" type="copaFrente" gid="103" x="38796" y="1646" width="808" height="1612"/>
+  <object id="1010" type="copaFrente" gid="103" x="37804" y="1414" width="808" height="1612"/>
+  <object id="1011" type="copaFrente" gid="103" x="38188" y="1502" width="808" height="1612"/>
+  <object id="1012" type="copaFrente" gid="103" x="36748" y="1430" width="808" height="1612"/>
+  <object id="1013" type="copaFrente" gid="103" x="36244" y="1486" width="808" height="1612"/>
+  <object id="1014" type="copaFrente" gid="103" x="41556" y="1302" width="808" height="1612"/>
+  <object id="1015" type="copaFrente" gid="103" x="41908" y="1382" width="808" height="1612"/>
+  <object id="1016" type="copaFrente" gid="103" x="42436" y="1382" width="808" height="1612"/>
+  <object id="1030" type="copaFrente" gid="103" x="45156" y="2150" width="808" height="1612"/>
+  <object id="1031" type="copaFrente" gid="103" x="44892" y="2134" width="808" height="1612"/>
+  <object id="1032" type="copaFrente" gid="103" x="45964" y="2142" width="808" height="1612"/>
+  <object id="1033" type="copaFrente" gid="103" x="46460" y="2150" width="808" height="1612"/>
+  <object id="1034" type="copaFrente" gid="103" x="47100" y="2246" width="808" height="1612"/>
+  <object id="1035" type="copaFundo" gid="104" x="46656" y="930" width="608" height="1188"/>
+  <object id="1045" type="copaFundo" gid="104" x="47912" y="2002" width="608" height="1188"/>
+  <object id="1046" type="copaFrente" gid="103" x="47836" y="2318" width="808" height="1612"/>
+  <object id="1047" type="copaFrente" gid="103" x="48284" y="2406" width="808" height="1612"/>
+  <object id="1048" type="copaFrente" gid="103" x="49292" y="2094" width="808" height="1612"/>
+  <object id="1049" type="copaFrente" gid="103" x="49860" y="2086" width="808" height="1612"/>
+  <object id="1050" type="copaFrente" gid="103" x="51092" y="1958" width="808" height="1612"/>
+  <object id="1051" type="copaFrente" gid="103" x="51724" y="1670" width="808" height="1612"/>
+  <object id="1052" type="copaFrente" gid="103" x="52476" y="1294" width="808" height="1612"/>
+  <object id="1053" type="copaFrente" gid="103" x="55012" y="998" width="808" height="1612"/>
+  <object id="1054" type="copaFrente" gid="103" x="57260" y="774" width="808" height="1612"/>
+  <object id="1055" type="copaFrente" gid="103" x="58476" y="966" width="808" height="1612"/>
+  <object id="1056" type="copaFrente" gid="103" x="57804" y="1518" width="808" height="1612"/>
+  <object id="1057" type="copaFrente" gid="103" x="43772" y="1318" width="808" height="1612"/>
+  <object id="1058" type="copaFrente" gid="103" x="35668" y="1774" width="808" height="1612"/>
+  <object id="1059" type="copaFrente" gid="103" x="34572" y="2158" width="808" height="1612"/>
+  <object id="1060" type="copaFrente" gid="103" x="31996" y="1198" width="808" height="1612"/>
+  <object id="1061" type="copaFrente" gid="103" x="30988" y="1278" width="808" height="1612"/>
+  <object id="1062" type="copaFrente" gid="103" x="29220" y="1302" width="808" height="1612"/>
+  <object id="1063" type="copaFrente" gid="103" x="28404" y="1230" width="808" height="1612"/>
+  <object id="1064" type="copaFrente" gid="103" x="25196" y="78" width="808" height="1612"/>
+  <object id="1065" type="copaFrente" gid="103" x="25820" y="118" width="808" height="1612"/>
+  <object id="1066" type="copaFrente" gid="103" x="26236" y="126" width="808" height="1612"/>
+  <object id="1081" type="copaFrente" gid="103" x="16596" y="2462" width="808" height="1612"/>
+  <object id="1084" type="copaFrente" gid="103" x="17236" y="2214" width="808" height="1612"/>
+  <object id="1090" type="copaFrente" gid="103" x="7164" y="2782" width="808" height="1612"/>
+  <object id="1091" type="copaFrente" gid="103" x="7748" y="2566" width="808" height="1612"/>
+  <object id="1092" type="copaFrente" gid="103" x="8468" y="2206" width="808" height="1612"/>
+  <object id="1093" type="copaFrente" gid="103" x="10420" y="1638" width="808" height="1612"/>
+  <object id="1094" type="copaFrente" gid="103" x="10932" y="1694" width="808" height="1612"/>
+  <object id="1095" type="copaFrente" gid="103" x="5764" y="2350" width="808" height="1612"/>
+  <object id="1096" type="copaFrente" gid="103" x="6764" y="2198" width="808" height="1612"/>
+  <object id="1097" type="copaFrente" gid="103" x="4188" y="2262" width="808" height="1612"/>
+  <object id="1098" type="copaFrente" gid="103" x="6196" y="2286" width="808" height="1612"/>
+  <object id="1099" type="copaFrente" gid="103" x="17812" y="1270" width="808" height="1612"/>
+  <object id="1100" type="copaFrente" gid="103" x="18756" y="1190" width="808" height="1612"/>
+  <object id="1101" type="copaFrente" gid="103" x="20612" y="646" width="808" height="1612"/>
+  <object id="1102" type="copaFrente" gid="103" x="21508" y="462" width="808" height="1612"/>
+  <object id="1103" type="copaFrente" gid="103" x="23980" y="118" width="808" height="1612"/>
+  <object id="1104" type="copaFrente" gid="103" x="27324" y="358" width="808" height="1612"/>
+  <object id="1105" type="copaFrente" gid="103" x="27436" y="590" width="808" height="1612"/>
+  <object id="1106" type="copaFrente" gid="103" x="27780" y="1014" width="808" height="1612"/>
+  <object id="1107" type="copaFrente" gid="103" x="27500" y="1270" width="808" height="1612"/>
+  <object id="1108" type="copaFrente" gid="103" x="32972" y="1590" width="808" height="1612"/>
+  <object id="1109" type="copaFrente" gid="103" x="39460" y="1654" width="808" height="1612"/>
+  <object id="1110" type="copaFrente" gid="103" x="39292" y="2270" width="808" height="1612"/>
+  <object id="1111" type="copaFrente" gid="103" x="37020" y="2214" width="808" height="1612"/>
+  <object id="1112" type="copaFrente" gid="103" x="14348" y="2670" width="808" height="1612"/>
+  <object id="1113" type="copaFrente" gid="103" x="12964" y="2630" width="808" height="1612"/>
+  <object id="1114" type="copaFrente" gid="103" x="12540" y="2454" width="808" height="1612"/>
+  <object id="1149" type="copaFrente" gid="103" x="21164" y="846" width="808" height="1612"/>
  </objectgroup>
 </map>
