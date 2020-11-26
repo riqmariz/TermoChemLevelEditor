@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="550" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="1406">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="550" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="1407">
  <editorsettings>
   <export target="Level_03.xml" format="tmx"/>
  </editorsettings>
@@ -1361,7 +1361,6 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="884" type="finishPlace" gid="90" x="98460" y="1911" width="392" height="653"/>
   <object id="885" type="stalactite" gid="95" x="93208" y="2865" width="119" height="198"/>
   <object id="886" type="stalactite" gid="95" x="93399" y="2865" width="119" height="198"/>
   <object id="887" type="stalactite" gid="95" x="93590" y="2865" width="119" height="198"/>
@@ -1402,6 +1401,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
+  <object id="1406" type="levelCompletedPipeIce" gid="145" x="98707.6" y="1910" width="800" height="728"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="550" height="30">
   <data encoding="csv">
