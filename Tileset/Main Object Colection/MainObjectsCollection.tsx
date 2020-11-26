@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="890" tileheight="950" tilecount="36" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="MainObjectsCollection" tilewidth="1607" tileheight="2472" tilecount="39" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" type="enemyBasic">
   <properties>
@@ -210,5 +210,14 @@
  </tile>
  <tile id="57" type="levelCompletedPipeIce">
   <image width="800" height="728" source="levelCompletedPipeIce.png"/>
+ </tile>
+ <tile id="58" type="levelBeginPipeIce">
+  <image width="800" height="728" source="levelBeginPipeIce.png"/>
+ </tile>
+ <tile id="59" type="levelBeginTree">
+  <image width="1607" height="2472" source="levelBeginTree.png"/>
+ </tile>
+ <tile id="60" type="levelCompletedTree">
+  <image width="1607" height="2472" source="levelCompletedTree.png"/>
  </tile>
 </tileset>
