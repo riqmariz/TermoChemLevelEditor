@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="500" height="60" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="5823">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="500" height="60" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="6098">
  <editorsettings>
   <export target="Level_05.xml" format="tmx"/>
  </editorsettings>
@@ -3461,6 +3461,200 @@
   <object id="5793" type="copaFundo" gid="117" x="88480" y="3826" width="608" height="1188"/>
   <object id="5794" type="copaFundo" gid="117" x="88272" y="4018" width="608" height="1188"/>
   <object id="5795" type="copaFundo" gid="117" x="89248" y="4370" width="608" height="1188"/>
+  <object id="5823" type="arbusto1" gid="102" x="382" y="9168" width="305" height="325"/>
+  <object id="5824" type="arbusto1" gid="102" x="191" y="9168" width="305" height="325"/>
+  <object id="5825" type="arbusto1" gid="102" x="2674" y="9168" width="305" height="325"/>
+  <object id="5826" type="arbusto1" gid="102" x="3438" y="9168" width="305" height="325"/>
+  <object id="5827" type="arbusto1" gid="102" x="4202" y="9168" width="305" height="325"/>
+  <object id="5828" type="arbusto1" gid="102" x="4393" y="9168" width="305" height="325"/>
+  <object id="5829" type="arbusto1" gid="102" x="4775" y="9168" width="305" height="325"/>
+  <object id="5830" type="arbusto1" gid="102" x="6303" y="9168" width="305" height="325"/>
+  <object id="5843" type="arbusto1" gid="102" x="43166" y="10505" width="305" height="325"/>
+  <object id="5844" type="arbusto1" gid="102" x="42784" y="10505" width="305" height="325"/>
+  <object id="5846" type="arbusto1" gid="102" x="44694" y="10505" width="305" height="325"/>
+  <object id="5847" type="arbusto1" gid="102" x="44503" y="10505" width="305" height="325"/>
+  <object id="5848" type="arbusto1" gid="102" x="45267" y="10505" width="305" height="325"/>
+  <object id="5849" type="arbusto1" gid="102" x="45649" y="10505" width="305" height="325"/>
+  <object id="5850" type="arbusto1" gid="102" x="45840" y="9168" width="305" height="325"/>
+  <object id="5851" type="arbusto1" gid="102" x="46222" y="9168" width="305" height="325"/>
+  <object id="5852" type="arbusto1" gid="102" x="46795" y="9168" width="305" height="325"/>
+  <object id="5853" type="arbusto1" gid="102" x="47177" y="9168" width="305" height="325"/>
+  <object id="5854" type="arbusto1" gid="102" x="44312" y="8977" width="305" height="325"/>
+  <object id="5855" type="arbusto2" gid="103" x="44503" y="8977" width="254" height="270"/>
+  <object id="5856" type="arbusto2" gid="103" x="43739" y="8786" width="254" height="270"/>
+  <object id="5857" type="arbusto2" gid="103" x="42975" y="8595" width="254" height="270"/>
+  <object id="5858" type="arbusto2" gid="103" x="41256" y="8213" width="254" height="270"/>
+  <object id="5859" type="arbusto2" gid="103" x="40683" y="8022" width="254" height="270"/>
+  <object id="5860" type="arbusto2" gid="103" x="40301" y="8022" width="254" height="270"/>
+  <object id="5861" type="arbusto2" gid="103" x="39919" y="7831" width="254" height="270"/>
+  <object id="5862" type="arbusto2" gid="103" x="39537" y="7831" width="254" height="270"/>
+  <object id="5863" type="arbusto2" gid="103" x="39346" y="7831" width="254" height="270"/>
+  <object id="5864" type="arbusto1" gid="102" x="40492" y="8022" width="305" height="325"/>
+  <object id="5865" type="arbusto1" gid="102" x="32470" y="8786" width="305" height="325"/>
+  <object id="5866" type="arbusto1" gid="102" x="31897" y="8786" width="305" height="325"/>
+  <object id="5867" type="arbusto1" gid="102" x="31515" y="8786" width="305" height="325"/>
+  <object id="5868" type="arbusto2" gid="103" x="30942" y="8786" width="254" height="270"/>
+  <object id="5869" type="arbusto2" gid="103" x="29605" y="8977" width="254" height="270"/>
+  <object id="5870" type="arbusto2" gid="103" x="28650" y="8977" width="254" height="270"/>
+  <object id="5871" type="arbusto2" gid="103" x="28077" y="8977" width="254" height="270"/>
+  <object id="5872" type="arbusto2" gid="103" x="27695" y="8977" width="254" height="270"/>
+  <object id="5873" type="arbusto2" gid="103" x="28459" y="8977" width="254" height="270"/>
+  <object id="5874" type="arbusto2" gid="103" x="28281" y="8979" width="254" height="270"/>
+  <object id="5875" type="arbusto2" gid="103" x="27077" y="8971" width="254" height="270"/>
+  <object id="5876" type="arbusto2" gid="103" x="27469" y="8983" width="254" height="270"/>
+  <object id="5877" type="arbusto1" gid="102" x="27096" y="9007" width="305" height="325"/>
+  <object id="5878" type="arbusto1" gid="102" x="27084" y="9115" width="305" height="325"/>
+  <object id="5879" type="arbusto1" gid="102" x="26208" y="9015" width="305" height="325"/>
+  <object id="5880" type="arbusto1" gid="102" x="26676" y="8979" width="305" height="325"/>
+  <object id="5881" type="arbusto1" gid="102" x="25956" y="8975" width="305" height="325"/>
+  <object id="5882" type="arbusto2" gid="103" x="24830" y="9168" width="254" height="270"/>
+  <object id="5883" type="arbusto2" gid="103" x="25212" y="9168" width="254" height="270"/>
+  <object id="5884" type="arbusto2" gid="103" x="23875" y="9168" width="254" height="270"/>
+  <object id="5885" type="arbusto2" gid="103" x="24241" y="9176" width="254" height="270"/>
+  <object id="5886" type="arbusto2" gid="103" x="23553" y="9175" width="254" height="270"/>
+  <object id="5887" type="arbusto2" gid="103" x="16229" y="9739" width="254" height="270"/>
+  <object id="5888" type="arbusto1" gid="102" x="16488" y="9735" width="305" height="325"/>
+  <object id="5890" type="arbusto2" gid="103" x="11460" y="9932" width="254" height="270"/>
+  <object id="5891" type="arbusto1" gid="102" x="11575" y="9935" width="305" height="325"/>
+  <object id="5892" type="arbusto1" gid="102" x="7067" y="9168" width="305" height="325"/>
+  <object id="5893" type="arbusto1" gid="102" x="6876" y="9168" width="305" height="325"/>
+  <object id="5894" type="arbusto1" gid="102" x="6494" y="9168" width="305" height="325"/>
+  <object id="5895" type="arbusto2" gid="103" x="7258" y="9168" width="254" height="270"/>
+  <object id="5896" type="arbusto2" gid="103" x="7375" y="9168" width="254" height="270"/>
+  <object id="5897" type="arbusto2" gid="103" x="5157" y="9168" width="254" height="270"/>
+  <object id="5898" type="arbusto2" gid="103" x="3056" y="9168" width="254" height="270"/>
+  <object id="5899" type="arbusto2" gid="103" x="3820" y="9168" width="254" height="270"/>
+  <object id="5900" type="arbusto2" gid="103" x="1910" y="9168" width="254" height="270"/>
+  <object id="5901" type="arbusto2" gid="103" x="2483" y="9168" width="254" height="270"/>
+  <object id="5913" type="arbusto2" gid="103" x="41447" y="10505" width="254" height="270"/>
+  <object id="5914" type="arbusto2" gid="103" x="41638" y="10505" width="254" height="270"/>
+  <object id="5915" type="arbusto2" gid="103" x="41829" y="10505" width="254" height="270"/>
+  <object id="5916" type="arbusto1" gid="102" x="41638" y="10505" width="305" height="325"/>
+  <object id="5917" type="arbusto1" gid="102" x="43357" y="10505" width="305" height="325"/>
+  <object id="5918" type="arbusto1" gid="102" x="43548" y="10505" width="305" height="325"/>
+  <object id="5919" type="arbusto2" gid="103" x="43357" y="10505" width="254" height="270"/>
+  <object id="5920" type="arbusto2" gid="103" x="42593" y="10505" width="254" height="270"/>
+  <object id="5921" type="arbusto2" gid="103" x="39919" y="10505" width="254" height="270"/>
+  <object id="5922" type="arbusto2" gid="103" x="40015.4" y="10507.7" width="254" height="270"/>
+  <object id="5923" type="arbusto2" gid="103" x="50615" y="8595" width="254" height="270"/>
+  <object id="5924" type="arbusto2" gid="103" x="49660" y="8595" width="254" height="270"/>
+  <object id="5925" type="arbusto2" gid="103" x="49851" y="8595" width="254" height="270"/>
+  <object id="5926" type="arbusto1" gid="102" x="49469" y="8595" width="305" height="325"/>
+  <object id="5927" type="arbusto1" gid="102" x="49278" y="8595" width="305" height="325"/>
+  <object id="5928" type="arbusto1" gid="102" x="50997" y="8595" width="305" height="325"/>
+  <object id="5929" type="arbusto1" gid="102" x="51570" y="8595" width="305" height="325"/>
+  <object id="5930" type="arbusto1" gid="102" x="51952" y="8595" width="305" height="325"/>
+  <object id="5931" type="arbusto1" gid="102" x="52525" y="8595" width="305" height="325"/>
+  <object id="5932" type="arbusto1" gid="102" x="52907" y="8595" width="305" height="325"/>
+  <object id="5933" type="arbusto2" gid="103" x="52143" y="8595" width="254" height="270"/>
+  <object id="5934" type="arbusto2" gid="103" x="51379" y="8595" width="254" height="270"/>
+  <object id="5935" type="arbusto2" gid="103" x="54817" y="10123" width="254" height="270"/>
+  <object id="5936" type="arbusto2" gid="103" x="55199" y="10123" width="254" height="270"/>
+  <object id="5941" type="arbusto2" gid="103" x="55713" y="10119" width="254" height="270"/>
+  <object id="5942" type="arbusto1" gid="102" x="55504" y="10119" width="305" height="325"/>
+  <object id="5943" type="arbusto1" gid="102" x="55008" y="10123" width="305" height="325"/>
+  <object id="5944" type="arbusto1" gid="102" x="70861" y="8977" width="305" height="325"/>
+  <object id="5945" type="arbusto1" gid="102" x="71243" y="8977" width="305" height="325"/>
+  <object id="5950" type="arbusto2" gid="103" x="71816" y="8977" width="254" height="270"/>
+  <object id="5951" type="arbusto2" gid="103" x="73153" y="8977" width="254" height="270"/>
+  <object id="5954" type="arbusto2" gid="103" x="73535" y="8977" width="254" height="270"/>
+  <object id="5955" type="arbusto1" gid="102" x="73726" y="8977" width="305" height="325"/>
+  <object id="5956" type="arbusto1" gid="102" x="73917" y="8977" width="305" height="325"/>
+  <object id="5957" type="arbusto2" gid="103" x="71052" y="8977" width="254" height="270"/>
+  <object id="5958" type="arbusto2" gid="103" x="72198" y="8404" width="254" height="270"/>
+  <object id="5959" type="arbusto2" gid="103" x="75827" y="5921" width="254" height="270"/>
+  <object id="5960" type="arbusto2" gid="103" x="76209" y="5921" width="254" height="270"/>
+  <object id="5961" type="arbusto1" gid="102" x="76018" y="5921" width="305" height="325"/>
+  <object id="5962" type="arbusto1" gid="102" x="74681" y="5730" width="305" height="325"/>
+  <object id="5963" type="arbusto1" gid="102" x="74108" y="5539" width="305" height="325"/>
+  <object id="5964" type="arbusto2" gid="103" x="73917" y="5539" width="254" height="270"/>
+  <object id="5965" type="arbusto2" gid="103" x="74299" y="5539" width="254" height="270"/>
+  <object id="5966" type="arbusto2" gid="103" x="72962" y="5348" width="254" height="270"/>
+  <object id="5967" type="arbusto2" gid="103" x="72771" y="5348" width="254" height="270"/>
+  <object id="5968" type="arbusto1" gid="102" x="72389" y="5157" width="305" height="325"/>
+  <object id="5969" type="arbusto1" gid="102" x="72198" y="5157" width="305" height="325"/>
+  <object id="5970" type="arbusto1" gid="102" x="72007" y="5157" width="305" height="325"/>
+  <object id="5971" type="arbusto1" gid="102" x="70861" y="4966" width="305" height="325"/>
+  <object id="5972" type="arbusto1" gid="102" x="70479" y="4775" width="305" height="325"/>
+  <object id="5973" type="arbusto1" gid="102" x="70288" y="4775" width="305" height="325"/>
+  <object id="5974" type="arbusto1" gid="102" x="70097" y="4775" width="305" height="325"/>
+  <object id="5975" type="arbusto1" gid="102" x="68951" y="4584" width="305" height="325"/>
+  <object id="5976" type="arbusto1" gid="102" x="68569" y="4202" width="305" height="325"/>
+  <object id="5977" type="arbusto1" gid="102" x="68378" y="4202" width="305" height="325"/>
+  <object id="5978" type="arbusto1" gid="102" x="67996" y="4202" width="305" height="325"/>
+  <object id="5979" type="arbusto1" gid="102" x="67232" y="4202" width="305" height="325"/>
+  <object id="5980" type="arbusto1" gid="102" x="66850" y="4202" width="305" height="325"/>
+  <object id="5981" type="arbusto2" gid="103" x="67805" y="4202" width="254" height="270"/>
+  <object id="5982" type="arbusto2" gid="103" x="67805" y="4202" width="254" height="270"/>
+  <object id="5983" type="arbusto2" gid="103" x="67423" y="4202" width="254" height="270"/>
+  <object id="5984" type="arbusto2" gid="103" x="67041" y="4202" width="254" height="270"/>
+  <object id="5985" type="arbusto2" gid="103" x="66277" y="4202" width="254" height="270"/>
+  <object id="5986" type="arbusto2" gid="103" x="66086" y="4202" width="254" height="270"/>
+  <object id="5987" type="arbusto2" gid="103" x="65895" y="4202" width="254" height="270"/>
+  <object id="5988" type="arbusto1" gid="102" x="65513" y="4202" width="305" height="325"/>
+  <object id="5989" type="arbusto1" gid="102" x="65131" y="4202" width="305" height="325"/>
+  <object id="5990" type="arbusto1" gid="102" x="64367" y="4202" width="305" height="325"/>
+  <object id="5991" type="arbusto1" gid="102" x="64176" y="4202" width="305" height="325"/>
+  <object id="5992" type="arbusto1" gid="102" x="63412" y="4202" width="305" height="325"/>
+  <object id="5993" type="arbusto2" gid="103" x="63221" y="4202" width="254" height="270"/>
+  <object id="5994" type="arbusto2" gid="103" x="62839" y="4202" width="254" height="270"/>
+  <object id="5995" type="arbusto2" gid="103" x="62266" y="4202" width="254" height="270"/>
+  <object id="5996" type="arbusto2" gid="103" x="62075" y="4202" width="254" height="270"/>
+  <object id="5997" type="arbusto2" gid="103" x="61884" y="4202" width="254" height="270"/>
+  <object id="5998" type="arbusto2" gid="103" x="61693" y="4202" width="254" height="270"/>
+  <object id="5999" type="arbusto2" gid="103" x="61502" y="4202" width="254" height="270"/>
+  <object id="6000" type="arbusto2" gid="103" x="61311" y="4202" width="254" height="270"/>
+  <object id="6001" type="arbusto2" gid="103" x="60929" y="4202" width="254" height="270"/>
+  <object id="6002" type="arbusto2" gid="103" x="60738" y="4202" width="254" height="270"/>
+  <object id="6003" type="arbusto2" gid="103" x="60356" y="4202" width="254" height="270"/>
+  <object id="6004" type="arbusto2" gid="103" x="60356" y="4202" width="254" height="270"/>
+  <object id="6005" type="arbusto2" gid="103" x="60165" y="4202" width="254" height="270"/>
+  <object id="6006" type="arbusto2" gid="103" x="59783" y="4202" width="254" height="270"/>
+  <object id="6007" type="arbusto2" gid="103" x="59592" y="4202" width="254" height="270"/>
+  <object id="6008" type="arbusto2" gid="103" x="59210" y="4202" width="254" height="270"/>
+  <object id="6009" type="arbusto2" gid="103" x="59210" y="4202" width="254" height="270"/>
+  <object id="6010" type="arbusto1" gid="102" x="59401" y="4202" width="305" height="325"/>
+  <object id="6011" type="arbusto1" gid="102" x="59592" y="4202" width="305" height="325"/>
+  <object id="6012" type="arbusto1" gid="102" x="59783" y="4202" width="305" height="325"/>
+  <object id="6013" type="arbusto1" gid="102" x="59974" y="4202" width="305" height="325"/>
+  <object id="6014" type="arbusto1" gid="102" x="60165" y="4202" width="305" height="325"/>
+  <object id="6015" type="arbusto1" gid="102" x="60356" y="4202" width="305" height="325"/>
+  <object id="6016" type="arbusto1" gid="102" x="60547" y="4202" width="305" height="325"/>
+  <object id="6017" type="arbusto1" gid="102" x="61120" y="4202" width="305" height="325"/>
+  <object id="6018" type="arbusto1" gid="102" x="62457" y="4202" width="305" height="325"/>
+  <object id="6019" type="arbusto1" gid="102" x="62648" y="4202" width="305" height="325"/>
+  <object id="6020" type="arbusto1" gid="102" x="63030" y="4202" width="305" height="325"/>
+  <object id="6021" type="arbusto1" gid="102" x="63603" y="4202" width="305" height="325"/>
+  <object id="6022" type="arbusto1" gid="102" x="63794" y="4202" width="305" height="325"/>
+  <object id="6023" type="arbusto2" gid="103" x="63985" y="4202" width="254" height="270"/>
+  <object id="6024" type="arbusto2" gid="103" x="64558" y="4202" width="254" height="270"/>
+  <object id="6025" type="arbusto2" gid="103" x="64940" y="4202" width="254" height="270"/>
+  <object id="6026" type="arbusto2" gid="103" x="64749" y="4202" width="254" height="270"/>
+  <object id="6027" type="arbusto2" gid="103" x="65322" y="4202" width="254" height="270"/>
+  <object id="6028" type="arbusto2" gid="103" x="65513" y="4202" width="254" height="270"/>
+  <object id="6029" type="arbusto2" gid="103" x="65704" y="4202" width="254" height="270"/>
+  <object id="6030" type="arbusto2" gid="103" x="65895" y="4202" width="254" height="270"/>
+  <object id="6033" type="arbusto2" gid="103" x="67614" y="4202" width="254" height="270"/>
+  <object id="6034" type="arbusto2" gid="103" x="68187" y="4202" width="254" height="270"/>
+  <object id="6052" type="arbusto1" gid="102" x="79074" y="8977" width="305" height="325"/>
+  <object id="6053" type="arbusto1" gid="102" x="78883" y="8977" width="305" height="325"/>
+  <object id="6054" type="arbusto1" gid="102" x="79838" y="8977" width="305" height="325"/>
+  <object id="6055" type="arbusto1" gid="102" x="80029" y="8977" width="305" height="325"/>
+  <object id="6056" type="arbusto2" gid="103" x="79456" y="8977" width="254" height="270"/>
+  <object id="6057" type="arbusto2" gid="103" x="79265" y="8977" width="254" height="270"/>
+  <object id="6058" type="arbusto2" gid="103" x="85950" y="8977" width="254" height="270"/>
+  <object id="6059" type="arbusto2" gid="103" x="86141" y="8977" width="254" height="270"/>
+  <object id="6060" type="arbusto2" gid="103" x="86523" y="8977" width="254" height="270"/>
+  <object id="6061" type="arbusto2" gid="103" x="87096" y="8977" width="254" height="270"/>
+  <object id="6062" type="arbusto1" gid="102" x="88051" y="8786" width="305" height="325"/>
+  <object id="6063" type="arbusto1" gid="102" x="88433" y="8786" width="305" height="325"/>
+  <object id="6064" type="arbusto1" gid="102" x="88815" y="8786" width="305" height="325"/>
+  <object id="6065" type="arbusto1" gid="102" x="89197" y="8786" width="305" height="325"/>
+  <object id="6066" type="arbusto1" gid="102" x="90152" y="8595" width="305" height="325"/>
+  <object id="6067" type="arbusto2" gid="103" x="91107" y="8595" width="254" height="270"/>
+  <object id="6068" type="arbusto2" gid="103" x="92444" y="8404" width="254" height="270"/>
+  <object id="6069" type="arbusto2" gid="103" x="92635" y="8404" width="254" height="270"/>
+  <object id="6070" type="arbusto1" gid="102" x="89770" y="8595" width="305" height="325"/>
  </objectgroup>
  <layer id="6" name="Under Tile Layer" width="500" height="60">
   <data encoding="csv">
@@ -4123,7 +4317,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="197" type="collectableEgg" gid="64" x="40952.8" y="10423.1" width="210" height="210"/>
+  <object id="197" type="collectableEgg" gid="64" x="40901.3" y="10356.4" width="210" height="210"/>
   <object id="198" type="espinhosNotSolid" gid="70" x="41638" y="10505" width="159" height="411"/>
   <object id="199" type="movingPlataformPantano" gid="59" x="38009" y="10696" width="571" height="191">
    <properties>
@@ -4555,6 +4749,188 @@
    </properties>
   </object>
   <object id="264" type="oneWayPlataformPantano" gid="62" x="67041" y="2674" width="573" height="96"/>
+  <object id="6080" type="enemyBasic" gid="25" x="88815" y="8786" width="201" height="191">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="followXRange" type="float" value="5"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6081" type="enemyBasic" gid="25" x="86332" y="8977" width="201" height="191">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="followXRange" type="float" value="5"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6082" type="enemyBasic" gid="25" x="79838" y="8977" width="201" height="191">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="followXRange" type="float" value="5"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6083" type="enemyBasic" gid="25" x="55199" y="10123" width="201" height="191">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="followXRange" type="float" value="5"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6084" type="enemyBasic" gid="25" x="52334" y="8595" width="201" height="191">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="followXRange" type="float" value="5"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6085" type="enemyBasic" gid="25" x="46795" y="9168" width="201" height="191">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="followXRange" type="float" value="5"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6086" type="enemyBasic" gid="25" x="76018" y="5921" width="201" height="191">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="followXRange" type="float" value="5"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6087" type="enemyBasic" gid="25" x="76018" y="5921" width="201" height="191">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="followXRange" type="float" value="5"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6088" type="flyFollow" gid="80" x="86332" y="7258" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followRadiusRange" type="float" value="5"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6089" type="flyFollow" gid="80" x="84804" y="5348" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="followRadiusRange" type="float" value="5"/>
+    <property name="followSpeed" type="float" value="3"/>
+    <property name="followTime" type="float" value="3"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6090" type="fly" gid="79" x="83658" y="6303" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6091" type="fly" gid="79" x="81748" y="5921" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6092" type="fly" gid="79" x="79647" y="5730" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6093" type="fly" gid="79" x="81175" y="8786" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6094" type="fly" gid="79" x="76591" y="5730" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6095" type="fly" gid="79" x="70288" y="8977" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6096" type="fly" gid="79" x="34189" y="8213" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="6097" type="fly" gid="79" x="38964" y="10123" width="250" height="238">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="idleTime" type="float" value="2"/>
+    <property name="walkSpeed" type="float" value="1.2"/>
+    <property name="walkTime" type="float" value="2"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="11" name="Over Tile Layer" width="500" height="60">
   <data encoding="csv">
@@ -6624,5 +7000,53 @@
   <object id="5820" type="copaFrente" gid="116" x="7804" y="4014" width="808" height="1612"/>
   <object id="5821" type="copaFrente" gid="116" x="8140" y="3046" width="808" height="1612"/>
   <object id="5822" type="copaFrente" gid="116" x="8532" y="3198" width="808" height="1612"/>
+  <object id="5831" type="arbusto2" gid="103" x="4202" y="9168" width="254" height="270"/>
+  <object id="5832" type="arbusto2" gid="103" x="673" y="9162.27" width="254" height="270"/>
+  <object id="5833" type="arbusto2" gid="103" x="1528" y="9168" width="254" height="270"/>
+  <object id="5834" type="arbusto2" gid="103" x="7831" y="9359" width="254" height="270"/>
+  <object id="5835" type="arbusto2" gid="103" x="12988" y="9932" width="254" height="270"/>
+  <object id="5836" type="arbusto1" gid="102" x="13752" y="9932" width="305" height="325"/>
+  <object id="5837" type="arbusto1" gid="102" x="24639" y="9168" width="305" height="325"/>
+  <object id="5838" type="arbusto2" gid="103" x="25594" y="9168" width="254" height="270"/>
+  <object id="5839" type="arbusto2" gid="103" x="29032" y="8977" width="254" height="270"/>
+  <object id="5840" type="arbusto2" gid="103" x="30369" y="8404" width="254" height="270"/>
+  <object id="5841" type="arbusto2" gid="103" x="42975" y="10505" width="254" height="270"/>
+  <object id="5842" type="arbusto2" gid="103" x="45076" y="10505" width="254" height="270"/>
+  <object id="5889" type="arbusto2" gid="103" x="13179" y="9932" width="254" height="270"/>
+  <object id="5902" type="arbusto1" gid="102" x="40110" y="10505" width="305" height="325"/>
+  <object id="5903" type="arbusto1" gid="102" x="40301" y="10505" width="305" height="325"/>
+  <object id="5904" type="arbusto1" gid="102" x="40492" y="10505" width="305" height="325"/>
+  <object id="5905" type="arbusto2" gid="103" x="40683" y="10505" width="254" height="270"/>
+  <object id="5906" type="arbusto2" gid="103" x="40492" y="10505" width="254" height="270"/>
+  <object id="5907" type="arbusto2" gid="103" x="40301" y="10505" width="254" height="270"/>
+  <object id="5909" type="arbusto2" gid="103" x="41065" y="10505" width="254" height="270"/>
+  <object id="5910" type="arbusto1" gid="102" x="41256" y="10505" width="305" height="325"/>
+  <object id="5911" type="arbusto1" gid="102" x="41129.8" y="10505.4" width="305" height="325"/>
+  <object id="5946" type="arbusto1" gid="102" x="72007" y="8977" width="305" height="325"/>
+  <object id="5947" type="arbusto2" gid="103" x="72198" y="8977" width="254" height="270"/>
+  <object id="5948" type="arbusto1" gid="102" x="72771" y="8977" width="305" height="325"/>
+  <object id="5949" type="arbusto2" gid="103" x="72962" y="8977" width="254" height="270"/>
+  <object id="6035" type="arbusto2" gid="103" x="59974" y="4202" width="254" height="270"/>
+  <object id="6036" type="arbusto2" gid="103" x="60738" y="4202" width="254" height="270"/>
+  <object id="6037" type="arbusto2" gid="103" x="62075" y="4202" width="254" height="270"/>
+  <object id="6038" type="arbusto2" gid="103" x="62839" y="4202" width="254" height="270"/>
+  <object id="6039" type="arbusto2" gid="103" x="63985" y="4202" width="254" height="270"/>
+  <object id="6040" type="arbusto2" gid="103" x="59401" y="4202" width="254" height="270"/>
+  <object id="6041" type="arbusto2" gid="103" x="64749" y="4202" width="254" height="270"/>
+  <object id="6042" type="arbusto2" gid="103" x="67423" y="4202" width="254" height="270"/>
+  <object id="6043" type="arbusto2" gid="103" x="70288" y="4775" width="254" height="270"/>
+  <object id="6044" type="arbusto2" gid="103" x="72198" y="5157" width="254" height="270"/>
+  <object id="6045" type="arbusto2" gid="103" x="74108" y="5539" width="254" height="270"/>
+  <object id="6046" type="arbusto2" gid="103" x="75827" y="5921" width="254" height="270"/>
+  <object id="6047" type="arbusto2" gid="103" x="76018" y="5921" width="254" height="270"/>
+  <object id="6071" type="arbusto2" gid="103" x="79456" y="8977" width="254" height="270"/>
+  <object id="6072" type="arbusto2" gid="103" x="80029" y="8977" width="254" height="270"/>
+  <object id="6073" type="arbusto2" gid="103" x="86332" y="8977" width="254" height="270"/>
+  <object id="6074" type="arbusto2" gid="103" x="86905" y="8977" width="254" height="270"/>
+  <object id="6075" type="arbusto2" gid="103" x="88433" y="8786" width="254" height="270"/>
+  <object id="6076" type="arbusto2" gid="103" x="89006" y="8786" width="254" height="270"/>
+  <object id="6077" type="arbusto2" gid="103" x="90343" y="8595" width="254" height="270"/>
+  <object id="6078" type="arbusto2" gid="103" x="88624" y="8786" width="254" height="270"/>
+  <object id="6079" type="arbusto2" gid="103" x="88815" y="8786" width="254" height="270"/>
  </objectgroup>
 </map>
