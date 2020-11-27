@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="550" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="1410">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-up" width="550" height="30" tilewidth="191" tileheight="191" infinite="0" nextlayerid="13" nextobjectid="1412">
  <editorsettings>
   <export target="Level_03.xml" format="tmx"/>
  </editorsettings>
@@ -709,13 +709,11 @@
 </data>
  </layer>
  <objectgroup id="4" name="Main Objects Layer">
-  <object id="616" type="gradeNotSolid" gid="107" x="10911" y="3820.03" width="251" height="569"/>
   <object id="617" type="gradeNotSolid" gid="107" x="10057.7" y="3822.33" width="251" height="569"/>
-  <object id="619" type="stalactite" gid="95" x="10352" y="3436" width="119" height="198"/>
-  <object id="620" type="stalactite" gid="95" x="10547" y="3437" width="119" height="198"/>
-  <object id="621" type="stalactite" gid="95" x="10737" y="3438" width="119" height="198"/>
+  <object id="619" type="stalactite" gid="95" x="10505" y="3438" width="119" height="198"/>
+  <object id="620" type="stalactite" gid="95" x="10696" y="3438" width="119" height="198"/>
+  <object id="621" type="stalactite" gid="95" x="10887" y="3438" width="119" height="198"/>
   <object id="626" type="gradeNotSolid" gid="107" x="19420.3" y="4011.67" width="251" height="569"/>
-  <object id="628" type="gradeNotSolid" gid="107" x="20055" y="4010.33" width="251" height="569"/>
   <object id="629" type="enemyBasic" gid="88" x="19700.9" y="3042.97" width="380" height="404">
    <properties>
     <property name="_name" value="default"/>
@@ -876,13 +874,6 @@
     <property name="walkTime" type="float" value="3"/>
    </properties>
   </object>
-  <object id="717" type="stalactite" gid="95" x="30415.7" y="3584.34" width="119" height="198"/>
-  <object id="718" type="stalactite" gid="95" x="30591.7" y="3583" width="119" height="198"/>
-  <object id="719" type="stalactite" gid="95" x="30778.4" y="3583" width="119" height="198"/>
-  <object id="720" type="stalactite" gid="95" x="30977" y="3580.34" width="119" height="198"/>
-  <object id="721" type="stalactite" gid="95" x="31171.7" y="3581.67" width="119" height="198"/>
-  <object id="722" type="stalactite" gid="95" x="31362.4" y="3581.67" width="119" height="198"/>
-  <object id="723" type="stalactite" gid="95" x="31546.4" y="3583" width="119" height="198"/>
   <object id="725" type="movingPlataform" gid="121" x="36866.5" y="4396" width="571" height="191">
    <properties>
     <property name="_name" value="default"/>
@@ -1004,7 +995,6 @@
    </properties>
   </object>
   <object id="780" type="gradeNotSolid" gid="107" x="54887.1" y="1721.36" width="251" height="569"/>
-  <object id="781" type="gradeNotSolid" gid="107" x="56023.5" y="1718.33" width="251" height="569"/>
   <object id="782" type="collectableEgg" gid="127" x="55485.9" y="1626.21" width="210" height="210"/>
   <object id="783" type="enemyBasic" gid="88" x="51210" y="4189.88" width="380" height="404">
    <properties>
@@ -1027,7 +1017,6 @@
    </properties>
   </object>
   <object id="785" type="gradeNotSolid" gid="107" x="55841.7" y="4203.18" width="251" height="569"/>
-  <object id="786" type="gradeNotSolid" gid="107" x="56796.2" y="4203.18" width="251" height="569"/>
   <object id="788" type="stalactite" gid="95" x="56192.3" y="3565.67" width="119" height="198"/>
   <object id="789" type="stalactite" gid="95" x="56380.3" y="3563.67" width="119" height="198"/>
   <object id="790" type="stalactite" gid="95" x="56575" y="3563.67" width="119" height="198"/>
@@ -1401,6 +1390,8 @@
    </properties>
   </object>
   <object id="1406" type="levelCompletedPipeIce" gid="145" x="98710.6" y="1891.82" width="800" height="728"/>
+  <object id="1410" type="stalactite" gid="95" x="11078" y="3438" width="119" height="198"/>
+  <object id="1411" type="gradeNotSolid" gid="107" x="20055" y="4011" width="251" height="569"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="550" height="30">
   <data encoding="csv">
