@@ -1400,7 +1400,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="1406" type="levelCompletedPipeIce" gid="145" x="98711" y="1905" width="800" height="728"/>
+  <object id="1406" type="levelCompletedPipeIce" gid="145" x="98710.6" y="1891.82" width="800" height="728"/>
  </objectgroup>
  <layer id="1" name="Over Tile Layer" width="550" height="30">
   <data encoding="csv">
