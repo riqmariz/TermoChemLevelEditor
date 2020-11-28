@@ -94,7 +94,7 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 	
 	Camada por onde há as colisões com Tiles. Camada para colocar paredes e chão. Qualquer Tile colocado nessa camada, será interpretado como um tile com colisão, ou seja, se o player tentar passar, irá colidir. Impórtante não colocar objetos nessa camada, apenas TILES.
 
-7. **Camada de Objetos: Text Objects Layer**
+7. **Camada de Objetos: Text Objects Layer** **
 
 	 É uma camada específica para adicionar Text Objects (ver vídeo tutorial v0.4.0), esses objetos servem para fixar textos no level, estilo super phantom cat ou cuphead. Muitas vezes com uma intenção de ensinar algo ou passar alguma mensagem.
 
