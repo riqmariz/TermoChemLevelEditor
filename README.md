@@ -1,25 +1,19 @@
-# TermoChemLevelEditor **v0.3.5**
+# TermoChemLevelEditor **v0.4.0**
 
 Este repositório é um local para subir os arquivos de level do jogo ThermoChem para poder testá-los e editá-los. Fique atento as versões da documentação
 - \* : siginifica que foi modificado recentemente, porém quanto mais asterisco, mais novo é. E aos poucos, modificações que não estão mais tão novas, perdem seu asterisco, até ficar sem asterisco.
 <br/>
 
 # Novidades **
-- Novos MainObjetcs: levelBeginPipeIce,levelBeginTree,levelCompletedTree **
-- Geiser de Metano e jumpFlower sprite update *
-- Nova camada: Over Background Tile Layer e Over background tileset ice adicionado *
-- Novos backgrounds adicionados *
-- Bugfix Over Objects Layer *
-- Bugfix nos tilesets em relação ao espaço em vazio dentro de alguns tiles *
-- Novos Objetos adicionados ao MainObjectsCollection: Cano de Entrada do Pantano, Cano de Saída do Gelo de Level Completo. *
-- Tileset de cipó modificado. Adicionado um tile referente ao topo do cipó (esse topo do cipó deve ser utilizado IDEALMENTE como enfeite) *
-- Novas sprites para inimigos (fly, flyNotFollow, enemyBasic) *
-- Nova propriedade customizável para o tipo enemyBasic (olhar documentação) *
-
+- Nova camada: Text Objects Layer. Camada para adicionar Text Objects dentro do Level. (Olhar Vídeo disponibilizado em Tutorial) **
+- NOVO PADRÃO DE EXPORTAÇÃO DE LEVEIS (ANTIGO AINDA FUNCIONA, PORÉM PRECISA SER ATUALIZADO PARA O NOVO, OLHAR DOCUMENTAÇÃO REFERENTE) **
+- Novos MainObjetcs: levelBeginOasis e levelCompletedOasis **
+- Novos MainObjetcs: levelBeginPipeIce,levelBeginTree,levelCompletedTree *
+- bugfix ao errar um tile, não quebra os demais tiles/layers
 
 <br/>
 
-# Tutorial
+# Tutorial **
 
 Relacionado a v0.1.0 ~ v0.1.1:
 - Como editar um Nível do ThermoChem, sendo mais específico para o contexto do ThermoChem: [old link](https://drive.google.com/file/d/1K_8DbwqHgjTwB0TWyUYcDQdiWE7G1FX7/view?usp=sharing)
@@ -35,8 +29,8 @@ Relacionado a v0.2.0:
 Relacionado a v0.3.0:
 - Novidades e Novas camadas, o que mudou para v0.3.0:[oldlink](https://drive.google.com/file/d/1uP2CVpyAaLjR9FPlvEPCjJj9gTdnh7bs/view?usp=sharing)
 
-Relacionado a v0.3.1:
-- Novidades e Propriedades customizadas para a versão v0.3.1: *Link ainda não disponibilizado*
+Relacionado a v0.4.0 ***:
+- Text Objects Layer e Novidade para a versão v0.4.0: *Link ainda não disponibilizado*
 
 <br/>
 
@@ -47,7 +41,7 @@ Relacionado a v0.3.1:
 <br/>
 <br/>
 
-## • Camadas *
+## • Camadas **
 
 Ao criar/editar um mapa, verifique as camadas que ficam na superior direita localização como na imagem:
 
@@ -61,12 +55,13 @@ Verifique se as camadas estão de acordo com os seguintes nomes(respeitando letr
 4. Main Hole Tile Layer
 5. Main Sliding Tile Layer
 6. Main Tile Layer
-7. Vine Tile Layer 
-8. Under Tile Layer
-9. Under Objects Layer
-10. Over Background Objects Layer
-11. Over Background Tile Layer *
-12. Background Objects Layer
+7. Text Objects Layer **
+8. Vine Tile Layer 
+9. Under Tile Layer
+10. Under Objects Layer
+11. Over Background Objects Layer
+12. Over Background Tile Layer
+13. Background Objects Layer
 
 Se estiver correto, você não terá nenhum problema com relação a definição das camadas.
 
@@ -99,29 +94,33 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 	
 	Camada por onde há as colisões com Tiles. Camada para colocar paredes e chão. Qualquer Tile colocado nessa camada, será interpretado como um tile com colisão, ou seja, se o player tentar passar, irá colidir. Impórtante não colocar objetos nessa camada, apenas TILES.
 
-7. **Camada de Tile: Vine Tile Layer**
+7. **Camada de Objetos: Text Objects Layer**
+
+	 É uma camada específica para adicionar Text Objects (ver vídeo tutorial v0.4.0), esses objetos servem para fixar textos no level, estilo super phantom cat ou cuphead. Muitas vezes com uma intenção de ensinar algo ou passar alguma mensagem.
+
+8. **Camada de Tile: Vine Tile Layer**
 
 	 É uma camada para colocar os cipós, no qual o jogador irá se pendurar se pular em cima. É importante utilizar o tileset apropriado, tileset de cipó.
 
-8. **Camada de Tile: Under Tile Layer**
+9. **Camada de Tile: Under Tile Layer**
 
 	 É só uma camada para colocar tiles de ENFEITE do level, caso seja necessário colocar tiles que fiquem acima do Under Objects Layer, Over Background Objects Layer... E assim por diante e fique abaixo de Main Tile Layer, Main Sliding Tile Layer e assim por diante.
 
 	 Normalmente utilizada para Tiles que preenchem o chão e parade, mas não são interagíveis com o player.
 
-9. **Camada de Objetos: Under Objects Layer**
+10. **Camada de Objetos: Under Objects Layer**
 
 	Camada de objetos utilizada para enfeitar o mapa e adicionar objetos que enfeitem o Level, mas não interferem no gameplay. Formam/Compõe o cenário do level.
 
-10. **Camada de Objetos: Over Background Objects Layer**
+11. **Camada de Objetos: Over Background Objects Layer**
 	
 	Camada para colocar um background, porém não é o último background. Ainda haverá um background atrás dessa camada.
 
-11. **Camada de Objetos: Over Background Tile Layer** *
+12. **Camada de Objetos: Over Background Tile Layer** *
 	
 	Camada para colocar um tile de background, porém não é o último background. Ainda haverá um background atrás dessa camada.
 
-11. **Camada de Objetos: Background Objects Layer**
+13. **Camada de Objetos: Background Objects Layer**
 
 	Última camada, background que fica atrás de tudo.
 <br/>
@@ -133,8 +132,11 @@ Porém, é importante ficar atento para o que cada camada representa no momento 
 Carregue os tilesets já preparados do repositório, são os arquivos .tsx que ficam dentro da pasta Tilesets e suas respectivas subpastas. Normalmente os Devs irão já configurar e deixar pronto os arquivos .tsx na pasta. É importante verificar a versão do github e se há alguma atualização, como novos .tsx ou modificações.
 <br/>
 <br/>
-## • Exportar Level
+## • Exportar Level ***
 <br/>
+
+### *Forma antiga* **
+
 Ao terminar de editar/criar um Level, não confunda salvar como ou salvar, com exportar como. SEMPRE deve-se usar a opção “exportar como”. Ao selecionar e escolher a pasta, o nome do arquivo deve seguir o seguinte padrão: 
 <br/>
 
@@ -146,11 +148,27 @@ Ao terminar de editar/criar um Level, não confunda salvar como ou salvar, com e
 
  Não confunda .tmx com .xml, sempre exporte como .xml, é só nomear o arquivo com .xml, pois o programa Tiled, automaticamente coloca como .tmx.
 
+
+### *Novo Padrão* ***
+
+O padrão foi alterado para inserir o tipo do level também no nome do arquivo. Atualmente, existem leveis de gelo, pantano e deserto. Então na hora de exportar um arquivo, utilize agora o seguinte padrão:
+
+	- Level_Gelo_01.xml
+	- Level_Gelo_02.xml
+	- Level_Gelo_03.xml
+	- Level_Pantano_04.xml
+	- ...
+	- Level_Deserto_XY.xml
+
+Dessa forma, ficará fácil de identificar qual é o tipo do level e fazer um certo tratamento diferente para cada caso. Importante observar que os leveis ainda precisam manter uma ordem crescente. Também é importante notar que, os leveis não recomeçam a contagem quando trocam de tipo, cada level acrescenta +1 na numeração indenpente do tipo. OBS: leveis escritos da forma antiga ainda funcionarão, porém não terão o tratamento devido para algumas coisas.
+
 A última coisa porém, bastante importante, verifique se a preferência abaixo, está marcada, ela fica localizada em “Editar/Preferências/”, marcar a opção “Resolve object types and properties”, como na imagem abaixo:
 
 <img src= "Readme Images/preferences.PNG">
 
 Depois de seguir esses passos, você pode subir o arquivo na Pasta /Levels/ do repositório e o jogo Thermo Chem já automaticamente fará download dos arquivos de level do último commit feito no repositório.
+
+
 
 <br/>
 <br/>
@@ -268,25 +286,34 @@ obs: É importante mencionar, que no momento não é suportado pelo jogo, escala
 
 	Objeto similar a fogueira ou fornalha, porém, funciona inversamente. Esse local absorve calor, então o jogador liberará calor para o objeto. 
 
-- **Cano de Saída do Gelo de Level Completo (type: levelCompletedPipeIce)** *
+- **Cano de Saída do Gelo de Level Completo (type: levelCompletedPipeIce)**
 
 	Objeto que ao jogador entrar dentro do cano, o level é completado. Esse objeto foi feito para ser usado no último level de gelo, como se fosse uma transição para o level do pantano, mas funciona igual para outros levels. 
 
-- **Cano de Entrada do Pantano (type: levelBeginPipePantano)** *
+- **Cano de Entrada do Pantano (type: levelBeginPipePantano)**
 
 	Objeto similar ao cano de saída, porém é apenas "visual", apesar de ter colisão, não há nenhuma interação com o jogador, serve apenas de enfeite. Foi feito para ser usado no primeiro nível do pantano, como se fosse a entrada dos estágios do pantano.
 
-- **Cano de Entrada do Gelo (type: levelBeginPipeIce)** **
+- **Cano de Entrada do Gelo (type: levelBeginPipeIce)** *
 
 	Objeto similar ao Cano de Entrada do Pantano, é apenas "visual", apesar de ter colisão, não há nenhuma interação com o jogador, serve apenas de enfeite.
 
-- **Árvore de Entrada do Pantano (type: levelBeginTree)** **
+- **Árvore de Entrada do Pantano (type: levelBeginTree)** *
 
 	Objeto similar ao Cano de Entrada do Pantano, é apenas "visual", apesar de ter colisão, não há nenhuma interação com o jogador, serve apenas de enfeite.
 
-- **Árvore de Saída de Level Completo (type: levelCompletedTree)** **
+- **Árvore de Saída de Level Completo (type: levelCompletedTree)** *
 
 	Objeto que ao jogador entrar dentro da arvore, o level é completado.
+
+- **Oasis de Entrada do Deserto (type: levelBeginOasis)** **
+
+	Objeto similar ao Cano de Entrada do Pantano, é apenas "visual", apesar de ter colisão, não há nenhuma interação com o jogador, serve apenas de enfeite.
+
+- **Oasis de Saída de Level Completo (type: levelCompletedOasis)** **
+
+	Objeto que ao jogador entrar dentro da rede/coqueiro, o level é completado.
+
 
 <br/>
 <br/>
