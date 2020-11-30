@@ -1,53 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="350" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="15" nextobjectid="243">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="350" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="15" nextobjectid="275">
  <tileset firstgid="1" source="../Tileset/Backgrounds/backgrounds.tsx"/>
  <tileset firstgid="9" source="../Tileset/TilesetPantano/pantanoTileset.tsx"/>
  <tileset firstgid="25" source="../Tileset/TilesetDeserto/desertoTileset.tsx"/>
  <tileset firstgid="34" source="../Tileset/Main Object Colection/MainObjectsCollection.tsx"/>
  <tileset firstgid="97" source="../Tileset/TilesetAguaDeserto/desertoAguaTileset.tsx"/>
- <objectgroup id="2" name="Background Objects Layer">
-  <object id="1" type="backgroundDeserto" gid="2" x="0" y="5539" width="5638" height="3545"/>
-  <object id="2" type="backgroundLowDeserto" gid="6" x="0" y="8977" width="5638" height="3546"/>
-  <object id="3" type="backgroundHighDeserto" gid="4" x="0" y="2101" width="5638" height="3546"/>
-  <object id="4" type="backgroundDeserto" gid="2" x="5539" y="5539" width="5638" height="3545"/>
-  <object id="5" type="backgroundLowDeserto" gid="6" x="5539" y="8977" width="5638" height="3546"/>
-  <object id="6" type="backgroundHighDeserto" gid="4" x="5539" y="2101" width="5638" height="3546"/>
-  <object id="7" type="backgroundDeserto" gid="2" x="11078" y="5539" width="5638" height="3545"/>
-  <object id="8" type="backgroundLowDeserto" gid="6" x="11078" y="8977" width="5638" height="3546"/>
-  <object id="9" type="backgroundHighDeserto" gid="4" x="11078" y="2101" width="5638" height="3546"/>
-  <object id="10" type="backgroundDeserto" gid="2" x="16617" y="5539" width="5638" height="3545"/>
-  <object id="11" type="backgroundLowDeserto" gid="6" x="16617" y="8977" width="5638" height="3546"/>
-  <object id="12" type="backgroundHighDeserto" gid="4" x="16617" y="2101" width="5638" height="3546"/>
-  <object id="13" type="backgroundDeserto" gid="2" x="22156" y="5539" width="5638" height="3545"/>
-  <object id="14" type="backgroundLowDeserto" gid="6" x="22156" y="8977" width="5638" height="3546"/>
-  <object id="15" type="backgroundHighDeserto" gid="4" x="22156" y="2101" width="5638" height="3546"/>
-  <object id="16" type="backgroundDeserto" gid="2" x="27695" y="5539" width="5638" height="3545"/>
-  <object id="17" type="backgroundLowDeserto" gid="6" x="27695" y="8977" width="5638" height="3546"/>
-  <object id="18" type="backgroundHighDeserto" gid="4" x="27695" y="2101" width="5638" height="3546"/>
-  <object id="19" type="backgroundDeserto" gid="2" x="33234" y="5539" width="5638" height="3545"/>
-  <object id="20" type="backgroundLowDeserto" gid="6" x="33234" y="8977" width="5638" height="3546"/>
-  <object id="21" type="backgroundHighDeserto" gid="4" x="33234" y="2101" width="5638" height="3546"/>
-  <object id="22" type="backgroundDeserto" gid="2" x="38773" y="5539" width="5638" height="3545"/>
-  <object id="23" type="backgroundLowDeserto" gid="6" x="38773" y="8977" width="5638" height="3546"/>
-  <object id="24" type="backgroundHighDeserto" gid="4" x="38773" y="2101" width="5638" height="3546"/>
-  <object id="25" type="backgroundDeserto" gid="2" x="44312" y="5539" width="5638" height="3545"/>
-  <object id="26" type="backgroundLowDeserto" gid="6" x="44312" y="8977" width="5638" height="3546"/>
-  <object id="27" type="backgroundHighDeserto" gid="4" x="44312" y="2101" width="5638" height="3546"/>
-  <object id="28" type="backgroundDeserto" gid="2" x="49851" y="5539" width="5638" height="3545"/>
-  <object id="29" type="backgroundLowDeserto" gid="6" x="49851" y="8977" width="5638" height="3546"/>
-  <object id="30" type="backgroundHighDeserto" gid="4" x="49851" y="2101" width="5638" height="3546"/>
-  <object id="31" type="backgroundDeserto" gid="2" x="55390" y="5539" width="5638" height="3545"/>
-  <object id="32" type="backgroundLowDeserto" gid="6" x="55390" y="8977" width="5638" height="3546"/>
-  <object id="33" type="backgroundHighDeserto" gid="4" x="55390" y="2101" width="5638" height="3546"/>
-  <object id="34" type="backgroundDeserto" gid="2" x="60929" y="5539" width="5638" height="3545"/>
-  <object id="35" type="backgroundLowDeserto" gid="6" x="60929" y="8977" width="5638" height="3546"/>
-  <object id="36" type="backgroundHighDeserto" gid="4" x="60929" y="2101" width="5638" height="3546"/>
-  <object id="37" type="backgroundDeserto" gid="2" x="66468" y="5539" width="5638" height="3545"/>
-  <object id="38" type="backgroundLowDeserto" gid="6" x="66468" y="8977" width="5638" height="3546"/>
-  <object id="39" type="backgroundHighDeserto" gid="4" x="66468" y="2101" width="5638" height="3546"/>
-  <object id="40" type="backgroundDeserto" gid="2" x="-5539" y="5539" width="5638" height="3545"/>
-  <object id="41" type="backgroundLowDeserto" gid="6" x="-5539" y="8977" width="5638" height="3546"/>
-  <object id="42" type="backgroundHighDeserto" gid="4" x="-5539" y="2101" width="5638" height="3546"/>
+ <objectgroup id="2" name="Background Objects Layer" visible="0">
+  <object id="1" type="backgroundDeserto" gid="2" x="0" y="6494" width="5638" height="3545"/>
+  <object id="2" type="backgroundLowDeserto" gid="6" x="0" y="9932" width="5638" height="3546"/>
+  <object id="3" type="backgroundHighDeserto" gid="4" x="0" y="3056" width="5638" height="3546"/>
+  <object id="4" type="backgroundDeserto" gid="2" x="5539" y="6494" width="5638" height="3545"/>
+  <object id="5" type="backgroundLowDeserto" gid="6" x="5539" y="9932" width="5638" height="3546"/>
+  <object id="6" type="backgroundHighDeserto" gid="4" x="5539" y="3056" width="5638" height="3546"/>
+  <object id="7" type="backgroundDeserto" gid="2" x="11078" y="6494" width="5638" height="3545"/>
+  <object id="8" type="backgroundLowDeserto" gid="6" x="11078" y="9932" width="5638" height="3546"/>
+  <object id="9" type="backgroundHighDeserto" gid="4" x="11078" y="3056" width="5638" height="3546"/>
+  <object id="10" type="backgroundDeserto" gid="2" x="16617" y="6494" width="5638" height="3545"/>
+  <object id="11" type="backgroundLowDeserto" gid="6" x="16617" y="9932" width="5638" height="3546"/>
+  <object id="12" type="backgroundHighDeserto" gid="4" x="16617" y="3056" width="5638" height="3546"/>
+  <object id="13" type="backgroundDeserto" gid="2" x="22156" y="6494" width="5638" height="3545"/>
+  <object id="14" type="backgroundLowDeserto" gid="6" x="22156" y="9932" width="5638" height="3546"/>
+  <object id="15" type="backgroundHighDeserto" gid="4" x="22156" y="3056" width="5638" height="3546"/>
+  <object id="16" type="backgroundDeserto" gid="2" x="27695" y="6494" width="5638" height="3545"/>
+  <object id="17" type="backgroundLowDeserto" gid="6" x="27695" y="9932" width="5638" height="3546"/>
+  <object id="18" type="backgroundHighDeserto" gid="4" x="27695" y="3056" width="5638" height="3546"/>
+  <object id="19" type="backgroundDeserto" gid="2" x="33234" y="6494" width="5638" height="3545"/>
+  <object id="20" type="backgroundLowDeserto" gid="6" x="33234" y="9932" width="5638" height="3546"/>
+  <object id="21" type="backgroundHighDeserto" gid="4" x="33234" y="3056" width="5638" height="3546"/>
+  <object id="22" type="backgroundDeserto" gid="2" x="38773" y="6494" width="5638" height="3545"/>
+  <object id="23" type="backgroundLowDeserto" gid="6" x="38773" y="9932" width="5638" height="3546"/>
+  <object id="24" type="backgroundHighDeserto" gid="4" x="38773" y="3056" width="5638" height="3546"/>
+  <object id="25" type="backgroundDeserto" gid="2" x="44312" y="6494" width="5638" height="3545"/>
+  <object id="26" type="backgroundLowDeserto" gid="6" x="44312" y="9932" width="5638" height="3546"/>
+  <object id="27" type="backgroundHighDeserto" gid="4" x="44312" y="3056" width="5638" height="3546"/>
+  <object id="28" type="backgroundDeserto" gid="2" x="49851" y="6494" width="5638" height="3545"/>
+  <object id="29" type="backgroundLowDeserto" gid="6" x="49851" y="9932" width="5638" height="3546"/>
+  <object id="30" type="backgroundHighDeserto" gid="4" x="49851" y="3056" width="5638" height="3546"/>
+  <object id="31" type="backgroundDeserto" gid="2" x="55390" y="6494" width="5638" height="3545"/>
+  <object id="32" type="backgroundLowDeserto" gid="6" x="55390" y="9932" width="5638" height="3546"/>
+  <object id="33" type="backgroundHighDeserto" gid="4" x="55390" y="3056" width="5638" height="3546"/>
+  <object id="34" type="backgroundDeserto" gid="2" x="60929" y="6494" width="5638" height="3545"/>
+  <object id="35" type="backgroundLowDeserto" gid="6" x="60929" y="9932" width="5638" height="3546"/>
+  <object id="36" type="backgroundHighDeserto" gid="4" x="60929" y="3056" width="5638" height="3546"/>
+  <object id="37" type="backgroundDeserto" gid="2" x="66468" y="6494" width="5638" height="3545"/>
+  <object id="38" type="backgroundLowDeserto" gid="6" x="66468" y="9932" width="5638" height="3546"/>
+  <object id="39" type="backgroundHighDeserto" gid="4" x="66468" y="3056" width="5638" height="3546"/>
+  <object id="40" type="backgroundDeserto" gid="2" x="-5539" y="6494" width="5638" height="3545"/>
+  <object id="41" type="backgroundLowDeserto" gid="6" x="-5539" y="9932" width="5638" height="3546"/>
+  <object id="42" type="backgroundHighDeserto" gid="4" x="-5539" y="3056" width="5638" height="3546"/>
+  <object id="257" type="backgroundHighDeserto" gid="4" x="0" y="-382" width="5638" height="3546"/>
+  <object id="258" type="backgroundHighDeserto" gid="4" x="5539" y="-382" width="5638" height="3546"/>
+  <object id="259" type="backgroundHighDeserto" gid="4" x="11078" y="-382" width="5638" height="3546"/>
+  <object id="260" type="backgroundHighDeserto" gid="4" x="16617" y="-382" width="5638" height="3546"/>
+  <object id="261" type="backgroundHighDeserto" gid="4" x="22156" y="-382" width="5638" height="3546"/>
+  <object id="262" type="backgroundHighDeserto" gid="4" x="27695" y="-382" width="5638" height="3546"/>
+  <object id="263" type="backgroundHighDeserto" gid="4" x="33234" y="-382" width="5638" height="3546"/>
+  <object id="264" type="backgroundHighDeserto" gid="4" x="38773" y="-382" width="5638" height="3546"/>
+  <object id="265" type="backgroundHighDeserto" gid="4" x="44312" y="-382" width="5638" height="3546"/>
+  <object id="266" type="backgroundHighDeserto" gid="4" x="49851" y="-382" width="5638" height="3546"/>
+  <object id="267" type="backgroundHighDeserto" gid="4" x="55390" y="-382" width="5638" height="3546"/>
+  <object id="268" type="backgroundHighDeserto" gid="4" x="60929" y="-382" width="5638" height="3546"/>
+  <object id="269" type="backgroundHighDeserto" gid="4" x="66468" y="-382" width="5638" height="3546"/>
+  <object id="270" type="backgroundHighDeserto" gid="4" x="-5539" y="-382" width="5638" height="3546"/>
  </objectgroup>
  <layer id="3" name="Over Background Tile Layer" width="350" height="32">
   <data encoding="csv">
@@ -176,11 +190,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,26,26,26,26,26,26,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,26,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,26,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,29,29,29,29,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,29,29,29,29,29,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,26,26,26,26,26,26,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,29,29,29,29,29,29,29,29,29,29,29,29,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,29,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,29,29,29,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -279,34 +293,10 @@
     <property name="minEnthalpyOnLevel" type="float" value="0"/>
    </properties>
   </object>
-  <object id="58" type="geiserMetano" gid="77" x="4393" y="4584" width="382" height="950"/>
-  <object id="59" type="geiserMetano" gid="77" x="6112" y="4011" width="382" height="950"/>
-  <object id="60" type="geiserMetano" gid="77" x="7831" y="3438" width="382" height="950"/>
+  <object id="58" type="geiserMetano" gid="77" x="4286.94" y="4584" width="382" height="950"/>
+  <object id="59" type="geiserMetano" gid="77" x="6015.03" y="4014.03" width="382" height="950"/>
+  <object id="60" type="geiserMetano" gid="77" x="7734.03" y="3444.06" width="382" height="950"/>
   <object id="61" type="enemyBasic" gid="34" x="5348" y="4202" width="201" height="191">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="followXRange" type="float" value="5"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
-  <object id="62" type="enemyBasic" gid="34" x="7067" y="3629" width="201" height="191">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="followXRange" type="float" value="5"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
-  <object id="63" type="enemyBasic" gid="34" x="3247" y="4966" width="201" height="191">
    <properties>
     <property name="_name" value="default"/>
     <property name="followSpeed" type="float" value="3"/>
@@ -330,7 +320,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="65" type="geiserMetano" gid="77" x="9550" y="2865" width="382" height="950"/>
+  <object id="65" type="geiserMetano" gid="77" x="9453.03" y="2861.97" width="382" height="950"/>
   <object id="66" type="nuvemAreiaNotGas" gid="83" x="11842" y="2483" width="890" height="558"/>
   <object id="67" type="coldPlace" gid="86" x="10496" y="2509" width="837" height="437">
    <properties>
@@ -351,8 +341,7 @@
    </properties>
   </object>
   <object id="72" type="collectableEgg" gid="73" x="12384.3" y="3944.27" width="210" height="210"/>
-  <object id="75" type="nuvemAreiaNotGas" gid="83" x="14516" y="5157" width="890" height="558"/>
-  <object id="76" type="nuvemAreiaNotGas" gid="83" x="14516" y="5348" width="890" height="558"/>
+  <object id="76" type="nuvemAreiaNotGas" gid="83" x="14898" y="5157" width="890" height="558"/>
   <object id="77" type="coldPlace" gid="86" x="16996.7" y="4801.97" width="837" height="437">
    <properties>
     <property name="_name" value="default"/>
@@ -524,8 +513,8 @@
     <property name="useReloadSafeEnthalpy" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="120" type="nuvemAreiaNotGas" gid="83" x="36290" y="4393" width="890" height="558"/>
-  <object id="121" type="nuvemAreiaNotGas" gid="83" x="36481" y="4202" width="890" height="558"/>
+  <object id="120" type="nuvemAreiaNotGas" gid="83" x="36450" y="4409" width="890" height="558"/>
+  <object id="121" type="nuvemAreiaNotGas" gid="83" x="36453" y="4170" width="890" height="558"/>
   <object id="122" type="enemyBasic" gid="34" x="32661" y="4393" width="201" height="191">
    <properties>
     <property name="_name" value="default"/>
@@ -563,17 +552,6 @@
    </properties>
   </object>
   <object id="125" type="flyFollow" gid="89" x="36290" y="1719" width="250" height="238">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followRadiusRange" type="float" value="5"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
-  <object id="126" type="flyFollow" gid="89" x="36672" y="3056" width="250" height="238">
    <properties>
     <property name="_name" value="default"/>
     <property name="followRadiusRange" type="float" value="5"/>
@@ -688,7 +666,6 @@
   <object id="145" type="cactoPerfurante" gid="82" x="40683" y="2101" width="266" height="219"/>
   <object id="146" type="cactoPerfurante" gid="82" x="42402" y="1528" width="266" height="219"/>
   <object id="148" type="collectableEgg" gid="73" x="53115" y="473" width="210" height="210"/>
-  <object id="150" type="collectableEgg" gid="73" x="52207" y="5789" width="210" height="210"/>
   <object id="151" type="fallingPlataformDeserto" gid="63" x="41638" y="4584" width="573" height="191">
    <properties>
     <property name="_name" value="default"/>
@@ -705,8 +682,7 @@
     <property name="timeUntilRespawn" type="float" value="3"/>
    </properties>
   </object>
-  <object id="153" type="oneWayPlataformDeserto" gid="69" x="43548" y="5348" width="573" height="96"/>
-  <object id="156" type="flyFollow" gid="89" x="40874" y="4202" width="250" height="238">
+  <object id="156" type="flyFollow" gid="89" x="40874" y="4393" width="250" height="238">
    <properties>
     <property name="_name" value="default"/>
     <property name="followRadiusRange" type="float" value="5"/>
@@ -717,18 +693,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="157" type="flyFollow" gid="89" x="42784" y="4202" width="250" height="238">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followRadiusRange" type="float" value="5"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
-  <object id="158" type="fly" gid="88" x="44694" y="4393" width="250" height="238">
+  <object id="158" type="fly" gid="88" x="42670" y="4553" width="250" height="238">
    <properties>
     <property name="_name" value="default"/>
     <property name="idleTime" type="float" value="2"/>
@@ -737,11 +702,11 @@
    </properties>
   </object>
   <object id="161" type="espinhosNotSolid" gid="79" x="57300" y="4393" width="159" height="411"/>
-  <object id="162" type="cactoPerfurante" gid="82" x="45458" y="4966" width="266" height="219"/>
+  <object id="162" type="cactoPerfurante" gid="82" x="45649" y="4966" width="266" height="219"/>
   <object id="163" type="cactoPerfurante" gid="82" x="48959" y="4775.33" width="266" height="219"/>
   <object id="164" type="cactoPerfurante" gid="82" x="49712.3" y="4392.67" width="266" height="219"/>
   <object id="165" type="cactoPerfurante" gid="82" x="50495" y="4010" width="266" height="219"/>
-  <object id="166" type="enemyBasic" gid="34" x="46604" y="4966" width="201" height="191">
+  <object id="166" type="enemyBasic" gid="34" x="46795" y="4966" width="201" height="191">
    <properties>
     <property name="_name" value="default"/>
     <property name="followSpeed" type="float" value="3"/>
@@ -753,7 +718,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="167" type="enemyBasic" gid="34" x="47750" y="4966" width="201" height="191">
+  <object id="167" type="enemyBasic" gid="34" x="47941" y="4966" width="201" height="191">
    <properties>
     <property name="_name" value="default"/>
     <property name="followSpeed" type="float" value="3"/>
@@ -890,14 +855,6 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="198" type="fly" gid="88" x="55772" y="2292" width="250" height="238">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
   <object id="199" type="fly" gid="88" x="54626" y="1719" width="250" height="238">
    <properties>
     <property name="_name" value="default"/>
@@ -918,6 +875,10 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
+  <object id="271" type="collectableHP" gid="74" x="33223.4" y="2706.33" width="227" height="146"/>
+  <object id="272" type="oneWayPlataformDeserto" gid="69" x="44694" y="4011" width="573" height="96"/>
+  <object id="273" type="oneWayPlataformDeserto" gid="69" x="44694" y="3438" width="573" height="96"/>
+  <object id="274" type="collectableEgg" gid="73" x="46191" y="3185" width="210" height="210"/>
  </objectgroup>
  <layer id="13" name="Over Tile Layer" width="350" height="32">
   <data encoding="csv">
