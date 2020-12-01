@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="400" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="19" nextobjectid="1974">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="400" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="19" nextobjectid="1977">
  <editorsettings>
   <export target="Level_04.xml" format="tmx"/>
  </editorsettings>
@@ -498,7 +498,7 @@
   <object id="390" type="arvoreTerceiroPlano1" gid="102" x="4775" y="3056" width="475" height="2301"/>
   <object id="396" type="arvoreTerceiroPlano4" gid="105" x="4011" y="5157" width="475" height="2301"/>
   <object id="397" type="arvoreTerceiroPlano4" gid="105" x="4011" y="3056" width="475" height="2301"/>
-  <object id="410" type="arvoreTerceiroPlano6" gid="107" x="5348" y="3438" width="448" height="2200"/>
+  <object id="410" type="arvoreTerceiroPlano6" gid="107" x="5730" y="3438" width="448" height="2200"/>
   <object id="414" type="copaFundo" gid="109" x="5889" y="2614" width="608" height="1188"/>
   <object id="415" type="copaFundo" gid="109" x="3780" y="2282" width="608" height="1188"/>
   <object id="416" type="copaFundo" gid="109" x="4793" y="2306" width="608" height="1188"/>
@@ -1279,8 +1279,14 @@
 </data>
  </layer>
  <objectgroup id="18" name="Text Objects Layer">
-  <object id="1973" x="4344.29" y="4954.86" width="1995.79" height="619">
+  <object id="1973" x="5333.99" y="4940.56" width="1995.79" height="619">
    <text fontfamily="Rimouski" pixelsize="107" wrap="1" color="#ffffff" halign="center" valign="center">Essa água parece poluída, cuidado!</text>
+  </object>
+  <object id="1975" x="4192" y="3717" width="1709.79" height="621">
+   <text fontfamily="Rimouski" pixelsize="107" wrap="1" color="#ffffff" halign="center" valign="center">O pântano está com uma temperatura mediana</text>
+  </object>
+  <object id="1976" x="18717.8" y="3288.26" width="1269.12" height="329.485">
+   <text fontfamily="Rimouski" pixelsize="93" wrap="1" color="#ffffff" halign="center" valign="center">Próximo do cano congelado você libera calor</text>
   </object>
  </objectgroup>
  <layer id="9" name="Main Tile Layer" width="400" height="32">
@@ -1888,7 +1894,7 @@
   <object id="404" type="copaFrente" gid="108" x="4685" y="2030" width="808" height="1612"/>
   <object id="405" type="copaFrente" gid="108" x="3805" y="2142" width="808" height="1612"/>
   <object id="406" type="copaFrente" gid="108" x="5157" y="2606" width="808" height="1612"/>
-  <object id="412" type="arvoreTerceiroPlano6" gid="107" x="5348" y="4775" width="448" height="2200"/>
+  <object id="412" type="arvoreTerceiroPlano6" gid="107" x="5730" y="4775" width="448" height="2200"/>
   <object id="505" type="copaFrente" gid="108" x="24477" y="54" width="808" height="1612"/>
   <object id="506" type="copaFrente" gid="108" x="23509" y="158" width="808" height="1612"/>
   <object id="507" type="copaFrente" gid="108" x="21997" y="598" width="808" height="1612"/>
