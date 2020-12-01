@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="350" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="15" nextobjectid="522">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="350" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="15" nextobjectid="529">
  <tileset firstgid="1" source="../Tileset/Backgrounds/backgrounds.tsx"/>
  <tileset firstgid="9" source="../Tileset/TilesetPantano/pantanoTileset.tsx"/>
  <tileset firstgid="25" source="../Tileset/TilesetDeserto/desertoTileset.tsx"/>
@@ -101,9 +101,9 @@
 </data>
  </layer>
  <objectgroup id="4" name="Over Background Objects Layer">
-  <object id="275" type="segundoPlanoEsq" gid="112" x="2292" y="4966" width="1900" height="1247"/>
-  <object id="276" type="segundoPlano" gid="111" x="4011" y="4966" width="1900" height="1246"/>
-  <object id="277" type="segundoPlano" gid="111" x="573" y="4966" width="1900" height="1246"/>
+  <object id="275" type="segundoPlanoEsq" gid="112" x="2292" y="5539" width="1900" height="1247"/>
+  <object id="276" type="segundoPlano" gid="111" x="3402" y="5244" width="1900" height="1246"/>
+  <object id="277" type="segundoPlano" gid="111" x="573" y="5730" width="1900" height="1246"/>
   <object id="283" type="terceiroPlanoEsq" gid="115" x="8595" y="5539" width="1172" height="890"/>
   <object id="284" type="terceiroPlanoEsq" gid="115" x="9741" y="5539" width="1172" height="890"/>
   <object id="286" type="terceiroPlano" gid="114" x="10887" y="5539" width="1171" height="890"/>
@@ -206,6 +206,11 @@
   <object id="519" type="terceiroPlano" gid="114" x="23559" y="3569" width="1171" height="890"/>
   <object id="520" type="terceiroPlano" gid="114" x="25091" y="3801" width="1171" height="890"/>
   <object id="521" type="terceiroPlanoEsq" gid="115" x="25814" y="3869" width="1172" height="890"/>
+  <object id="523" type="segundoPlano" gid="111" x="4638" y="4879" width="1900" height="1246"/>
+  <object id="524" type="segundoPlano" gid="111" x="5906" y="4543" width="1900" height="1246"/>
+  <object id="525" type="terceiroPlano" gid="114" x="5611" y="4517" width="1171" height="890"/>
+  <object id="526" type="terceiroPlano" gid="114" x="4499" y="4873" width="1171" height="890"/>
+  <object id="527" type="terceiroPlano" gid="114" x="2983" y="5149" width="1171" height="890"/>
  </objectgroup>
  <objectgroup id="5" name="Under Objects Layer">
   <object id="278" type="coqueiro" gid="108" x="1719" y="4966" width="839" height="1223"/>
@@ -220,7 +225,7 @@
   <object id="298" type="cacto4" gid="106" x="16235" y="4775" width="144" height="357"/>
   <object id="299" type="cacto1" gid="103" x="16617" y="4775" width="144" height="501"/>
   <object id="300" type="coqueiroEsq" gid="109" x="18145" y="4775" width="458" height="668"/>
-  <object id="301" type="cacto5" gid="107" x="12033" y="5157" width="144" height="358"/>
+  <object id="301" type="cacto5" gid="107" x="12415" y="5157" width="144" height="358"/>
   <object id="304" type="cacto1" gid="103" x="2483" y="4966" width="144" height="501"/>
   <object id="305" type="cacto2" gid="104" x="2674" y="4966" width="145" height="501"/>
   <object id="306" type="cacto3" gid="105" x="2865" y="4966" width="61" height="248"/>
@@ -480,7 +485,7 @@
 </data>
  </layer>
  <objectgroup id="12" name="Main Objects Layer">
-  <object id="43" type="levelBeginTree" gid="93" x="-191" y="4966" width="1607" height="2472"/>
+  <object id="43" type="levelBeginTree" gid="93" x="191" y="4966" width="1607" height="2472"/>
   <object id="44" type="player" gid="76" x="1528" y="4966" width="266" height="254">
    <properties>
     <property name="_name" value="default"/>
@@ -493,19 +498,7 @@
   <object id="58" type="geiserMetano" gid="77" x="4286.94" y="4584" width="382" height="950"/>
   <object id="59" type="geiserMetano" gid="77" x="6015.03" y="4014.03" width="382" height="950"/>
   <object id="60" type="geiserMetano" gid="77" x="7734.03" y="3444.06" width="382" height="950"/>
-  <object id="61" type="enemyBasic" gid="34" x="5348" y="4202" width="201" height="191">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="followXRange" type="float" value="5"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
-  <object id="64" type="enemyBasic" gid="34" x="8786" y="3056" width="201" height="191">
+  <object id="64" type="enemyBasic" gid="34" x="10887" y="2483" width="201" height="191">
    <properties>
     <property name="_name" value="default"/>
     <property name="followSpeed" type="float" value="3"/>
@@ -626,19 +619,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="101" type="enemyBasic" gid="34" x="26167" y="3820" width="201" height="191">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="followXRange" type="float" value="5"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
-  <object id="102" type="enemyBasic" gid="34" x="26931" y="4202" width="201" height="191">
+  <object id="102" type="enemyBasic" gid="34" x="27886" y="4393" width="201" height="191">
    <properties>
     <property name="_name" value="default"/>
     <property name="followSpeed" type="float" value="3"/>
@@ -903,19 +884,7 @@
   <object id="163" type="cactoPerfurante" gid="82" x="48959" y="4775.33" width="266" height="219"/>
   <object id="164" type="cactoPerfurante" gid="82" x="49712.3" y="4392.67" width="266" height="219"/>
   <object id="165" type="cactoPerfurante" gid="82" x="50495" y="4010" width="266" height="219"/>
-  <object id="166" type="enemyBasic" gid="34" x="46795" y="4966" width="201" height="191">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="followXRange" type="float" value="5"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
-  <object id="167" type="enemyBasic" gid="34" x="47941" y="4966" width="201" height="191">
+  <object id="166" type="enemyBasic" gid="34" x="47559" y="4966" width="201" height="191">
    <properties>
     <property name="_name" value="default"/>
     <property name="followSpeed" type="float" value="3"/>
@@ -956,31 +925,7 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
-  <object id="179" type="enemyBasic" gid="34" x="54626" y="4202" width="201" height="191">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="followXRange" type="float" value="5"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
   <object id="180" type="geiserMetano" gid="77" x="53480" y="4011" width="382" height="950"/>
-  <object id="181" type="enemyBasic" gid="34" x="51570" y="4011" width="201" height="191">
-   <properties>
-    <property name="_name" value="default"/>
-    <property name="followSpeed" type="float" value="3"/>
-    <property name="followTime" type="float" value="3"/>
-    <property name="followXRange" type="float" value="5"/>
-    <property name="idleTime" type="float" value="2"/>
-    <property name="maxWalkTimeInSameDirection" type="float" value="9"/>
-    <property name="walkSpeed" type="float" value="1.2"/>
-    <property name="walkTime" type="float" value="2"/>
-   </properties>
-  </object>
   <object id="182" type="nuvemAreiaNotGas" gid="83" x="62266" y="4393" width="890" height="558"/>
   <object id="184" type="nuvemAreiaNotGas" gid="83" x="62266" y="3820" width="890" height="558"/>
   <object id="185" type="coldPlace" gid="86" x="58509.5" y="3665.5" width="837" height="437">
@@ -1095,6 +1040,14 @@
     <property name="walkTime" type="float" value="2"/>
    </properties>
   </object>
+  <object id="522" type="coldPlace" gid="86" x="11547" y="5183" width="837" height="437">
+   <properties>
+    <property name="_name" value="default"/>
+    <property name="reloadWhenPlayerHasXofEnthalpy" type="float" value="70"/>
+    <property name="totalNegEnthalpy" type="float" value="50"/>
+    <property name="useReloadSafeEnthalpy" type="bool" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="13" name="Over Tile Layer" width="350" height="32">
   <data encoding="csv">
@@ -1133,8 +1086,8 @@
 </data>
  </layer>
  <objectgroup id="14" name="Over Objects Layer">
-  <object id="280" type="luzSol" gid="110" x="2210" y="3888.12" width="700" height="1047"/>
-  <object id="281" type="luzSol" gid="110" x="2554" y="3980" width="700" height="1047"/>
+  <object id="280" type="luzSol" gid="110" x="2194" y="3776.12" width="700" height="1047"/>
+  <object id="281" type="luzSol" gid="110" x="2538" y="3868" width="700" height="1047"/>
   <object id="464" type="cacto2" gid="104" x="52143" y="1719" width="145" height="501"/>
   <object id="465" type="cacto3" gid="105" x="47750" y="1719" width="61" height="248"/>
   <object id="466" type="cacto3" gid="105" x="48132" y="1719" width="61" height="248"/>
