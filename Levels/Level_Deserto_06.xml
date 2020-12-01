@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="350" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="15" nextobjectid="535">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="350" height="32" tilewidth="191" tileheight="191" infinite="0" nextlayerid="15" nextobjectid="536">
+ <properties>
+  <property name="ambientTemperature" type="float" value="70"/>
+ </properties>
  <tileset firstgid="1" source="../Tileset/Backgrounds/backgrounds.tsx"/>
  <tileset firstgid="9" source="../Tileset/TilesetPantano/pantanoTileset.tsx"/>
  <tileset firstgid="25" source="../Tileset/TilesetDeserto/desertoTileset.tsx"/>
@@ -101,8 +104,7 @@
 </data>
  </layer>
  <objectgroup id="4" name="Over Background Objects Layer">
-  <object id="275" type="segundoPlanoEsq" gid="112" x="2292" y="5539" width="1900" height="1247"/>
-  <object id="276" type="segundoPlano" gid="111" x="3402" y="5244" width="1900" height="1246"/>
+  <object id="275" type="segundoPlanoEsq" gid="112" x="2144" y="5371" width="1900" height="1247"/>
   <object id="277" type="segundoPlano" gid="111" x="573" y="5730" width="1900" height="1246"/>
   <object id="283" type="terceiroPlanoEsq" gid="115" x="8595" y="5539" width="1172" height="890"/>
   <object id="284" type="terceiroPlanoEsq" gid="115" x="9741" y="5539" width="1172" height="890"/>
@@ -111,10 +113,10 @@
   <object id="288" type="terceiroPlanoEsq" gid="115" x="13179" y="5539" width="1172" height="890"/>
   <object id="289" type="terceiroPlano" gid="114" x="14325" y="5539" width="1171" height="890"/>
   <object id="290" type="terceiroPlano" gid="114" x="15471" y="5539" width="1171" height="890"/>
-  <object id="317" type="segundoPlanoEsq" gid="112" x="21090" y="5262" width="1900" height="1247"/>
-  <object id="318" type="segundoPlano" gid="111" x="19291" y="5348" width="1900" height="1246"/>
-  <object id="319" type="segundoPlanoEsq" gid="112" x="17572" y="5348" width="1900" height="1247"/>
-  <object id="321" type="segundoPlano" gid="111" x="15980.3" y="5423" width="1900" height="1246"/>
+  <object id="317" type="segundoPlanoEsq" gid="112" x="21030" y="5162" width="1900" height="1247"/>
+  <object id="318" type="segundoPlano" gid="111" x="19283" y="5264" width="1900" height="1246"/>
+  <object id="319" type="segundoPlanoEsq" gid="112" x="17496" y="5268" width="1900" height="1247"/>
+  <object id="321" type="segundoPlano" gid="111" x="15864.3" y="5291" width="1900" height="1246"/>
   <object id="324" type="luzSol" gid="110" x="10074" y="1740" width="700" height="1047"/>
   <object id="325" type="luzSol" gid="110" x="9802" y="1636" width="700" height="1047"/>
   <object id="326" type="luzSol" gid="110" x="9482" y="1508" width="700" height="1047"/>
@@ -172,29 +174,29 @@
   <object id="386" type="terceiroPlano" gid="114" x="26740" y="4011" width="1171" height="890"/>
   <object id="388" type="segundoPlanoEsq" gid="112" x="22729" y="3820" width="1900" height="1247"/>
   <object id="389" type="segundoPlanoEsq" gid="112" x="24066" y="3820" width="1900" height="1247"/>
-  <object id="394" type="segundoPlanoEsq" gid="112" x="25534" y="4112" width="1900" height="1247"/>
-  <object id="395" type="segundoPlano" gid="111" x="26686" y="4443" width="1900" height="1246"/>
+  <object id="394" type="segundoPlanoEsq" gid="112" x="25446" y="4136" width="1900" height="1247"/>
+  <object id="395" type="segundoPlano" gid="111" x="26642" y="4471" width="1900" height="1246"/>
   <object id="396" type="segundoPlanoEsq" gid="112" x="28459" y="4584" width="1900" height="1247"/>
   <object id="397" type="segundoPlano" gid="111" x="30178" y="4584" width="1900" height="1246"/>
   <object id="398" type="segundoPlanoEsq" gid="112" x="31897" y="4584" width="1900" height="1247"/>
   <object id="399" type="segundoPlanoEsq" gid="112" x="33234" y="4775" width="1900" height="1247"/>
-  <object id="401" type="segundoPlanoEsq" gid="112" x="35031.8" y="4932.67" width="1900" height="1247"/>
-  <object id="407" type="segundoPlanoEsq" gid="112" x="36750" y="5100" width="1900" height="1247"/>
-  <object id="408" type="segundoPlanoEsq" gid="112" x="38266" y="5156" width="1900" height="1247"/>
+  <object id="401" type="segundoPlanoEsq" gid="112" x="34999.8" y="4892.67" width="1900" height="1247"/>
+  <object id="407" type="segundoPlanoEsq" gid="112" x="36718" y="4988" width="1900" height="1247"/>
+  <object id="408" type="segundoPlanoEsq" gid="112" x="38226" y="5072" width="1900" height="1247"/>
   <object id="410" type="terceiroPlano" gid="114" x="39783" y="5249" width="1171" height="890"/>
   <object id="417" type="terceiroPlanoEsq" gid="115" x="31322" y="4137" width="1172" height="890"/>
   <object id="418" type="terceiroPlano" gid="114" x="33555" y="4421" width="1171" height="890"/>
   <object id="419" type="terceiroPlano" gid="114" x="34502.9" y="4563.42" width="1171" height="890"/>
   <object id="422" type="terceiroPlanoEsq" gid="115" x="32426" y="4349" width="1172" height="890"/>
   <object id="423" type="terceiroPlano" gid="114" x="36060.5" y="4778.33" width="1171" height="890"/>
-  <object id="424" type="segundoPlano" gid="111" x="22002" y="4799" width="1900" height="1246"/>
-  <object id="425" type="terceiroPlano" gid="114" x="22087" y="4413" width="1171" height="890"/>
-  <object id="426" type="terceiroPlano" gid="114" x="21039" y="4573" width="1171" height="890"/>
+  <object id="424" type="segundoPlano" gid="111" x="21958" y="4783" width="1900" height="1246"/>
+  <object id="425" type="terceiroPlano" gid="114" x="22095" y="4525" width="1171" height="890"/>
+  <object id="426" type="terceiroPlano" gid="114" x="21059" y="4633" width="1171" height="890"/>
   <object id="427" type="terceiroPlano" gid="114" x="20135" y="4789" width="1171" height="890"/>
   <object id="428" type="terceiroPlanoEsq" gid="115" x="19094" y="4845" width="1172" height="890"/>
-  <object id="429" type="terceiroPlanoEsq" gid="115" x="18142" y="4869" width="1172" height="890"/>
+  <object id="429" type="terceiroPlanoEsq" gid="115" x="18122" y="4921" width="1172" height="890"/>
   <object id="430" type="terceiroPlanoEsq" gid="115" x="17398" y="4997" width="1172" height="890"/>
-  <object id="431" type="terceiroPlanoEsq" gid="115" x="16814" y="5101" width="1172" height="890"/>
+  <object id="431" type="terceiroPlanoEsq" gid="115" x="16830" y="4941" width="1172" height="890"/>
   <object id="486" type="terceiroPlano" gid="114" x="59927" y="4757" width="1171" height="890"/>
   <object id="487" type="terceiroPlano" gid="114" x="61435" y="4745" width="1171" height="890"/>
   <object id="488" type="terceiroPlano" gid="114" x="60719" y="4649" width="1171" height="890"/>
@@ -206,10 +208,9 @@
   <object id="519" type="terceiroPlano" gid="114" x="23559" y="3569" width="1171" height="890"/>
   <object id="520" type="terceiroPlano" gid="114" x="25091" y="3801" width="1171" height="890"/>
   <object id="521" type="terceiroPlanoEsq" gid="115" x="25814" y="3869" width="1172" height="890"/>
-  <object id="523" type="segundoPlano" gid="111" x="4638" y="4879" width="1900" height="1246"/>
-  <object id="524" type="segundoPlano" gid="111" x="5906" y="4543" width="1900" height="1246"/>
-  <object id="525" type="terceiroPlano" gid="114" x="5611" y="4517" width="1171" height="890"/>
-  <object id="526" type="terceiroPlano" gid="114" x="4499" y="4873" width="1171" height="890"/>
+  <object id="523" type="segundoPlano" gid="111" x="4507.7" y="4812.33" width="1900" height="1246"/>
+  <object id="524" type="segundoPlano" gid="111" x="5963.58" y="4639.97" width="1900" height="1246"/>
+  <object id="525" type="terceiroPlano" gid="114" x="5771.61" y="4371.55" width="1171" height="890"/>
   <object id="527" type="terceiroPlano" gid="114" x="2983" y="5149" width="1171" height="890"/>
  </objectgroup>
  <objectgroup id="5" name="Under Objects Layer">
@@ -302,6 +303,7 @@
   <object id="515" type="luzSol" gid="110" x="27073.5" y="2602.69" width="700" height="1047"/>
   <object id="516" type="luzSol" gid="110" x="27400.1" y="2732.99" width="700" height="1047"/>
   <object id="517" type="luzSol" gid="110" x="26747.9" y="2468.02" width="700" height="1047"/>
+  <object id="535" type="segundoPlano" gid="111" x="3438" y="5157" width="1900" height="1246"/>
  </objectgroup>
  <layer id="6" name="Under Tile Layer" width="350" height="32">
   <data encoding="csv">
@@ -380,7 +382,7 @@
    <text fontfamily="Rimouski Sb" pixelsize="96" wrap="1" color="#ffffff" bold="1" halign="center" valign="center">Esta água parece estar limpa, mas não é seguro entrar gasoso</text>
   </object>
   <object id="531" x="2422.23" y="3768.2" width="1455.79" height="676.576">
-   <text fontfamily="Rimouski Sb" pixelsize="96" wrap="1" color="#ffffff" bold="1" halign="center" valign="center">Aqui no deserto a temperatura está elevada demais</text>
+   <text fontfamily="Rimouski Sb" pixelsize="96" wrap="1" color="#ffffff" bold="1" halign="center" valign="center">Aqui no deserto a temperatura está muito elevada</text>
   </object>
  </objectgroup>
  <layer id="9" name="Main Tile Layer" width="350" height="32">
@@ -585,8 +587,8 @@
    <properties>
     <property name="_name" value="default"/>
     <property name="reloadWhenPlayerHasXofEnthalpy" type="float" value="50"/>
-    <property name="totalNegEnthalpy" type="float" value="50"/>
-    <property name="useReloadSafeEnthalpy" type="bool" value="false"/>
+    <property name="totalNegEnthalpy" type="float" value="60"/>
+    <property name="useReloadSafeEnthalpy" type="bool" value="true"/>
    </properties>
   </object>
   <object id="96" type="jumpFlower" gid="78" x="22242.4" y="4775" width="272" height="294"/>
