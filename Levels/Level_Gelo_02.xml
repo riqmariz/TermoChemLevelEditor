@@ -369,7 +369,7 @@
  </layer>
  <objectgroup id="13" name="Text Objects Layer">
   <object id="1010" x="6603.5" y="3510.5" width="1713" height="421">
-   <text fontfamily="Rimouski" pixelsize="93" wrap="1" color="#ffffff" halign="center" valign="center">Ao atirar sal (NaOH) no gelo, ele derrete devido ao processo crioscópico</text>
+   <text fontfamily="Rimouski" pixelsize="93" wrap="1" color="#ffffff" halign="center" valign="center">Ao atirar sal (NaCl) no gelo, ele derrete devido ao processo crioscópico</text>
   </object>
  </objectgroup>
  <layer id="3" name="Main Tile Layer" width="400" height="30">
